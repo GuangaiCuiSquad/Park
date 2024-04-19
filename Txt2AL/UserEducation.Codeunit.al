@@ -1,4 +1,4 @@
-codeunit 31009753 "User Education"
+codeunit 52753 "User Education"
 {
 
     trigger OnRun()

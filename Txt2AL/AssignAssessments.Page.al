@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009960 "Assign Assessments"
+page 52960 "Assign Assessments"
 {
     Caption = 'Assign Assessments';
     DeleteAllowed = false;

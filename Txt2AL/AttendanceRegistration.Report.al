@@ -1,4 +1,4 @@
-report 31009763 "Attendance Registration"
+report 52763 "Attendance Registration"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './AttendanceRegistration.rdlc';

@@ -1,4 +1,4 @@
-codeunit 31009767 InsertNAVMasterTable
+codeunit 52767 InsertNAVMasterTable
 {
     Permissions = TableData GeneralTable = rimd,
                   TableData GeneralTableAspects = rimd,

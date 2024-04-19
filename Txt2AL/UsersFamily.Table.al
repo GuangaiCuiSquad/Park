@@ -1,4 +1,4 @@
-table 31009753 "Users Family"
+table 52753 "Users Family"
 {
     // //IT001 - Parque - Portal Fardas - 2017.04.26 - novo campo Password portal
     // 

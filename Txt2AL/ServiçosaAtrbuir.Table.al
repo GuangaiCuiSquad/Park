@@ -1,14 +1,14 @@
 table 50019 "Serviços a Atrbuir"
 {
     // #001 SQD RTV 20201026 Ticket#NAV202000576
-    //   Extended length of "Description" from 50 to 80 to match Table 31009765 - "Services ET"
+    //   Extended length of "Description" from 50 to 80 to match Table 52765 - "Services ET"
     // 
     //    IT001 - Park - 2018.03.28 - Atribuição multipla de serviços
 
     Caption = 'Services ET';
     DataCaptionFields = "No.", Description;
-    DrillDownPageID = 31009766;
-    LookupPageID = 31009766;
+    DrillDownPageID = 52766;
+    LookupPageID = 52766;
 
     fields
     {

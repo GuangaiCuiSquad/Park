@@ -1,4 +1,4 @@
-table 31009811 Templates
+table 52811 Templates
 {
     Caption = 'Templates';
     DrillDownPageID = Templates;

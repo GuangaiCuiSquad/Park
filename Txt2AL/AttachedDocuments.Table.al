@@ -1,4 +1,4 @@
-table 31009830 "Attached Documents"
+table 52830 "Attached Documents"
 {
     Caption = 'Attached Documents';
 

@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009944 "Equipment Group Lines"
+page 52944 "Equipment Group Lines"
 {
     AutoSplitKey = true;
     Caption = 'Equipment Group Lines';

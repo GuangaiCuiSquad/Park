@@ -1,4 +1,4 @@
-page 31009915 "Grouped Information Archive"
+page 52915 "Grouped Information Archive"
 {
     Caption = 'Student Invoiced Ledger Entry';
     Editable = false;

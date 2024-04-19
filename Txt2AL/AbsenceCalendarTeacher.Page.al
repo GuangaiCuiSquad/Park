@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009776 "Absence Calendar Teacher"
+page 52776 "Absence Calendar Teacher"
 {
     AutoSplitKey = true;
     Caption = 'Absence Calendar Teacher';

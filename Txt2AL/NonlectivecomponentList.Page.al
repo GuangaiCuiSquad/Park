@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009888 "Non lective component List"
+page 52888 "Non lective component List"
 {
     Caption = 'Non lective component';
     Editable = false;

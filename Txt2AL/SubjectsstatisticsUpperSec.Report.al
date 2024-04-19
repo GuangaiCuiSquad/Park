@@ -1,4 +1,4 @@
-report 31009870 "Subjects statistics Upper Sec"
+report 52870 "Subjects statistics Upper Sec"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './SubjectsstatisticsUpperSec.rdlc';

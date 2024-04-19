@@ -1,4 +1,4 @@
-codeunit 31009754 "Timetable Calendar Mgt"
+codeunit 52754 "Timetable Calendar Mgt"
 {
     Permissions = TableData Absence = rimd;
 

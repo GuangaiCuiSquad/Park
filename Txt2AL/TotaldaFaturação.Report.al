@@ -1,4 +1,4 @@
-report 31009881 "Total da Faturação"
+report 52881 "Total da Faturação"
 {
     //  Listagem de Faturas registadas
     DefaultLayout = RDLC;

@@ -1,4 +1,4 @@
-table 31009758 "Study Plan Lines"
+table 52758 "Study Plan Lines"
 {
     Caption = 'Study Plan Line';
     DrillDownPageID = "Study Plan Lines List";

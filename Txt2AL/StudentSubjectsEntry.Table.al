@@ -1,4 +1,4 @@
-table 31009850 "Student Subjects Entry"
+table 52850 "Student Subjects Entry"
 {
     Caption = 'Student Subjects Entry';
 

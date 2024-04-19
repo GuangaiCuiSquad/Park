@@ -1,4 +1,4 @@
-report 31009797 "Copy Temp Timetable"
+report 52797 "Copy Temp Timetable"
 {
     Caption = 'Copy Template Timetable';
     ProcessingOnly = true;

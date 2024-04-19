@@ -1,4 +1,4 @@
-page 31009769 "Student Registration"
+page 52769 "Student Registration"
 {
     Caption = 'Student Registration';
     InsertAllowed = false;

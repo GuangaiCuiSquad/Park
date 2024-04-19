@@ -1,4 +1,4 @@
-table 31009767 "Student Service Plan"
+table 52767 "Student Service Plan"
 {
     Caption = 'Student Services Plan';
 

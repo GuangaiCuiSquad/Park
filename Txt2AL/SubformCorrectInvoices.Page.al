@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009881 "Subform Correct Invoices"
+page 52881 "Subform Correct Invoices"
 {
     Caption = 'Subform Payment';
     DeleteAllowed = false;

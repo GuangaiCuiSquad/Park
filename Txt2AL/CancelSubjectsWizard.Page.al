@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009877 "Cancel Subjects Wizard"
+page 52877 "Cancel Subjects Wizard"
 {
     Caption = 'Subjects Wizard';
     PageType = NavigatePage;

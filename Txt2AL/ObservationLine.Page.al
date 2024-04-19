@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009923 "Observation Line"
+page 52923 "Observation Line"
 {
     AutoSplitKey = true;
     Caption = 'Observation Line';

@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009936 "Multi Language Obs Drill"
+page 52936 "Multi Language Obs Drill"
 {
     Caption = 'Multi Language Obs Drill';
     PageType = List;

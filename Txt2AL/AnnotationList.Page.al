@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009961 "Annotation List"
+page 52961 "Annotation List"
 {
     Caption = 'Annotation List';
     CardPageID = "Annotation Header";

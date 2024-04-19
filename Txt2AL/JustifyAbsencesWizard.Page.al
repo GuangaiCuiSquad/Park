@@ -1,4 +1,4 @@
-page 31009967 "Justify Absences Wizard"
+page 52967 "Justify Absences Wizard"
 {
     Caption = 'Justify Absences Wizard';
     PageType = NavigatePage;

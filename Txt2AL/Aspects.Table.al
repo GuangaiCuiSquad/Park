@@ -1,4 +1,4 @@
-table 31009812 Aspects
+table 52812 Aspects
 {
     Caption = 'Aspects';
 

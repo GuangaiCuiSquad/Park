@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009791 "Setting Ratings Text"
+page 52791 "Setting Ratings Text"
 {
     Caption = 'Setting Evaluations';
     DelayedInsert = true;

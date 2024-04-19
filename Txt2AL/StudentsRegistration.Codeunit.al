@@ -1,4 +1,4 @@
-codeunit 31009750 "Students Registration"
+codeunit 52750 "Students Registration"
 {
     Permissions = TableData "Registration Class Entry" = rimd,
                   TableData Absence = rimd,

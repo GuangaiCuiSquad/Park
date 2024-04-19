@@ -1,4 +1,4 @@
-codeunit 31009778 "Gen. Jnl.-Post+Print EDUSOL"
+codeunit 52778 "Gen. Jnl.-Post+Print EDUSOL"
 {
     TableNo = "Gen. Journal Line";
 

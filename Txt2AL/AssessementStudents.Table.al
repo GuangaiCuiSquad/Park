@@ -1,4 +1,4 @@
-table 31009848 "Assessement Students"
+table 52848 "Assessement Students"
 {
     Caption = 'Assessement Students';
     LookupPageID = "Setting Ratings Subjects List";

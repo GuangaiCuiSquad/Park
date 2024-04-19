@@ -1,4 +1,4 @@
-table 31009859 "WEB Remarks"
+table 52859 "WEB Remarks"
 {
     Caption = 'WEB Remarks';
 

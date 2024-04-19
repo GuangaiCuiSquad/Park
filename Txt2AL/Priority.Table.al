@@ -1,4 +1,4 @@
-table 31009784 Priority
+table 52784 Priority
 {
     Caption = 'Priority';
     DrillDownPageID = Priority;
@@ -6,15 +6,15 @@ table 31009784 Priority
 
     fields
     {
-        field(1;"Code";Code[20])
+        field(1; "Code"; Code[20])
         {
             Caption = 'Code';
         }
-        field(2;Description;Text[30])
+        field(2; Description; Text[30])
         {
             Caption = 'Description';
         }
-        field(3;"Priority Points";Integer)
+        field(3; "Priority Points"; Integer)
         {
             Caption = 'Priority Points';
         }
@@ -22,7 +22,7 @@ table 31009784 Priority
 
     keys
     {
-        key(Key1;"Code")
+        key(Key1; "Code")
         {
             Clustered = true;
         }

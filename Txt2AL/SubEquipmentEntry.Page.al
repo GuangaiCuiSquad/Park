@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009906 "Sub-Equipment-Entry"
+page 52906 "Sub-Equipment-Entry"
 {
     DelayedInsert = true;
     PageType = ListPart;
@@ -112,7 +112,7 @@ page 31009906 "Sub-Equipment-Entry"
         rCalendar: Record Calendar;
         rEquipmentEntry: Record "Equipment Entry";
         rRemarks: Record Remarks;
-        //cuRemarks: Codeunit Codeunit31009751;
+        //cuRemarks: Codeunit Codeunit52751;
         varStudentTeacherNo: Code[20];
         varStudentTeacher: Option;
         varRegistered: Boolean;

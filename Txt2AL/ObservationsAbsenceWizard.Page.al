@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009954 "Observations Absence Wizard"
+page 52954 "Observations Absence Wizard"
 {
     AutoSplitKey = true;
     Caption = 'Observations Absence Wizard';
@@ -329,7 +329,7 @@ page 31009954 "Observations Absence Wizard"
         VarSchoolingYear: Code[10];
         VarStudyPlanCode: Code[20];
         rSettingRatings: Record "Setting Ratings";
-        //cuRemarks: Codeunit Codeunit31009751;
+        //cuRemarks: Codeunit Codeunit52751;
         rStudents: Record Students;
         text001: Label 'Moment Code is mandatory.';
         rMomentsAssessment: Record "Moments Assessment";

@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009927 "Sub Subjects Setting Ratings"
+page 52927 "Sub Subjects Setting Ratings"
 {
     Caption = 'Setting Ratings';
     PageType = Card;

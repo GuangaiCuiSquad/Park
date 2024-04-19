@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009814 "Test Lines"
+page 52814 "Test Lines"
 {
     Caption = 'Test Lines';
     DelayedInsert = true;

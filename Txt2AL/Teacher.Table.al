@@ -1,4 +1,4 @@
-table 31009756 Teacher
+table 52756 Teacher
 {
     Caption = 'Teacher';
     DrillDownPageID = "Teacher List";

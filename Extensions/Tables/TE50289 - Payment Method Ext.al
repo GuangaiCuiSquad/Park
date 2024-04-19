@@ -24,7 +24,7 @@ tableextension 50289 "Payment Method Ext." extends "Payment Method"
             Caption = 'Abbreviation ENG';
             Description = 'Park';
         }
-        field(31009750; "Payment Edu"; Boolean)
+        field(52750; "Payment Edu"; Boolean)
         {
             DataClassification = ToBeClassified;
             Caption = 'Payment Edu.';

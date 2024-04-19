@@ -1,14 +1,14 @@
 #pragma implicitwith disable
-page 31009828 "Absence Calendar"
+page 52847 "Absence Calendar 2"
 {
     AutoSplitKey = true;
-    Caption = 'Absence Calendar';
+    Caption = 'Absence Calendar 2';
     DelayedInsert = true;
     MultipleNewLines = true;
     PageType = ListPart;
     Permissions = TableData Absence = rimd;
     SourceTable = Absence;
-    SourceTableView = WHERE("Absence Type" = FILTER(Lecture),
+    SourceTableView = WHERE("Absence Type" = FILTER(Daily),
                             "Incidence Type" = FILTER(Absence),
                             "Student/Teacher" = FILTER(Student));
 
@@ -21,14 +21,14 @@ page 31009828 "Absence Calendar"
                 ShowCaption = false;
                 field(Subject; Rec.Subject)
                 {
-                    Editable = false;
+                    Visible = SubjectVisible;
                     ApplicationArea = Basic, Suite;
                 }
                 field("Sub-Subject Code"; Rec."Sub-Subject Code")
                 {
                     Caption = 'Sub-Subject Code';
-                    Editable = false;
                     ApplicationArea = Basic, Suite;
+                    Visible = "Sub-Subject CodeVisible";
                 }
                 field("Student/Teacher Code No."; Rec."Student/Teacher Code No.")
                 {
@@ -57,6 +57,10 @@ page 31009828 "Absence Calendar"
                 field("Incidence Code"; Rec."Incidence Code")
                 {
                     ApplicationArea = Basic, Suite;
+                    trigger OnValidate()
+                    begin
+                        IncidenceCodeOnAfterValidate;
+                    end;
                 }
                 field("Incidence Description"; Rec."Incidence Description")
                 {
@@ -96,6 +100,17 @@ page 31009828 "Absence Calendar"
     {
     }
 
+    trigger OnAfterGetRecord()
+    begin
+        OnAfterGetCurrRecord2();
+    end;
+
+    trigger OnInit()
+    begin
+        "Sub-Subject CodeVisible" := true;
+        SubjectVisible := true;
+    end;
+
     trigger OnInsertRecord(BelowxRec: Boolean): Boolean
     var
         text0001: Label 'Student No. is Mandatory.';
@@ -122,8 +137,8 @@ page 31009828 "Absence Calendar"
         Rec.Subject := rCalendar.Subject;
         Rec."Sub-Subject Code" := rCalendar."Sub-Subject Code";
         Rec.Turn := rCalendar.Turn;
+        Rec."Line No. Timetable" := rCalendar."Line No.";
         Rec."Type Subject" := rCalendar."Type Subject";
-
 
         if rCalendar."Type Subject" = rCalendar."Type Subject"::"Non scholar hours" then begin
             l_Subjects.Reset;
@@ -135,18 +150,41 @@ page 31009828 "Absence Calendar"
 
         if rCalendar."Type Subject" = rCalendar."Type Subject"::Subject then
             Rec.Category := Rec.Category::Class;
+        OnAfterGetCurrRecord2();
     end;
 
     var
         rCalendar: Record Calendar;
         rIncidenceType: Record "Incidence Type";
         rClass: Record Class;
+        [InDataSet]
+        SubjectVisible: Boolean;
+        [InDataSet]
+        "Sub-Subject CodeVisible": Boolean;
 
     //[Scope('OnPrem')]
     procedure SendHeader(pCalendar: Record Calendar)
     begin
         // This saves the header record in a global variable in the subform
         rCalendar := pCalendar;
+    end;
+
+    local procedure IncidenceCodeOnAfterValidate()
+    begin
+        CurrPage.SaveRecord;
+    end;
+
+    local procedure OnAfterGetCurrRecord2()
+    begin
+        xRec := Rec;
+        if Rec."Absence Type" = Rec."Absence Type"::Daily then begin
+            SubjectVisible := false;
+            "Sub-Subject CodeVisible" := false;
+        end else begin
+            SubjectVisible := true;
+            "Sub-Subject CodeVisible" := true;
+
+        end;
     end;
 }
 

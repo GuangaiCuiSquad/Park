@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009965 "Annotation Subform"
+page 52965 "Annotation Subform"
 {
     Caption = 'Annotation Subform';
     DeleteAllowed = false;

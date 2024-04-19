@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009867 "Course Lines"
+page 52867 "Course Lines"
 {
     AutoSplitKey = true;
     Caption = 'Course Lines';

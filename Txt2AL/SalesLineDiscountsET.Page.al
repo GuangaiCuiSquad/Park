@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009805 "Sales Line Discounts ET"
+page 52805 "Sales Line Discounts ET"
 {
     // Do campo "SalesTypeFilter" retirei algunas opções
     // e ficou assim "Cliente,Grupo Desconto Cliente,,,Nenhum"

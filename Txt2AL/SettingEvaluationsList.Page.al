@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009793 "Setting Evaluations List"
+page 52793 "Setting Evaluations List"
 {
     Caption = 'Setting Evaluations List';
     DeleteAllowed = false;

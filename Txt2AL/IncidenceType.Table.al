@@ -1,4 +1,4 @@
-table 31009799 "Incidence Type"
+table 52799 "Incidence Type"
 {
     Caption = 'Incidence Type';
     DrillDownPageID = "Incidence List";

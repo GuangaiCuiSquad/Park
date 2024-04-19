@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009754 "Edu. Configuration"
+page 52754 "Edu. Configuration"
 {
     // #002 SQD RTV 20201016 Ticket#NAV202000547
     //   Added fields "Student Photos Export" and "Teacher Photos Export"

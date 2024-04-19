@@ -1,4 +1,4 @@
-codeunit 31009768 InsertNAVGeneralTable
+codeunit 52768 InsertNAVGeneralTable
 {
     Permissions = TableData "Assessing Students" = rimd,
                   TableData GeneralTable = rimd,

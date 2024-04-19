@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009817 "Test Wizard Subform"
+page 52817 "Test Wizard Subform"
 {
     Caption = 'Test Wizard Subform';
     PageType = CardPart;

@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009782 "SubForm Services DistEntity"
+page 52782 "SubForm Services DistEntity"
 {
     Caption = 'Services Distributed by Entity';
     DeleteAllowed = false;

@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009810 "Candidate Entry"
+page 52810 "Candidate Entry"
 {
     AutoSplitKey = true;
     Caption = 'Candidate Entry';

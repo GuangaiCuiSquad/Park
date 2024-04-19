@@ -1,4 +1,4 @@
-report 31009880 "Faturação por Serviço"
+report 52880 "Faturação por Serviço"
 {
     //  Listagem de Faturas registadas
     DefaultLayout = RDLC;

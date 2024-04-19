@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009846 "Candidate Selection List"
+page 52846 "Candidate Selection List"
 {
     Caption = 'Candidate Selection List';
     DeleteAllowed = false;

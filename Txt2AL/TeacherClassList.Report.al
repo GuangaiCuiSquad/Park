@@ -1,4 +1,4 @@
-report 31009768 "Teacher Class List"
+report 52768 "Teacher Class List"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './TeacherClassList.rdlc';

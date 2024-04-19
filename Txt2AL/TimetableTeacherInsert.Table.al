@@ -1,4 +1,4 @@
-table 31009791 "Timetable-Teacher-Insert"
+table 52791 "Timetable-Teacher-Insert"
 {
     Caption = 'Timetable-Teacher-Insert';
     //DrillDownPageID = 60187;

@@ -1,4 +1,4 @@
-report 31009766 "Copy Incidence"
+report 52766 "Copy Incidence"
 {
     Caption = 'Copy Incidence';
     ProcessingOnly = true;

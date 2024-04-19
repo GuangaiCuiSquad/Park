@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009787 "Registration Entry"
+page 52787 "Registration Entry"
 {
     Caption = 'Registration Entry';
     DeleteAllowed = false;

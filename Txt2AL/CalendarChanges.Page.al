@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009972 "Calendar Changes"
+page 52972 "Calendar Changes"
 {
     Caption = 'Calendar Changes';
     DataCaptionFields = "Base Calendar Code";

@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009922 "Observation Header"
+page 52922 "Observation Header"
 {
     Caption = 'Observation Header';
     PageType = Card;

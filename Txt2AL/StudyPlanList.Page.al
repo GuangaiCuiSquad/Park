@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009762 "Study Plan List"
+page 52762 "Study Plan List"
 {
     Caption = 'Study Plan List';
     CardPageID = "Study Plan Card";

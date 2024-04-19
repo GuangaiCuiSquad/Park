@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009824 "Teacher Timetable Lines"
+page 52824 "Teacher Timetable Lines"
 {
     Caption = 'Teacher Timetable Lines';
     PageType = List;

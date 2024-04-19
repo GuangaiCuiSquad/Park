@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009849 "Study Plan Lines List"
+page 52849 "Study Plan Lines List"
 {
     Caption = 'Study Plan Lines List';
     DeleteAllowed = false;

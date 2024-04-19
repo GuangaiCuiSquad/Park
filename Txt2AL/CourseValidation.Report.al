@@ -1,4 +1,4 @@
-report 31009841 "Course Validation"
+report 52841 "Course Validation"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './CourseValidation.rdlc';

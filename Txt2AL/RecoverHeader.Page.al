@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009889 "Recover Header"
+page 52889 "Recover Header"
 {
     Caption = 'Recover Header Card';
     PageType = Card;

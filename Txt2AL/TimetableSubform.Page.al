@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009823 "Timetable Subform"
+page 52823 "Timetable Subform"
 {
     AutoSplitKey = true;
     Caption = 'Timetable Subform';

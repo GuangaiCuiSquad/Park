@@ -1,4 +1,4 @@
-report 31009778 "Class List"
+report 52778 "Class List"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './ClassList.rdlc';

@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009859 "Timetable Template List"
+page 52859 "Timetable Template List"
 {
     Caption = 'Timetable Template List';
     CardPageID = "TimeTable Template Card";

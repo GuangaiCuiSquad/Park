@@ -1,4 +1,4 @@
-table 31009851 "Transport & Lunch Entry "
+table 52851 "Transport & Lunch Entry "
 {
     Caption = 'Transport & Lunch Entry ';
 

@@ -1,4 +1,4 @@
-table 31009774 "Rank Group"
+table 52774 "Rank Group"
 {
     Caption = 'Rank Group';
     LookupPageID = "Setting Evaluations List";

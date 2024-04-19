@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009820 "Teacher Calendar List"
+page 52820 "Teacher Calendar List"
 {
     Caption = 'Teacher Calendar List';
     DeleteAllowed = true;

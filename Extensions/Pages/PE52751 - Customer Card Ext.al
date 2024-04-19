@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-pageextension 50021 "Customer Card Ext." extends "Customer Card"
+pageextension 52751 "Customer Card Ext." extends "Customer Card"
 {
     /*    
     IT004 - Park - 2018.01.10 - novo campo Email2 para os envios por email

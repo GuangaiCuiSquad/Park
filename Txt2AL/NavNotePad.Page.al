@@ -1,4 +1,4 @@
-page 31009830 "Nav NotePad"
+page 52830 "Nav NotePad"
 {
     Editable = false;
     PageType = CardPart;

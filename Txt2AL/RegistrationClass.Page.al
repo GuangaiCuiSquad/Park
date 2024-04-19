@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009786 "Registration Class"
+page 52786 "Registration Class"
 {
     AutoSplitKey = true;
     Caption = 'Registration Class';

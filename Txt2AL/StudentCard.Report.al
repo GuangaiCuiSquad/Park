@@ -1,4 +1,4 @@
-report 31009757 "Student Card"
+report 52757 "Student Card"
 {
     // //IT001 - CPA -  2017.02.10  - Novos campos: NIF e Data Validade C. Cidadao
     //                              - Retirar Campos: Naturalidade e Concelho

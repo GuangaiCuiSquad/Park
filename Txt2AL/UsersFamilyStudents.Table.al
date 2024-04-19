@@ -1,4 +1,4 @@
-table 31009754 "Users Family / Students"
+table 52754 "Users Family / Students"
 {
     /*
     #001 - SQD.HSOARES - Ticket#NAV202200456 - 06/09/2022

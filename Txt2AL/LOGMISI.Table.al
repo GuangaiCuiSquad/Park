@@ -1,4 +1,4 @@
-table 31009828 "LOG MISI"
+table 52828 "LOG MISI"
 {
     Caption = 'LOG MISI';
     //DrillDownPageID = 31003134;

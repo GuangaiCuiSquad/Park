@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009856 "Absence Config."
+page 52856 "Absence Config."
 {
     Caption = 'Absence Config.';
     DelayedInsert = false;

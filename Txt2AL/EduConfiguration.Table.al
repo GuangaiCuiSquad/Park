@@ -1,4 +1,4 @@
-table 31009755 "Edu. Configuration"
+table 52755 "Edu. Configuration"
 {
     // IT001 - Parque - Idiomas - 2017.10.12
     //       - Novo campo: "Language Code" (50000)

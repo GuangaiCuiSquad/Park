@@ -1,4 +1,4 @@
-codeunit 31009766 InsertNAVWebCalendar
+codeunit 52766 InsertNAVWebCalendar
 {
     Permissions = TableData Absence = rimd,
                   TableData "WEB Absence" = rimd,

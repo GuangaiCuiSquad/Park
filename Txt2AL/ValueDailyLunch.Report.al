@@ -1,4 +1,4 @@
-report 31009852 "Value Daily Lunch"
+report 52852 "Value Daily Lunch"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './ValueDailyLunch.rdlc';

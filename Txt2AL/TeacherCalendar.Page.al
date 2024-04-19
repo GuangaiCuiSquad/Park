@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009854 "Teacher Calendar"
+page 52854 "Teacher Calendar"
 {
     Caption = 'Teacher Calendar';
     InsertAllowed = false;

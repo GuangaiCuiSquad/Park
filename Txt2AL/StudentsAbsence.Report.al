@@ -1,4 +1,4 @@
-report 31009812 "Students Absence"
+report 52812 "Students Absence"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './StudentsAbsence.rdlc';

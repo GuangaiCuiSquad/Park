@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009788 "Transfer Wizard"
+page 52788 "Transfer Wizard"
 {
     Caption = 'Transfer Wizard';
     DataCaptionExpression = Caption;

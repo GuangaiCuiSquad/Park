@@ -1,4 +1,4 @@
-table 31009782 "Users Family / Candidate"
+table 52782 "Users Family / Candidate"
 {
     Caption = 'Users Family / Candidate';
 

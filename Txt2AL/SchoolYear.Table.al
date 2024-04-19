@@ -1,4 +1,4 @@
-table 31009751 "School Year"
+table 52751 "School Year"
 {
     Caption = 'School Year';
     LookupPageID = "School Year";

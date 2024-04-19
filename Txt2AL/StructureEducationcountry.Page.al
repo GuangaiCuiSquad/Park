@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009764 "Structure Education country"
+page 52764 "Structure Education country"
 {
     Caption = 'Structure Education country';
     DelayedInsert = true;

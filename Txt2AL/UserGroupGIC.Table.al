@@ -1,4 +1,4 @@
-table 31009814 "User Group GIC"
+table 52814 "User Group GIC"
 {
     Caption = 'User Group GIC';
     DrillDownPageID = "User Group/Typology List";
@@ -6,51 +6,51 @@ table 31009814 "User Group GIC"
 
     fields
     {
-        field(1;Type;Option)
+        field(1; Type; Option)
         {
             Caption = 'Type';
             OptionCaption = 'Group,Typology';
             OptionMembers = Group,Typology;
         }
-        field(2;"Code";Code[20])
+        field(2; "Code"; Code[20])
         {
             Caption = 'Code';
         }
-        field(3;Description;Text[30])
+        field(3; Description; Text[30])
         {
             Caption = 'Description';
         }
-        field(4;Typology;Code[20])
+        field(4; Typology; Code[20])
         {
             Caption = 'Typology';
-            TableRelation = "User Group GIC".Code WHERE (Type=FILTER(Typology));
+            TableRelation = "User Group GIC".Code WHERE(Type = FILTER(Typology));
         }
-        field(5;Teacher;Code[20])
+        field(5; Teacher; Code[20])
         {
             Caption = 'Teacher';
             TableRelation = Teacher."No.";
         }
-        field(6;Activate;Boolean)
+        field(6; Activate; Boolean)
         {
             Caption = 'Activate';
         }
-        field(7;Child;Boolean)
+        field(7; Child; Boolean)
         {
             Caption = 'Child';
         }
-        field(8;"Group Defect";Boolean)
+        field(8; "Group Defect"; Boolean)
         {
             Caption = 'Group Defect';
         }
-        field(9;Open;Boolean)
+        field(9; Open; Boolean)
         {
             Caption = 'Open';
         }
-        field(10;Academic;Boolean)
+        field(10; Academic; Boolean)
         {
             Caption = 'Academic';
         }
-        field(11;Class;Code[20])
+        field(11; Class; Code[20])
         {
             Caption = 'Class';
             TableRelation = Class.Class;
@@ -61,18 +61,18 @@ table 31009814 "User Group GIC"
                 cStudentsRegistration: Codeunit "Students Registration";
             begin
                 rClass.Reset;
-                rClass.SetFilter("School Year",cStudentsRegistration.GetShoolYearPreActiveClosing);
+                rClass.SetFilter("School Year", cStudentsRegistration.GetShoolYearPreActiveClosing);
                 if rClass.Find('-') then begin
-                   if PAGE.RunModal(PAGE::"Class List",rClass) = ACTION::LookupOK then begin
-                      Class := rClass.Class;
-                      "School Year" := rClass."School Year";
+                    if PAGE.RunModal(PAGE::"Class List", rClass) = ACTION::LookupOK then begin
+                        Class := rClass.Class;
+                        "School Year" := rClass."School Year";
 
-                   end;
+                    end;
 
                 end;
             end;
         }
-        field(12;"School Year";Code[9])
+        field(12; "School Year"; Code[9])
         {
             Caption = 'School Year';
             TableRelation = "School Year"."School Year";
@@ -81,7 +81,7 @@ table 31009814 "User Group GIC"
 
     keys
     {
-        key(Key1;Type,"Code")
+        key(Key1; Type, "Code")
         {
             Clustered = true;
         }

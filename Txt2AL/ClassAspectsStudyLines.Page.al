@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009938 "Class Aspects Study Lines"
+page 52938 "Class Aspects Study Lines"
 {
     Caption = 'Class Aspects Study Lines';
     DeleteAllowed = false;

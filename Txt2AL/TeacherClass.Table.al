@@ -1,4 +1,4 @@
-table 31009797 "Teacher Class"
+table 52797 "Teacher Class"
 {
     Caption = 'Teacher Class';
 

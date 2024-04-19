@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009887 "Non Scholar Component"
+page 52887 "Non Scholar Component"
 {
     Caption = 'Non Scholar Component';
     PageType = List;

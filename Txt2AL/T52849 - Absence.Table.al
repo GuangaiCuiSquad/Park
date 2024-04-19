@@ -1,4 +1,4 @@
-table 31009849 Absence
+table 52849 Absence
 {
     Caption = 'Absences';
     Permissions = TableData Absence = rimd,

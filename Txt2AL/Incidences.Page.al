@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009843 Incidences
+page 52843 Incidences
 {
     Caption = 'Incidences';
     DelayedInsert = true;

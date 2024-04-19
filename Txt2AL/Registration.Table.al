@@ -1,12 +1,13 @@
-table 31009762 Registration
+table 52762 Registration
 {
     Caption = 'Registration';
     DrillDownPageID = "Students Entry";
     LookupPageID = "Students Entry";
-
     fields
     {
-        field(1; "School Year"; Code[9])
+        field(1;
+        "School Year";
+        Code[9])
         {
             Caption = 'School Year';
             TableRelation = "School Year"."School Year";

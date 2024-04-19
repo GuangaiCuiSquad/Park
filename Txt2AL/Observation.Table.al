@@ -1,4 +1,4 @@
-table 31009813 Observation
+table 52813 Observation
 {
     Caption = 'Observation';
     LookupPageID = "Assessement Observation List";

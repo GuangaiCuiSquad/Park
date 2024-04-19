@@ -38,24 +38,24 @@ tableextension 50097 "Comment Line Ext." extends "Comment Line"
         {
             DataClassification = ToBeClassified;
         }
-        field(31009750; Seperator; Option)
+        field(52750; Seperator; Option)
         {
             DataClassification = ToBeClassified;
             Caption = 'Seperator';
             OptionMembers = " ",Space,"Carriage Return";
             OptionCaption = ' ,Space,Carriage Return';
         }
-        field(31009751; Description; Text[128])
+        field(52751; Description; Text[128])
         {
             DataClassification = ToBeClassified;
             Caption = 'Description';
         }
-        field(31009752; Goals; Text[250])
+        field(52752; Goals; Text[250])
         {
             DataClassification = ToBeClassified;
             Caption = 'Goals';
         }
-        field(31009753; "Actual Status"; Option)
+        field(52753; "Actual Status"; Option)
         {
             DataClassification = ToBeClassified;
             Caption = 'Actual Status';
@@ -63,7 +63,7 @@ tableextension 50097 "Comment Line Ext." extends "Comment Line"
             OptionCaption = ' ,Registered,Transited,Not Transited,Concluded,Not Concluded,Abandonned,Registration Annulled,Tranfered,Exclusion by Incidences,Ongoing evaluation,Retained from Absences,School Certificate';
             Editable = false;
         }
-        field(31009754; "School Year"; Code[9])
+        field(52754; "School Year"; Code[9])
         {
             DataClassification = ToBeClassified;
             Caption = 'School Year';

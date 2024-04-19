@@ -1,5 +1,5 @@
 
-page 31009821 "Timetable List"
+page 52821 "Timetable List"
 {
     Caption = 'Timetable Template List';
     CardPageID = Timetable;

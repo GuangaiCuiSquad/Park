@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009946 "Study Plan Sub-Subjects List"
+page 52946 "Study Plan Sub-Subjects List"
 {
     Caption = 'Study Plan Sub-Subjects Lines';
     DelayedInsert = true;

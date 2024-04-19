@@ -1,4 +1,4 @@
-table 31009766 "Services Plan Head"
+table 52766 "Services Plan Head"
 {
     Caption = 'Services Plan Header';
     LookupPageID = "Services Plan List";

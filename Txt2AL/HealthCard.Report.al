@@ -1,4 +1,4 @@
-report 31009779 "Health Card"
+report 52779 "Health Card"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './HealthCard.rdlc';

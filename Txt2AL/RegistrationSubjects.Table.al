@@ -1,4 +1,4 @@
-table 31009770 "Registration Subjects"
+table 52770 "Registration Subjects"
 {
     Caption = 'Registration Subjects';
     Permissions = TableData "Student Subjects Entry" = rimd;

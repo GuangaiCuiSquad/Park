@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009973 "Calendar Base List"
+page 52973 "Calendar Base List"
 {
     Caption = 'Calendar Base List';
     CardPageID = "Calendar Base";

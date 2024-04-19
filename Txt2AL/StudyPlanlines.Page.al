@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009767 "Study Plan lines"
+page 52767 "Study Plan lines"
 {
     // IT001 - ET:Novo campo "Calculo Transicao Ano" - para o portal  - HG 2016.04.08
     // 

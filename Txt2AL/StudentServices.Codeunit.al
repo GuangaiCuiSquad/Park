@@ -1,4 +1,4 @@
-codeunit 31009755 "Student Services"
+codeunit 52755 "Student Services"
 {
     // IT001 - Parque - Idiomas - 2017.10.12
     //       - Alteração Função "CustomerCreate"

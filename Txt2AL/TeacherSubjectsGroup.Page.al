@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009837 "Teacher Subjects Group"
+page 52837 "Teacher Subjects Group"
 {
     Caption = 'Teacher Department';
     DelayedInsert = true;

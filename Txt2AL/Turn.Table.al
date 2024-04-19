@@ -1,4 +1,4 @@
-table 31009820 Turn
+table 52820 Turn
 {
     Caption = 'Turn';
     LookupPageID = "Turn List";

@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009842 "Study Plan Subjects"
+page 52842 "Study Plan Subjects"
 {
     Caption = 'Study Plan Subjects';
     PageType = List;

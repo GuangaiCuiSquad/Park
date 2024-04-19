@@ -1,16 +1,16 @@
-table 31009780 "Service Discount Group"
+table 52780 "Service Discount Group"
 {
     Caption = 'Service Discount Group';
     LookupPageID = "Service Discounts Group";
 
     fields
     {
-        field(1;"Code";Code[10])
+        field(1; "Code"; Code[10])
         {
             Caption = 'Code';
             NotBlank = true;
         }
-        field(2;Description;Text[30])
+        field(2; Description; Text[30])
         {
             Caption = 'Description';
         }
@@ -18,7 +18,7 @@ table 31009780 "Service Discount Group"
 
     keys
     {
-        key(Key1;"Code")
+        key(Key1; "Code")
         {
             Clustered = true;
         }
@@ -32,25 +32,25 @@ table 31009780 "Service Discount Group"
     var
         SalesLineDiscountET: Record "Sales Line Discount ET";
     begin
-        SalesLineDiscountET.SetRange(Type,SalesLineDiscountET.Type::"Service Disc. Group");
-        SalesLineDiscountET.SetRange(Code,Code);
+        SalesLineDiscountET.SetRange(Type, SalesLineDiscountET.Type::"Service Disc. Group");
+        SalesLineDiscountET.SetRange(Code, Code);
         if SalesLineDiscountET.FindSet then
-          Error(Text0001);
+            Error(Text0001);
 
         //C+ - Multi-Company invoicing
-        MultiCompanyInvoicing.Multi_ServiceDiscountGroup(Rec,false,false,true);
+        MultiCompanyInvoicing.Multi_ServiceDiscountGroup(Rec, false, false, true);
     end;
 
     trigger OnInsert()
     begin
         //C+ - Multi-Company invoicing
-        MultiCompanyInvoicing.Multi_ServiceDiscountGroup(Rec,true,false,false);
+        MultiCompanyInvoicing.Multi_ServiceDiscountGroup(Rec, true, false, false);
     end;
 
     trigger OnModify()
     begin
         //C+ - Multi-Company invoicing
-        MultiCompanyInvoicing.Multi_ServiceDiscountGroup(Rec,false,true,false);
+        MultiCompanyInvoicing.Multi_ServiceDiscountGroup(Rec, false, true, false);
     end;
 
     var

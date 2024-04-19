@@ -1,4 +1,4 @@
-report 31009785 "Summary of Absences"
+report 52785 "Summary of Absences"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './SummaryofAbsences.rdlc';

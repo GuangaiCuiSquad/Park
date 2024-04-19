@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009851 "Student Incid. Justify"
+page 52851 "Student Incid. Justify"
 {
     Caption = 'Student Incid. Justify';
     DeleteAllowed = false;
@@ -211,7 +211,7 @@ page 31009851 "Student Incid. Justify"
                             rStudyPlanLines.SetRange(Code, vStudyPlan);
                             rStudyPlanLines.SetRange("School Year", vSchoolYear);
                             if rStudyPlanLines.Find('-') then begin
-                                if PAGE.RunModal(31009842, rStudyPlanLines) = ACTION::LookupOK then begin
+                                if PAGE.RunModal(52842, rStudyPlanLines) = ACTION::LookupOK then begin
                                     vSubject := rStudyPlanLines."Subject Code";
 
                                     SetFormFilters;

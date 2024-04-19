@@ -1,4 +1,4 @@
-report 31009774 "Candidates List"
+report 52774 "Candidates List"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './CandidatesList.rdlc';

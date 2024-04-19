@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009857 "Student Payment Form"
+page 52857 "Student Payment Form"
 {
     AutoSplitKey = true;
     Caption = 'Student Payment';
@@ -290,7 +290,7 @@ page 31009857 "Student Payment Form"
                                     rCustLedEntry.SetRange(rCustLedEntry."Document Type", rCustLedEntry."Document Type"::Payment);
                                     rCustLedEntry.SetRange(rCustLedEntry."Document No.", rTempGenJourLine."Document No.");
                                     if rCustLedEntry.FindFirst then
-                                        REPORT.Run(31009867, false, false, rCustLedEntry);
+                                        REPORT.Run(52867, false, false, rCustLedEntry);
                                 until rTempGenJourLine.Next = 0;
                             end;
                         end;

@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009855 "Department Config."
+page 52855 "Department Config."
 {
     Caption = 'Department Config.';
     PageType = List;

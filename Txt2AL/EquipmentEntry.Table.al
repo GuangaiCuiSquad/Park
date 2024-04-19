@@ -1,4 +1,4 @@
-table 31009810 "Equipment Entry"
+table 52810 "Equipment Entry"
 {
     Caption = 'Equipment Entry';
 

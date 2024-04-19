@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009844 "Absences Wizard"
+page 52844 "Absences Wizard"
 {
     Caption = 'Absences Wizard';
     DataCaptionFields = "School Year";
@@ -226,7 +226,7 @@ page 31009844 "Absences Wizard"
                         rSubjects.Reset;
                         rSubjects.SetRange(rSubjects.Type, rSubjects.Type::"Non scholar component");
                         if rSubjects.FindSet then
-                            if PAGE.RunModal(31009887, rSubjects) = ACTION::LookupOK then begin
+                            if PAGE.RunModal(52887, rSubjects) = ACTION::LookupOK then begin
                                 vCompNoLect := rSubjects.Code;
 
                                 l_rSubjects.Reset;

@@ -1,4 +1,4 @@
-table 31009778 Remarks
+table 52778 Remarks
 {
     Caption = 'Remarks';
     Permissions = TableData Absence = rimd;

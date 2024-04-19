@@ -1,4 +1,4 @@
-report 31009847 "Equipment List"
+report 52847 "Equipment List"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './EquipmentList.rdlc';

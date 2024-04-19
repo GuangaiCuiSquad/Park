@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009893 "Students Transfers School"
+page 52893 "Students Transfers School"
 {
     AutoSplitKey = true;
     Caption = 'Students Transfers School';

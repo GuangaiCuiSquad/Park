@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009816 "Test Wizard"
+page 52816 "Test Wizard"
 {
     Caption = 'Test Wizard';
     DataCaptionExpression = Caption;

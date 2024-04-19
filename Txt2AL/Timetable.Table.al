@@ -1,4 +1,4 @@
-table 31009787 Timetable
+table 52787 Timetable
 {
     Caption = 'Timetable';
     DrillDownPageID = "Timetable List";

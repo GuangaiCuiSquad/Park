@@ -1,4 +1,4 @@
-table 31009786 Calendar
+table 52786 Calendar
 {
     Caption = 'Calendar';
     Permissions = TableData Absence = rimd;

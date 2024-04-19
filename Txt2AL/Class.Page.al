@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009785 Class
+page 52785 Class
 {
     // IT001-CPA Específicos
     //      - Alteração Captions:
@@ -145,7 +145,7 @@ page 31009785 Class
                         lDefaultDimension: Record "Default Dimension";
                     begin
                         lDefaultDimension.Reset;
-                        lDefaultDimension.SetRange("Table ID", 31009763);
+                        lDefaultDimension.SetRange("Table ID", 52763);
                         //lDefaultDimension.SETRANGE("No.",FORMAT("Dimension ID"));
                         lDefaultDimension.SetRange("No.", Rec.Class);
                         PAGE.RunModal(PAGE::"Default Dimensions", lDefaultDimension);
@@ -161,7 +161,7 @@ page 31009785 Class
 
                     trigger OnAction()
                     var
-                        //cuRemarks: Codeunit Codeunit31009751;
+                        //cuRemarks: Codeunit Codeunit52751;
                         lSchoolYear: Record "School Year";
                         l_rMoments: Record "Moments Assessment";
                         int: Integer;
@@ -648,7 +648,7 @@ page 31009785 Class
                     trigger OnAction()
                     begin
                         CurrPage.SetSelectionFilter(rClass);
-                        REPORT.RunModal(31009883, true, false, rClass);
+                        REPORT.RunModal(52883, true, false, rClass);
                     end;
                 }
                 separator(Action1102065022)

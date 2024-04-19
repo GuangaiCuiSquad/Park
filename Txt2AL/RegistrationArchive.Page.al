@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009913 "Registration Archive"
+page 52913 "Registration Archive"
 {
     Caption = 'Registration Archive';
     Editable = false;

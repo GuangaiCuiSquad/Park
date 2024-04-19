@@ -1,4 +1,4 @@
-report 31009824 "Individual Absences List"
+report 52824 "Individual Absences List"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './IndividualAbsencesList.rdlc';

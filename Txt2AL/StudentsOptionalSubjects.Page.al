@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009948 "Students Optional Subjects"
+page 52948 "Students Optional Subjects"
 {
     Caption = 'Students Optional Subjects';
     DeleteAllowed = false;

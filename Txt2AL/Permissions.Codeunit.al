@@ -1,4 +1,4 @@
-codeunit 31009773 Permissions
+codeunit 52773 Permissions
 {
 
     trigger OnRun()

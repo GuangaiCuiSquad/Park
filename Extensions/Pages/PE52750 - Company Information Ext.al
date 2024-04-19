@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-pageextension 50001 "Company Information Ext." extends "Company Information"
+pageextension 52750 "Company Information Ext." extends "Company Information"
 {
     /*   
     JDE_INT SQD RTV 20210628

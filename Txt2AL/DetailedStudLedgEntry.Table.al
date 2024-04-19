@@ -1,4 +1,4 @@
-table 31009772 "Detailed Stud. Ledg. Entry"
+table 52772 "Detailed Stud. Ledg. Entry"
 {
     Caption = 'Detailed Stud. Ledg. Entry';
     DataCaptionFields = "Customer No.";

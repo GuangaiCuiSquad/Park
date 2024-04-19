@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009796 "Setting Ratings"
+page 52796 "Setting Ratings"
 {
     Caption = 'Setting Ratings';
     InsertAllowed = false;

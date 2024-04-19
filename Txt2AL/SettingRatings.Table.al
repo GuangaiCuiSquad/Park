@@ -1,4 +1,4 @@
-table 31009777 "Setting Ratings"
+table 52777 "Setting Ratings"
 {
     Caption = 'Setting Ratings';
     LookupPageID = "Setting Ratings Subjects List";

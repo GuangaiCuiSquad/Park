@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009924 "Assessement Observation List"
+page 52924 "Assessement Observation List"
 {
     Caption = 'Observation List';
     CardPageID = "Observation Header";

@@ -1,5 +1,5 @@
 
-page 31009872 "Classification Level List"
+page 52872 "Classification Level List"
 {
     Caption = 'Classification Level List';
     PageType = Card;

@@ -1,4 +1,4 @@
-table 31009826 "Assign Assessments Buffer"
+table 52826 "Assign Assessments Buffer"
 {
     Caption = 'Assign Assessments Buffer';
     Permissions = TableData "Assessing Students" = rimd;

@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009815 Priority
+page 52815 Priority
 {
     Caption = 'Priority';
     PageType = List;

@@ -1,4 +1,4 @@
-table 31009822 "Health & Safety Students"
+table 52822 "Health & Safety Students"
 {
     Caption = 'Health & Safety Students';
 
@@ -31,7 +31,7 @@ table 31009822 "Health & Safety Students"
                 rcodedesc2.Reset;
                 rcodedesc2.SetRange(Type, Type);
 
-                if PAGE.RunModal(31009912, rcodedesc2) = ACTION::LookupOK then
+                if PAGE.RunModal(52912, rcodedesc2) = ACTION::LookupOK then
                     Validate(Code, rcodedesc2.Code);
             end;
 

@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009969 "LOG MISI"
+page 52969 "LOG MISI"
 {
     Caption = 'Log MISI';
     Editable = false;

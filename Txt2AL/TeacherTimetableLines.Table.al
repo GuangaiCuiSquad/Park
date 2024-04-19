@@ -1,4 +1,4 @@
-table 31009789 "Teacher Timetable Lines"
+table 52789 "Teacher Timetable Lines"
 {
     Caption = 'Teacher Timetable Lines';
 

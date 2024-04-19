@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009912 "Health & Safety Code List"
+page 52912 "Health & Safety Code List"
 {
     Caption = 'Health & Safety Code List';
     PageType = List;

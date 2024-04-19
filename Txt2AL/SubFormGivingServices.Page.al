@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009779 "SubForm Giving Services"
+page 52779 "SubForm Giving Services"
 {
     Caption = 'SubForm Giving Services';
     DeleteAllowed = false;

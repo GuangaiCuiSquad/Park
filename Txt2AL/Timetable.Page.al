@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009822 Timetable
+page 52822 Timetable
 {
     Caption = 'Timetable';
     PageType = Card;

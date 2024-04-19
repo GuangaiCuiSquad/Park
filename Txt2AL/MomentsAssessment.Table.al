@@ -1,4 +1,4 @@
-table 31009776 "Moments Assessment"
+table 52776 "Moments Assessment"
 {
     Caption = 'Moments Assessment';
     LookupPageID = "Setting Moments";

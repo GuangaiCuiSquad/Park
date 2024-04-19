@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009774 "Reg.Family/Students"
+page 52774 "Reg.Family/Students"
 {
     Caption = 'Users Family / Students';
     DelayedInsert = true;

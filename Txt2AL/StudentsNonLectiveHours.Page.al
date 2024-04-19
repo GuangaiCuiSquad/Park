@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009957 "Students Non Lective Hours"
+page 52957 "Students Non Lective Hours"
 {
     Caption = 'Students Non Lective Hours';
     DelayedInsert = true;

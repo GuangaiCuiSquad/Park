@@ -1,10 +1,10 @@
 #pragma implicitwith disable
-page 31009952 "Processing Services"
+page 52952 "Processing Services"
 {
     // #001 SQD RTV 20211029 Ticket#NAV202100701
     //   Made "Mov. Aluno" editable to allow correction of services
     // 
-    // Variavel: reportInvoicingServices Report 31009752
+    // Variavel: reportInvoicingServices Report 52752
 
     Caption = 'Processing Services';
     DeleteAllowed = false;
@@ -120,7 +120,7 @@ page 31009952 "Processing Services"
                     if cUserEducation.GetEducationFilter(UserId) <> '' then
                         rStudentLedgerEntry.SetRange("Responsibility Center", cUserEducation.GetEducationFilter(UserId));
                     if rStudentLedgerEntry.Find('-') then
-                        REPORT.RunModal(31009808, true, true, rStudentLedgerEntry);
+                        REPORT.RunModal(52808, true, true, rStudentLedgerEntry);
                 end;
             }
             action("Print &Invoice")

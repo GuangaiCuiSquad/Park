@@ -1,4 +1,4 @@
-report 31009808 "Pre invoice Detail"
+report 52808 "Pre invoice Detail"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './PreinvoiceDetail.rdlc';

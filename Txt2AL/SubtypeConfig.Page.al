@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009905 "Subtype Config"
+page 52905 "Subtype Config"
 {
     Caption = 'Subtype Config';
     PageType = List;

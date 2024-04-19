@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009926 "Student Sub-Subjects Plan"
+page 52926 "Student Sub-Subjects Plan"
 {
     Caption = 'Student Sub-Subjects Plan';
     InsertAllowed = false;

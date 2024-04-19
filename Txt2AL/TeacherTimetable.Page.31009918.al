@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009918 TeacherTimetable
+page 52918 TeacherTimetable
 {
     Caption = 'TeacherTimetable';
     Editable = false;

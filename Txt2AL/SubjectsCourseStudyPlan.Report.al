@@ -1,4 +1,4 @@
-report 31009769 "Subjects Course/Study Plan"
+report 52769 "Subjects Course/Study Plan"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './SubjectsCourseStudyPlan.rdlc';

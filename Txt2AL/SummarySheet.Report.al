@@ -1,4 +1,4 @@
-report 31009796 "Summary Sheet"
+report 52796 "Summary Sheet"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './SummarySheet.rdlc';

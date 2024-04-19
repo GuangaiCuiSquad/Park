@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009890 "Recover Lines"
+page 52890 "Recover Lines"
 {
     Caption = 'Recover Lines';
     DelayedInsert = true;

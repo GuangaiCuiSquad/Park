@@ -1,4 +1,4 @@
-table 31009752 School
+table 52752 School
 {
     Caption = 'School';
 

@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009920 Templates
+page 52920 Templates
 {
     // IT001 - 2017.01.18 - Novo campo "4 Ano com prova" por causa dos registos biográficos 1º ciclo
     //

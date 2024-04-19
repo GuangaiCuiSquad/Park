@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009898 "Dimension Distribution"
+page 52898 "Dimension Distribution"
 {
     PageType = List;
     SourceTable = "Recenseamento Alunos";

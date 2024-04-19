@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009840 "Teacher Timetable"
+page 52840 "Teacher Timetable"
 {
     AutoSplitKey = true;
     Caption = 'Teacher Timetable';

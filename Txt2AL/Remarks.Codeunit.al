@@ -1,4 +1,4 @@
-codeunit 31009751 Remarks
+codeunit 52751 Remarks
 {
     // //IT001 - Parque - 2016.10.19 - Nova option no parametro pDocType: InvoiceItem.
     // // Este tipo de doc serve para o texto das faturas das fardas, ser diferente do texto das faturas dos serviços

@@ -1,4 +1,4 @@
-table 31009808 Equipment
+table 52808 Equipment
 {
     Caption = 'Equipment';
 

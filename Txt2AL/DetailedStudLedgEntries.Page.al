@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009784 "Detailed Stud. Ledg. Entries"
+page 52784 "Detailed Stud. Ledg. Entries"
 {
     Caption = 'Detailed Stud. Ledg. Entries';
     DataCaptionFields = "Cust. Ledger Entry No.", "Customer No.";

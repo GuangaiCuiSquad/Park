@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009770 Subjects
+page 52770 Subjects
 {
     Caption = 'Subjects';
     DelayedInsert = true;

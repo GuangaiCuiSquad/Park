@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009852 "Teacher Incid. Justify"
+page 52852 "Teacher Incid. Justify"
 {
     Caption = 'Teacher Incid. Justify';
     DeleteAllowed = false;

@@ -1,4 +1,4 @@
-table 31009795 "Template Timetable"
+table 52795 "Template Timetable"
 {
     Caption = 'Template Timetable';
     DrillDownPageID = "Timetable Template";

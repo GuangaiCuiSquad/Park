@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009896 "Assessment Configuration List"
+page 52896 "Assessment Configuration List"
 {
     Caption = 'Assessment Configuration List';
     Editable = false;

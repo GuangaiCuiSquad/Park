@@ -1,4 +1,4 @@
-report 31009883 "Alunos - Contactos"
+report 52883 "Alunos - Contactos"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './AlunosContactos.rdlc';

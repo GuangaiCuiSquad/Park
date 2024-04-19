@@ -1,4 +1,4 @@
-table 31009823 "Assessment Configuration"
+table 52823 "Assessment Configuration"
 {
     Caption = 'Assessment Configuration';
     LookupPageID = "Assessment Configuration List";

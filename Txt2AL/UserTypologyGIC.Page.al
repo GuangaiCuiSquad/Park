@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009931 "User Typology GIC"
+page 52931 "User Typology GIC"
 {
     Caption = 'User Typology GIC';
     PageType = List;

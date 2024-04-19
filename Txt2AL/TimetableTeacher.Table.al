@@ -1,4 +1,4 @@
-table 31009792 "Timetable-Teacher"
+table 52792 "Timetable-Teacher"
 {
     Caption = 'Timetable-Teacher';
     DataCaptionFields = "Filter Period", Subject, Meeting, Target, "Teacher Name";

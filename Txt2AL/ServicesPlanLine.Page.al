@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009772 "Services Plan Line"
+page 52772 "Services Plan Line"
 {
     Caption = 'Services Plan Line';
     DelayedInsert = true;

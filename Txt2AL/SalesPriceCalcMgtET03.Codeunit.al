@@ -1,4 +1,4 @@
-codeunit 31009756 "Sales Price Calc. Mgt.ET03"
+codeunit 52756 "Sales Price Calc. Mgt.ET03"
 {
 
     trigger OnRun()

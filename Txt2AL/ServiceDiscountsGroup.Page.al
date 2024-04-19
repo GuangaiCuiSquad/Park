@@ -1,5 +1,5 @@
 
-page 31009806 "Service Discounts Group"
+page 52806 "Service Discounts Group"
 {
     Caption = 'Service Discounts Group';
     PageType = List;

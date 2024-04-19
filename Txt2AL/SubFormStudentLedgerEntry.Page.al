@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009783 "SubForm Student Ledger Entry"
+page 52783 "SubForm Student Ledger Entry"
 {
     Caption = 'SubForm Student Ledger Entry';
     PageType = ListPart;

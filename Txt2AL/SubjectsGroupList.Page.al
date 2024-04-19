@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009835 "Subjects Group List"
+page 52835 "Subjects Group List"
 {
     Caption = 'Subjects Group List';
     Editable = false;

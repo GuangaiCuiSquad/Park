@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009860 "Students Registration"
+page 52860 "Students Registration"
 {
     Caption = 'Students Registration';
     DelayedInsert = true;

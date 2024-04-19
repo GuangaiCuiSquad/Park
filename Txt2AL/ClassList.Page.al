@@ -1,5 +1,5 @@
 
-page 31009789 "Class List"
+page 52789 "Class List"
 {
     Caption = 'Class List';
     CardPageID = Class;

@@ -1,4 +1,4 @@
-page 31009981 CheckPassword
+page 52981 CheckPassword
 {
     PageType = Card;
 

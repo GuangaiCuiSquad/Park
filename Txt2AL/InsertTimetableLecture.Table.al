@@ -1,4 +1,4 @@
-table 31009790 "Insert Timetable Lecture"
+table 52790 "Insert Timetable Lecture"
 {
     Caption = 'Insert Timetable Lecture';
 

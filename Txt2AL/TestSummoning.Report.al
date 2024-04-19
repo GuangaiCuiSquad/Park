@@ -1,4 +1,4 @@
-report 31009846 "Test Summoning"
+report 52846 "Test Summoning"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './TestSummoning.rdlc';

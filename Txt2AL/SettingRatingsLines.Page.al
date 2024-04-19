@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009797 "Setting Ratings Lines"
+page 52797 "Setting Ratings Lines"
 {
     AutoSplitKey = true;
     Caption = 'Setting Ratings Lines';

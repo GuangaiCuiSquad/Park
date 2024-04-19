@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009829 "Rules of Evaluation Subform"
+page 52829 "Rules of Evaluation Subform"
 {
     Caption = 'Rules of Evaluation Subform';
     InsertAllowed = false;

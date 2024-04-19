@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009904 Category
+page 52904 Category
 {
     Caption = 'Category';
     DelayedInsert = true;

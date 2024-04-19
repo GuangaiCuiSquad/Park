@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009908 "Health & Safety"
+page 52908 "Health & Safety"
 {
     Caption = 'Health & Safety';
     DelayedInsert = true;

@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009751 "Students List"
+page 52751 "Students List"
 {
     //  //PT - tem o campo vClassAndNo
     // 
@@ -182,7 +182,7 @@ page 31009751 "Students List"
 
                 trigger OnAction()
                 var
-                    Studentsass: Record 31009750;
+                    Studentsass: Record Students;
 
                     rRegistration: Record Registration;
                     rRegistrationSubjectsServices: Record "Registration Subjects";

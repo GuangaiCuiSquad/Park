@@ -1,4 +1,4 @@
-table 31009768 "Student Ledger Entry"
+table 52768 "Student Ledger Entry"
 {
     Caption = 'Services Payment Plan';
 

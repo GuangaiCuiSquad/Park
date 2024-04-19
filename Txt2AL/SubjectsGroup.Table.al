@@ -1,4 +1,4 @@
-table 31009796 "Subjects Group"
+table 52796 "Subjects Group"
 {
     Caption = 'Department Group';
     DrillDownPageID = "Subjects Group";

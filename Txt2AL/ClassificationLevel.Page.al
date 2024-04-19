@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009792 "Classification Level"
+page 52792 "Classification Level"
 {
     Caption = 'Classification Level';
     DelayedInsert = true;

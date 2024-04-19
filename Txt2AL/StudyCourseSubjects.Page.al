@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009879 "Study Course Subjects"
+page 52879 "Study Course Subjects"
 {
     Caption = 'Study Course Subjects';
     Editable = false;

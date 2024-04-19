@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009992 "Diario Cobranças"
+page 52992 "Diario Cobranças"
 {
     AutoSplitKey = true;
     Caption = 'Cash Receipt Journal';

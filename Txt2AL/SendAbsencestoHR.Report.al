@@ -1,4 +1,4 @@
-report 31009849 "Send Absences to HR"
+report 52849 "Send Absences to HR"
 {
     Caption = 'Send Absences to HR';
     ProcessingOnly = true;

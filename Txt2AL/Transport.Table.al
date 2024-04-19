@@ -1,4 +1,4 @@
-table 31009806 Transport
+table 52806 Transport
 {
     Caption = 'Transport';
     DrillDownPageID = "Vehicle Lines";

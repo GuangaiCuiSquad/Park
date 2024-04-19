@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009819 "Insert Lessons"
+page 52819 "Insert Lessons"
 {
     // This form got two contorl's in the field type subject
 

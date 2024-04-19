@@ -1,4 +1,4 @@
-table 31009773 "Classification Level"
+table 52773 "Classification Level"
 {
     Caption = 'Classification Level';
     DrillDownPageID = "Classification Level List";

@@ -1,4 +1,4 @@
-table 31009829 "Absence ET-RH"
+table 52829 "Absence ET-RH"
 {
     Caption = 'Absences ET-RH';
 

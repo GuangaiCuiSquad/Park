@@ -1,4 +1,4 @@
-codeunit 31009769 "Calc. Evaluation"
+codeunit 52769 "Calc. Evaluation"
 {
     Permissions = TableData Remarks = rimd,
                   TableData "Assessing Students" = rimd,

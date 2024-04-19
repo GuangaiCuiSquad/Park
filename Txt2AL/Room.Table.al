@@ -1,4 +1,4 @@
-table 31009798 Room
+table 52798 Room
 {
     Caption = 'Room';
     DrillDownPageID = "Room List";

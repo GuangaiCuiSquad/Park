@@ -1,4 +1,4 @@
-report 31009761 "Copy Study Plan"
+report 52761 "Copy Study Plan"
 {
     Caption = 'Copy Study Plan';
     ProcessingOnly = true;

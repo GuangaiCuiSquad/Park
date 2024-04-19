@@ -1,4 +1,4 @@
-codeunit 31009759 Parser
+codeunit 52759 Parser
 {
     // 
     // Utilizado para calculo da Nota Final de curso.

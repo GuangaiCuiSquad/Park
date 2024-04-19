@@ -1,4 +1,4 @@
-table 31009759 Subjects
+table 52759 Subjects
 {
     Caption = 'Subjects';
     LookupPageID = Subjects;

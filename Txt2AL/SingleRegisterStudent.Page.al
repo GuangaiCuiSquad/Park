@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009903 "Single Register Student"
+page 52903 "Single Register Student"
 {
     Caption = 'Register Student';
     DeleteAllowed = false;

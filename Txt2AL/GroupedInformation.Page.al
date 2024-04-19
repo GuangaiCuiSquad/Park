@@ -1,9 +1,9 @@
 #pragma implicitwith disable
-page 31009780 "Grouped Information"
+page 52780 "Grouped Information"
 {
     // Globals:
     // 
-    // reportInvoicingServices Report 31009752
+    // reportInvoicingServices Report 52752
 
     Caption = 'Grouped Information';
     DeleteAllowed = false;
@@ -128,7 +128,7 @@ page 31009780 "Grouped Information"
                     if cUserEducation.GetEducationFilter(UserId) <> '' then
                         rStudentLedgerEntry.SetRange("Responsibility Center", cUserEducation.GetEducationFilter(UserId));
                     if rStudentLedgerEntry.Find('-') then
-                        REPORT.RunModal(31009808, true, true, rStudentLedgerEntry);
+                        REPORT.RunModal(52808, true, true, rStudentLedgerEntry);
                 end;
             }
         }

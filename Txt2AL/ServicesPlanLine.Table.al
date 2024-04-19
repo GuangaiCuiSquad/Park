@@ -1,4 +1,4 @@
-table 31009769 "Services Plan Line"
+table 52769 "Services Plan Line"
 {
     // //IT001 - Park- 2018.06.28 - Novo campo qtd usado no carregamento do plano de serviços
     // //IT002 - Park- 2018.06.28 - Aumentei o campo desccription para 80 para ficar igual à ficha do serviço

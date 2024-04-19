@@ -1,4 +1,4 @@
-codeunit 31009779 "Sales-Post + Print EDUSOL"
+codeunit 52779 "Sales-Post + Print EDUSOL"
 {
     TableNo = "Sales Header";
 

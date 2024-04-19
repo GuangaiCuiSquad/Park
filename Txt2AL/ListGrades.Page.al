@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009801 "List Grades"
+page 52801 "List Grades"
 {
     Caption = 'List Grades';
     Editable = false;

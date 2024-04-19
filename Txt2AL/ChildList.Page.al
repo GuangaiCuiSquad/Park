@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009909 "Child List"
+page 52909 "Child List"
 {
     PageType = ListPart;
     SourceTable = "Users Family / Students";

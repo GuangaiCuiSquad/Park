@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009841 "Timetable Lines"
+page 52841 "Timetable Lines"
 {
     Caption = 'Timetable Lines';
     DelayedInsert = true;

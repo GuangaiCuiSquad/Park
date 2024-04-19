@@ -1,48 +1,48 @@
-table 31009852 "WEB Absence"
+table 52852 "WEB Absence"
 {
     Caption = 'WEB Absences ';
-    Permissions = TableData Absence=rimd,
-                  TableData "Transport & Lunch Entry "=rimd;
+    Permissions = TableData Absence = rimd,
+                  TableData "Transport & Lunch Entry " = rimd;
 
     fields
     {
-        field(1;"Timetable Code";Code[20])
+        field(1; "Timetable Code"; Code[20])
         {
             Caption = 'Timetable Code';
             TableRelation = Timetable."Timetable Code";
         }
-        field(2;"School Year";Code[9])
+        field(2; "School Year"; Code[9])
         {
             Caption = 'School Year';
             TableRelation = "School Year"."School Year";
         }
-        field(3;"Study Plan";Code[20])
+        field(3; "Study Plan"; Code[20])
         {
             Caption = 'Study Plan';
-            TableRelation = IF (Type=FILTER(Simple)) "Study Plan Header".Code WHERE ("School Year"=FIELD("School Year"))
-                            ELSE IF (Type=FILTER(Multi)) "Course Header".Code;
+            TableRelation = IF (Type = FILTER(Simple)) "Study Plan Header".Code WHERE("School Year" = FIELD("School Year"))
+            ELSE IF (Type = FILTER(Multi)) "Course Header".Code;
         }
-        field(4;Class;Code[20])
+        field(4; Class; Code[20])
         {
             Caption = 'Class';
             TableRelation = Class.Class;
         }
-        field(5;"Line No.";Integer)
+        field(5; "Line No."; Integer)
         {
             Caption = 'Line No.';
         }
-        field(6;Subject;Code[10])
+        field(6; Subject; Code[10])
         {
             Caption = 'Subject';
-            TableRelation = IF ("Type Subject"=FILTER(Subject)) Subjects.Code WHERE (Type=FILTER(Subject))
-                            ELSE IF ("Type Subject"=FILTER("Non scholar component")) Subjects.Code WHERE (Type=FILTER("Non scholar component"))
-                            ELSE IF ("Type Subject"=FILTER("Non scholar hours")) Subjects.Code WHERE (Type=FILTER("Non scholar hours"));
+            TableRelation = IF ("Type Subject" = FILTER(Subject)) Subjects.Code WHERE(Type = FILTER(Subject))
+            ELSE IF ("Type Subject" = FILTER("Non scholar component")) Subjects.Code WHERE(Type = FILTER("Non scholar component"))
+            ELSE IF ("Type Subject" = FILTER("Non scholar hours")) Subjects.Code WHERE(Type = FILTER("Non scholar hours"));
         }
-        field(8;"Student/Teacher Code No.";Code[20])
+        field(8; "Student/Teacher Code No."; Code[20])
         {
             Caption = 'Student/Teacher Code No.';
-            TableRelation = IF ("Student/Teacher"=FILTER(Student)) Students."No."
-                            ELSE IF ("Student/Teacher"=FILTER(Teacher)) Teacher."No.";
+            TableRelation = IF ("Student/Teacher" = FILTER(Student)) Students."No."
+            ELSE IF ("Student/Teacher" = FILTER(Teacher)) Teacher."No.";
 
             trigger OnLookup()
             var
@@ -57,147 +57,147 @@ table 31009852 "WEB Absence"
             begin
             end;
         }
-        field(9;"Class No.";Integer)
+        field(9; "Class No."; Integer)
         {
             BlankZero = true;
             Caption = 'Class No.';
         }
-        field(10;"Student Name";Text[128])
+        field(10; "Student Name"; Text[128])
         {
             Caption = 'Student Name';
             Editable = false;
         }
-        field(13;"Absence Status";Option)
+        field(13; "Absence Status"; Option)
         {
             Caption = 'Absence Status';
             OptionCaption = 'Justified,Unjustified,Justification';
             OptionMembers = Justified,Unjustified,Justification;
         }
-        field(15;Observations;Text[250])
+        field(15; Observations; Text[250])
         {
             Caption = 'Observations';
         }
-        field(16;"Creation Date";Date)
+        field(16; "Creation Date"; Date)
         {
             Caption = 'Creation Date';
         }
-        field(17;"Creation User";Code[20])
+        field(17; "Creation User"; Code[20])
         {
             Caption = 'Creation User';
         }
-        field(18;"Modified Date";Date)
+        field(18; "Modified Date"; Date)
         {
             Caption = 'Modified Date';
         }
-        field(19;"Modified User";Code[20])
+        field(19; "Modified User"; Code[20])
         {
             Caption = 'Modified User';
         }
-        field(20;"Incidence Type";Option)
+        field(20; "Incidence Type"; Option)
         {
             Caption = 'Incidence Type';
             OptionCaption = 'Default,Absence';
             OptionMembers = Default,Absence;
         }
-        field(21;"Incidence Code";Code[20])
+        field(21; "Incidence Code"; Code[20])
         {
             Caption = 'Incidence Code';
-            TableRelation = "Incidence Type"."Incidence Code" WHERE (Category=FIELD(Category),
-                                                                     "Incidence Type"=FIELD("Incidence Type"),
-                                                                     "Absence Status"=FIELD("Absence Status"));
+            TableRelation = "Incidence Type"."Incidence Code" WHERE(Category = FIELD(Category),
+                                                                     "Incidence Type" = FIELD("Incidence Type"),
+                                                                     "Absence Status" = FIELD("Absence Status"));
         }
-        field(22;"Absence Type";Option)
+        field(22; "Absence Type"; Option)
         {
             Caption = 'Absence Type';
             OptionCaption = 'Lecture,Daily';
             OptionMembers = Lecture,Daily;
         }
-        field(23;Day;Date)
+        field(23; Day; Date)
         {
             Caption = 'Day';
         }
-        field(24;"Line No. Timetable";Integer)
+        field(24; "Line No. Timetable"; Integer)
         {
             Caption = 'Line No. Timetable';
         }
-        field(25;"Incidence Description";Text[50])
+        field(25; "Incidence Description"; Text[50])
         {
             Caption = 'Incidence Description';
         }
-        field(26;Type;Option)
+        field(26; Type; Option)
         {
             Caption = 'Type';
             OptionCaption = 'Simple,Multi';
             OptionMembers = Simple,Multi;
         }
-        field(27;"Justified Code";Code[20])
+        field(27; "Justified Code"; Code[20])
         {
             Caption = 'Justified Code';
-            TableRelation = "Incidence Type"."Justification Code" WHERE (Category=FIELD(Category),
-                                                                         "Incidence Type"=FIELD("Incidence Type"));
+            TableRelation = "Incidence Type"."Justification Code" WHERE(Category = FIELD(Category),
+                                                                         "Incidence Type" = FIELD("Incidence Type"));
         }
-        field(28;"Justified Description";Text[50])
+        field(28; "Justified Description"; Text[50])
         {
             Caption = 'Justified Description';
             Editable = false;
         }
-        field(29;"Subcategory Code";Code[20])
+        field(29; "Subcategory Code"; Code[20])
         {
             Caption = 'Subcategory Code';
-            TableRelation = "Sub Type"."Subcategory Code" WHERE (Category=FIELD("Incidence Type"));
+            TableRelation = "Sub Type"."Subcategory Code" WHERE(Category = FIELD("Incidence Type"));
         }
-        field(30;"Sub-Subject Code";Code[20])
+        field(30; "Sub-Subject Code"; Code[20])
         {
             Caption = 'Sub-Subject Code';
         }
-        field(31;"Absence Hours";Time)
+        field(31; "Absence Hours"; Time)
         {
             Caption = 'Absence Hours';
         }
-        field(32;"Responsibility Center";Code[10])
+        field(32; "Responsibility Center"; Code[10])
         {
             Caption = 'Responsibility Center';
             TableRelation = "Responsibility Center";
         }
-        field(34;"Student/Teacher";Option)
+        field(34; "Student/Teacher"; Option)
         {
             Caption = 'Student/Teacher';
             OptionCaption = 'Student,Teacher';
             OptionMembers = Student,Teacher;
         }
-        field(35;Category;Option)
+        field(35; Category; Option)
         {
             Caption = 'Category';
             OptionCaption = 'Class,Cantine,BUS,Schoolyard,Extra-scholar,Teacher';
             OptionMembers = Class,Cantine,BUS,Schoolyard,"Extra-scholar",Teacher;
         }
-        field(36;Turn;Code[20])
+        field(36; Turn; Code[20])
         {
             Caption = 'Turn';
-            TableRelation = Turn.Code WHERE ("Responsibility Center"=FIELD("Responsibility Center"));
+            TableRelation = Turn.Code WHERE("Responsibility Center" = FIELD("Responsibility Center"));
         }
-        field(37;Delay;Boolean)
+        field(37; Delay; Boolean)
         {
             Caption = 'Delay';
         }
-        field(40;"Schooling Year";Code[10])
+        field(40; "Schooling Year"; Code[10])
         {
             Caption = 'Schooling Year';
             TableRelation = "Structure Education Country"."Schooling Year";
         }
-        field(41;"Type Subject";Option)
+        field(41; "Type Subject"; Option)
         {
             Caption = 'Type Subject';
             OptionCaption = ' ,Subject,Non scholar component,Non scholar hours';
             OptionMembers = " ",Subject,"Non scholar component","Non scholar hours";
         }
-        field(100;"Action Type";Option)
+        field(100; "Action Type"; Option)
         {
             Caption = 'Action Type';
             OptionCaption = ' ,Insert,Update,Delete';
             OptionMembers = " ",Insert,Update,Delete;
         }
-        field(101;"Action Type 2";Option)
+        field(101; "Action Type 2"; Option)
         {
             Caption = 'Action Type 2';
             OptionCaption = ' ,Insert,Update,Delete';
@@ -207,17 +207,17 @@ table 31009852 "WEB Absence"
 
     keys
     {
-        key(Key1;"Timetable Code","School Year","Study Plan",Class,Day,Type,"Line No. Timetable","Incidence Type","Incidence Code",Category,"Subcategory Code","Student/Teacher","Student/Teacher Code No.","Responsibility Center","Line No.")
+        key(Key1; "Timetable Code", "School Year", "Study Plan", Class, Day, Type, "Line No. Timetable", "Incidence Type", "Incidence Code", Category, "Subcategory Code", "Student/Teacher", "Student/Teacher Code No.", "Responsibility Center", "Line No.")
         {
             Clustered = true;
         }
-        key(Key2;"Timetable Code","School Year","Study Plan",Class,"Absence Type","Student/Teacher Code No.")
+        key(Key2; "Timetable Code", "School Year", "Study Plan", Class, "Absence Type", "Student/Teacher Code No.")
         {
         }
-        key(Key3;"School Year","Student/Teacher Code No.",Subject,"Subcategory Code")
+        key(Key3; "School Year", "Student/Teacher Code No.", Subject, "Subcategory Code")
         {
         }
-        key(Key4;"Timetable Code",Day,"Line No.")
+        key(Key4; "Timetable Code", Day, "Line No.")
         {
         }
     }

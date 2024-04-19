@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009907 "Registration Class Entry"
+page 52907 "Registration Class Entry"
 {
     // IT001 - Novo botão "Ver matrícula" - 11-09-2018
     //         - Possibilidade de consultar as matrículas em histórico

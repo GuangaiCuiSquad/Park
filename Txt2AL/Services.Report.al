@@ -1,4 +1,4 @@
-report 31009751 Services
+report 52751 Services
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Services.rdlc';
@@ -6,68 +6,68 @@ report 31009751 Services
 
     dataset
     {
-        dataitem("Student Ledger Entry";"Student Ledger Entry")
+        dataitem("Student Ledger Entry"; "Student Ledger Entry")
         {
-            DataItemTableView = SORTING("Service Code","Student No.");
-            RequestFilterFields = "Student No.",Class;
-            column(CINFO_Name;CompanyInfo.Name)
+            DataItemTableView = SORTING("Service Code", "Student No.");
+            RequestFilterFields = "Student No.", Class;
+            column(CINFO_Name; CompanyInfo.Name)
             {
             }
-            column(CAddr2;CompanyAddr[2])
+            column(CAddr2; CompanyAddr[2])
             {
             }
-            column(CAddr3;CompanyAddr[3])
+            column(CAddr3; CompanyAddr[3])
             {
             }
-            column(CINFO_Picture;CompanyInfo.Picture)
+            column(CINFO_Picture; CompanyInfo.Picture)
             {
             }
-            column(CINFO_PhoneNo;CompanyInfo."Phone No.")
+            column(CINFO_PhoneNo; CompanyInfo."Phone No.")
             {
             }
-            column(Workdate_Formated;Format(WorkDate,0,'<day> de <month text> de <year4>'))
+            column(Workdate_Formated; Format(WorkDate, 0, '<day> de <month text> de <year4>'))
             {
             }
-            column(Filtros;Filtros)
+            column(Filtros; Filtros)
             {
             }
-            column(StudentNo_SLE;"Student No.")
+            column(StudentNo_SLE; "Student No.")
             {
             }
-            column(Class_SLE;Class)
+            column(Class_SLE; Class)
             {
             }
-            column(ServiceCode_SLE;"Service Code")
+            column(ServiceCode_SLE; "Service Code")
             {
             }
-            column(Description_SLE;Description)
+            column(Description_SLE; Description)
             {
             }
-            column(ServiceType_SLE;"Service Type")
+            column(ServiceType_SLE; "Service Type")
             {
             }
-            column(UnitPrice_SLE;"Unit Price")
+            column(UnitPrice_SLE; "Unit Price")
             {
             }
-            column(Quantity_SLE;Quantity)
+            column(Quantity_SLE; Quantity)
             {
             }
-            column(PostingDate_SLE;"Posting Date")
+            column(PostingDate_SLE; "Posting Date")
             {
             }
-            column(LineDiscountPerc_SLE;"Line Discount %")
+            column(LineDiscountPerc_SLE; "Line Discount %")
             {
             }
-            column(LineDiscAmount_SLE;"Line Discount Amount")
+            column(LineDiscAmount_SLE; "Line Discount Amount")
             {
             }
-            column(Amount_SLE;Amount)
+            column(Amount_SLE; Amount)
             {
             }
-            column(TotalFor_Class;TotalFor + FieldCaption(Class))
+            column(TotalFor_Class; TotalFor + FieldCaption(Class))
             {
             }
-            column(TotalFor_Student;TotalFor + FieldCaption("Student No."))
+            column(TotalFor_Student; TotalFor + FieldCaption("Student No."))
             {
             }
 
@@ -117,11 +117,11 @@ report 31009751 Services
     begin
 
         if CompanyInfo.Get() then begin
-          CompanyInfo.CalcFields(CompanyInfo.Picture);
-          FormatAddr.Company(CompanyAddr,CompanyInfo);
+            CompanyInfo.CalcFields(CompanyInfo.Picture);
+            FormatAddr.Company(CompanyAddr, CompanyInfo);
         end;
 
-        Filtros := "Student Ledger Entry".GetFilters +  ' ; ';
+        Filtros := "Student Ledger Entry".GetFilters + ' ; ';
     end;
 
     var
@@ -129,7 +129,7 @@ report 31009751 Services
         FooterPrinted: Boolean;
         CompanyInfo: Record "Company Information";
         FormatAddr: Codeunit "Format Address";
-        CompanyAddr: array [8] of Text[50];
+        CompanyAddr: array[8] of Text[50];
         Filtros: Text[1024];
         TotalFor: Label 'Total ';
 }

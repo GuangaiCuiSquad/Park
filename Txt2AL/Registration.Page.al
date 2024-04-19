@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009768 Registration
+page 52768 Registration
 {
     // //IT001 - 2017.03.14 - para atualizar a turma de transferência
 
@@ -241,7 +241,7 @@ page 31009768 Registration
                         end else
                             if Rec.Status = Rec.Status::Subscribed then begin
 
-                                PAGE.Run(31009903, Rec);
+                                PAGE.Run(52903, Rec);
                             end;
                     end;
                 }

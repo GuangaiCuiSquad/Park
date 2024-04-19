@@ -1,4 +1,4 @@
-table 31009816 "Setting Ratings Sub-Subjects"
+table 52816 "Setting Ratings Sub-Subjects"
 {
     Caption = 'Setting Ratings Sub-Subjects';
     DrillDownPageID = "Sub-Subjects Ratings List";

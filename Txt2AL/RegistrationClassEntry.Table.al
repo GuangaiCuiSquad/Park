@@ -1,30 +1,30 @@
-table 31009845 "Registration Class Entry"
+table 52845 "Registration Class Entry"
 {
     Caption = 'Registration Class Entry';
 
     fields
     {
-        field(1;"Entry No.";Integer)
+        field(1; "Entry No."; Integer)
         {
             AutoIncrement = true;
             Caption = 'Entry No.';
         }
-        field(2;Class;Code[20])
+        field(2; Class; Code[20])
         {
             Caption = 'Class';
             TableRelation = Class.Class;
         }
-        field(3;"School Year";Code[9])
+        field(3; "School Year"; Code[9])
         {
             Caption = 'School Year';
             TableRelation = "School Year"."School Year";
         }
-        field(4;"Schooling Year";Code[10])
+        field(4; "Schooling Year"; Code[10])
         {
             Caption = 'Schooling Year';
-            TableRelation = "Structure Education Country"."Schooling Year" WHERE (Country=FIELD("Country/Region Code"));
+            TableRelation = "Structure Education Country"."Schooling Year" WHERE(Country = FIELD("Country/Region Code"));
         }
-        field(5;"Student Code No.";Code[20])
+        field(5; "Student Code No."; Code[20])
         {
             Caption = 'Student Code No.';
             TableRelation = Students."No.";
@@ -35,46 +35,46 @@ table 31009845 "Registration Class Entry"
             begin
             end;
         }
-        field(6;Name;Text[128])
+        field(6; Name; Text[128])
         {
             Caption = 'Name';
         }
-        field(7;"Class No.";Integer)
+        field(7; "Class No."; Integer)
         {
             Caption = 'Class No.';
         }
-        field(8;Status;Option)
+        field(8; Status; Option)
         {
             Caption = 'Status';
             OptionCaption = 'Correct,Subscribed,Transfer,Cancelled';
             OptionMembers = Correct,Subscribed,Transfer,Cancelled;
         }
-        field(9;"Status Date";Date)
+        field(9; "Status Date"; Date)
         {
             Caption = 'Status Date';
         }
-        field(13;"School Name";Text[128])
+        field(13; "School Name"; Text[128])
         {
             Caption = 'School Name';
         }
-        field(14;"Transfer Class";Code[20])
+        field(14; "Transfer Class"; Code[20])
         {
             Caption = 'Transfer Class';
         }
-        field(15;"Study Plan Code";Code[20])
+        field(15; "Study Plan Code"; Code[20])
         {
             Caption = 'Study Plan Code';
-            TableRelation = IF (Type=FILTER(Simple)) "Study Plan Header".Code WHERE ("School Year"=FIELD("School Year"),
-                                                                                     "Schooling Year"=FIELD("Schooling Year"))
-                                                                                     ELSE IF (Type=FILTER(Multi)) "Course Header".Code;
+            TableRelation = IF (Type = FILTER(Simple)) "Study Plan Header".Code WHERE("School Year" = FIELD("School Year"),
+                                                                                     "Schooling Year" = FIELD("Schooling Year"))
+            ELSE IF (Type = FILTER(Multi)) "Course Header".Code;
         }
-        field(17;"Country/Region Code";Code[10])
+        field(17; "Country/Region Code"; Code[10])
         {
             CalcFormula = Lookup("Company Information"."Country/Region Code");
             Caption = 'Country/Region Code';
             FieldClass = FlowField;
         }
-        field(18;"Responsibility Center";Code[10])
+        field(18; "Responsibility Center"; Code[10])
         {
             Caption = 'Responsibility Center';
             TableRelation = "Responsibility Center";
@@ -82,22 +82,22 @@ table 31009845 "Registration Class Entry"
             trigger OnValidate()
             begin
                 if not cUserEducation.CheckRespCenterEducation("Responsibility Center") then
-                  Error(
-                    Text0004,
-                    RespCenter.TableCaption,cUserEducation.GetEducationFilter(UserId));
+                    Error(
+                      Text0004,
+                      RespCenter.TableCaption, cUserEducation.GetEducationFilter(UserId));
             end;
         }
-        field(19;Active;Boolean)
+        field(19; Active; Boolean)
         {
             Caption = 'Active';
         }
-        field(21;Type;Option)
+        field(21; Type; Option)
         {
             Caption = 'Type';
             OptionCaption = 'Simple,Multi';
             OptionMembers = Simple,Multi;
         }
-        field(1000;"User Id";Code[20])
+        field(1000; "User Id"; Code[20])
         {
             Caption = 'User Id';
             TableRelation = User;
@@ -111,11 +111,11 @@ table 31009845 "Registration Class Entry"
                 LoginMgt.DisplayUserInformation("User Id");
             end;
         }
-        field(1001;Date;Date)
+        field(1001; Date; Date)
         {
             Caption = 'Date';
         }
-        field(75000;Destination;Option)
+        field(75000; Destination; Option)
         {
             Caption = 'Destination';
             Description = 'MISI';
@@ -126,14 +126,14 @@ table 31009845 "Registration Class Entry"
 
     keys
     {
-        key(Key1;"Entry No.")
+        key(Key1; "Entry No.")
         {
             Clustered = true;
         }
-        key(Key2;"School Year","Schooling Year",Class,"Class No.","Status Date")
+        key(Key2; "School Year", "Schooling Year", Class, "Class No.", "Status Date")
         {
         }
-        key(Key3;"School Year","Schooling Year",Class,"Student Code No.","Status Date")
+        key(Key3; "School Year", "Schooling Year", Class, "Student Code No.", "Status Date")
         {
         }
     }
@@ -147,7 +147,7 @@ table 31009845 "Registration Class Entry"
         "Country/Region Code" := cStudentsRegistration.GetCountry;
 
         if rUserSetup.Get(UserId) then
-           "Responsibility Center" := rUserSetup."Education Resp. Ctr. Filter";
+            "Responsibility Center" := rUserSetup."Education Resp. Ctr. Filter";
 
         "User Id" := UserId;
         Date := Today;

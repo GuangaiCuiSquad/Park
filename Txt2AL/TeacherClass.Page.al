@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009839 "Teacher Class"
+page 52839 "Teacher Class"
 {
     Caption = 'Teacher Class';
     PageType = ListPart;

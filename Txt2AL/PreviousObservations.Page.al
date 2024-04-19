@@ -1,4 +1,4 @@
-page 31009951 "Previous Observations"
+page 52951 "Previous Observations"
 {
     Caption = 'Observações Anteriores';
     PageType = Card;

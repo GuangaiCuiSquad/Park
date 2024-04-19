@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009802 "Remarks Wizard"
+page 52802 "Remarks Wizard"
 {
     AutoSplitKey = true;
     Caption = 'Remarks Wizard';
@@ -313,7 +313,7 @@ page 31009802 "Remarks Wizard"
         VarStudyPlanCode: Code[20];
         varMomentCode: Code[10];
         rSettingRatings: Record "Setting Ratings";
-        //cuRemarks: Codeunit Codeunit31009751
+        //cuRemarks: Codeunit Codeunit52751
         rStudents: Record Students;
         text001: Label 'Moment code is mandatory.';
         rMomentsAssessment: Record "Moments Assessment";

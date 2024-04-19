@@ -1,4 +1,4 @@
-table 31009765 "Services ET"
+table 52765 "Services ET"
 {
     Caption = 'Services ET';
     DataCaptionFields = "No.", Description;

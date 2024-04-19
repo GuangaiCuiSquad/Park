@@ -1,4 +1,4 @@
-report 31009780 "Recover Test / Alert"
+report 52780 "Recover Test / Alert"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './RecoverTestAlert.rdlc';

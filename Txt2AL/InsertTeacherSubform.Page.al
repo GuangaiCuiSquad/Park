@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009831 "Insert Teacher Subform"
+page 52831 "Insert Teacher Subform"
 {
     AutoSplitKey = true;
     Caption = 'Insert Teacher Subform';

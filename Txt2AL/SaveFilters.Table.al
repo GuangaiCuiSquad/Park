@@ -1,4 +1,4 @@
-table 31009794 "Save Filters"
+table 52794 "Save Filters"
 {
     Caption = 'Save Filters';
     DrillDownPageID = "Filter List";

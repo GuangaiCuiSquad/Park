@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009902 "Recover Test List"
+page 52902 "Recover Test List"
 {
     Caption = 'Recover Test List';
     PageType = List;

@@ -1,4 +1,4 @@
-table 31009763 Class
+table 52763 Class
 {
     // //IT001 - Parque 06.10.2016 - preencher o Cod Localização no Cliente
 

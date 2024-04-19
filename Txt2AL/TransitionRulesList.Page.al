@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009871 "Transition Rules List"
+page 52871 "Transition Rules List"
 {
     Caption = 'Transition Rules List';
     Editable = false;

@@ -1,4 +1,4 @@
-table 31009781 Candidate
+table 52781 Candidate
 {
     Caption = 'Candidates';
     LookupPageID = "Candidate List";

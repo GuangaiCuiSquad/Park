@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009934 "Sub-Subjects Ratings"
+page 52934 "Sub-Subjects Ratings"
 {
     Caption = 'Sub-Subjects Ratings List';
     PageType = List;
@@ -62,7 +62,7 @@ page 31009934 "Sub-Subjects Ratings"
 
                     trigger OnAction()
                     begin
-                        PAGE.Run(31009927, Rec);
+                        PAGE.Run(52927, Rec);
                     end;
                 }
             }

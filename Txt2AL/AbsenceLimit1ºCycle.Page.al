@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009885 "Absence Limit 1º Cycle"
+page 52885 "Absence Limit 1º Cycle"
 {
     Caption = 'Absence Limit 1º Cycle';
     DeleteAllowed = false;

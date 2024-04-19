@@ -1,4 +1,4 @@
-table 31009785 Test
+table 52785 Test
 {
     Caption = 'Test';
     DrillDownPageID = "Test Lines";

@@ -1,5 +1,5 @@
 
-page 31009848 "Registration Class List"
+page 52848 "Registration Class List"
 {
     Caption = 'Registration Class List';
     Editable = false;

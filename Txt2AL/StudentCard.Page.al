@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009750 "Student Card"
+page 52750 "Student Card"
 {
     // // Botoes - Student estao sobrepostos
     // // Botao - Aluno2 está configurado para History->Student Entry->Student Card.
@@ -507,7 +507,7 @@ page 31009750 "Student Card"
                     Caption = '&Dimensions';
                     Image = Dimensions;
                     RunObject = Page "Default Dimensions";
-                    RunPageLink = "Table ID" = CONST(31009750),
+                    RunPageLink = "Table ID" = CONST(52750),
                                   "No." = FIELD("No.");
                     ShortCutKey = 'Shift+Ctrl+D';
                 }

@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009978 "Attached Documents"
+page 52978 "Attached Documents"
 {
     Caption = 'Attached Documents';
     InsertAllowed = false;

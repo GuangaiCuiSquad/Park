@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009834 "Timetable Template"
+page 52834 "Timetable Template"
 {
     Caption = 'Timetable Template';
     Editable = false;

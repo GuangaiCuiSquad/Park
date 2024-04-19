@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009916 "Insert History Assessment"
+page 52916 "Insert History Assessment"
 {
     Caption = 'Insert History Assessment';
     DeleteAllowed = false;

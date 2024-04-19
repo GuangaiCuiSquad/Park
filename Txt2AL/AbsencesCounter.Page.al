@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009884 "Absences Counter"
+page 52884 "Absences Counter"
 {
     Caption = 'Absence';
     Editable = false;

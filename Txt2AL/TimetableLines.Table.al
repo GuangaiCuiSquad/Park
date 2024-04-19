@@ -1,4 +1,4 @@
-table 31009788 "Timetable Lines"
+table 52788 "Timetable Lines"
 {
     Caption = 'Timetable Lines';
 

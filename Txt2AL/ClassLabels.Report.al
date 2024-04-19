@@ -1,4 +1,4 @@
-report 31009809 "Class Labels"
+report 52809 "Class Labels"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './ClassLabels.rdlc';

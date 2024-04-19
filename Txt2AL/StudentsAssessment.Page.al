@@ -1,5 +1,5 @@
 
-page 31009919 "Students Assessment"
+page 52919 "Students Assessment"
 {
     Caption = 'Students Assessment';
     DeleteAllowed = false;

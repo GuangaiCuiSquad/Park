@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009900 "Equipment Entry Card"
+page 52900 "Equipment Entry Card"
 {
     Caption = 'Equipment Entry';
     DelayedInsert = true;

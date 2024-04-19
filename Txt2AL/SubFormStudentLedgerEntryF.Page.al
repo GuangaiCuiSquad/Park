@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009986 "SubForm Student Ledger Entry F"
+page 52986 "SubForm Student Ledger Entry F"
 {
     Caption = 'SubForm Student Ledger Entry';
     DeleteAllowed = false;

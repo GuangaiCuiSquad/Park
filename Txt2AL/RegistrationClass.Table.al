@@ -1,4 +1,4 @@
-table 31009764 "Registration Class"
+table 52764 "Registration Class"
 {
     Caption = 'Registration Class';
     DrillDownPageID = "Registration Class List";

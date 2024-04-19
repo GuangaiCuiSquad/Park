@@ -1,4 +1,4 @@
-report 31009856 Timetable
+report 52856 Timetable
 {
     DefaultLayout = RDLC;
     RDLCLayout = './Timetable.rdlc';

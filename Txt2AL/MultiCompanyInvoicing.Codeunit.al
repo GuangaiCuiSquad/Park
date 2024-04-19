@@ -1,4 +1,4 @@
-codeunit 31009776 "Multi-Company Invoicing"
+codeunit 52776 "Multi-Company Invoicing"
 {
 
     trigger OnRun()

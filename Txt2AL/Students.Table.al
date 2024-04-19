@@ -1,4 +1,4 @@
-table 31009750 Students
+table 52750 Students
 {
     // //IT - Parque 2016.12.27 - pediram para tirar a validação do NIF
     // //IT001 - Parque - Portal Fardas - 2017.06.05 - campo picture compress = no

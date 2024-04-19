@@ -68,7 +68,7 @@ tableextension 50112 "Sales Invoice Header Ext." extends "Sales Invoice Header"
             DataClassification = ToBeClassified;
             Caption = 'Process by Education';
         }
-        field(31009751; Company; Text[30])
+        field(52751; Company; Text[30])
         {
             DataClassification = ToBeClassified;
             Caption = 'Company';

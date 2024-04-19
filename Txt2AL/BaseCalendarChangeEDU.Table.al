@@ -1,4 +1,4 @@
-table 31009800 "Base Calendar ChangeEDU"
+table 52800 "Base Calendar ChangeEDU"
 {
     Caption = 'Base Calendar Change';
     LookupPageID = "Calendar Base List";

@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009755 "Users Family"
+page 52755 "Users Family"
 {
     Caption = 'Users Family Card';
     PageType = Card;
@@ -311,7 +311,7 @@ page 31009755 "Users Family"
                     Caption = 'Dimensions';
                     Image = Dimensions;
                     RunObject = Page "Default Dimensions";
-                    RunPageLink = "Table ID" = CONST(31009753),
+                    RunPageLink = "Table ID" = CONST(52753),
                                   "No." = FIELD("No.");
                     ShortCutKey = 'Shift+Ctrl+D';
                 }

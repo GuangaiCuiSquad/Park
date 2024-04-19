@@ -1,4 +1,4 @@
-table 31009801 "Legal Codes"
+table 52801 "Legal Codes"
 {
     Caption = 'Legal Codes';
     DrillDownPageID = "FregConDist Codes";

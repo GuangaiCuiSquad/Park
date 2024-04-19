@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009882 "Rules of Evaluation"
+page 52882 "Rules of Evaluation"
 {
     Caption = 'Rules of Evaluation';
     PageType = List;

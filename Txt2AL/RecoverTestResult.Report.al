@@ -1,4 +1,4 @@
-report 31009842 "Recover Test Result"
+report 52842 "Recover Test Result"
 {
     DefaultLayout = RDLC;
     RDLCLayout = './RecoverTestResult.rdlc';
@@ -6,44 +6,44 @@ report 31009842 "Recover Test Result"
 
     dataset
     {
-        dataitem(Test;Test)
+        dataitem(Test; Test)
         {
-            DataItemTableView = SORTING("Test Type","Test No.","Line Type","Candidate no.","Student No.") WHERE("Line Type"=CONST(Line),"Test Type"=CONST("Recover Test"));
-            RequestFilterFields = "School Year","Schooling Year","Student No.";
-            column(DateFormated;Format(Today,0,4))
+            DataItemTableView = SORTING("Test Type", "Test No.", "Line Type", "Candidate no.", "Student No.") WHERE("Line Type" = CONST(Line), "Test Type" = CONST("Recover Test"));
+            RequestFilterFields = "School Year", "Schooling Year", "Student No.";
+            column(DateFormated; Format(Today, 0, 4))
             {
             }
-            column(CINFO_Picture;CompanyInfo.Picture)
+            column(CINFO_Picture; CompanyInfo.Picture)
             {
             }
-            column(Filtros;Filtros)
+            column(Filtros; Filtros)
             {
             }
-            column(nomeEscola;nomeEscola)
+            column(nomeEscola; nomeEscola)
             {
             }
-            column(Test_SchoolY;"School Year")
+            column(Test_SchoolY; "School Year")
             {
             }
-            column(Test_SchoolingY;"Schooling Year")
+            column(Test_SchoolingY; "Schooling Year")
             {
             }
-            column(Test_Date;Date)
+            column(Test_Date; Date)
             {
             }
-            column(Test_StudentNo;"Student No.")
+            column(Test_StudentNo; "Student No.")
             {
             }
-            column(Test_StudentName;"Student Name")
+            column(Test_StudentName; "Student Name")
             {
             }
-            column(Test_RecoverClassif;"Recover Classif.")
+            column(Test_RecoverClassif; "Recover Classif.")
             {
             }
-            column(Test_Absent;Absent)
+            column(Test_Absent; Absent)
             {
             }
-            column(Test_SubjectsCode;"Subjects Code")
+            column(Test_SubjectsCode; "Subjects Code")
             {
             }
 
@@ -51,13 +51,13 @@ report 31009842 "Recover Test Result"
             begin
 
                 if CUserEducation.GetEducationFilter(UserId) <> '' then begin
-                  rRespCenter.Reset;
-                  rRespCenter.Get(CUserEducation.GetEducationFilter(UserId));
-                     nomeEscola := rRespCenter.Name+' '+rRespCenter."Name 2";
+                    rRespCenter.Reset;
+                    rRespCenter.Get(CUserEducation.GetEducationFilter(UserId));
+                    nomeEscola := rRespCenter.Name + ' ' + rRespCenter."Name 2";
                 end else begin
-                  rSchool.Reset;
-                  if rSchool.Find('-') then
-                     nomeEscola := rSchool."School Name";
+                    rSchool.Reset;
+                    if rSchool.Find('-') then
+                        nomeEscola := rSchool."School Name";
                 end;
             end;
         }

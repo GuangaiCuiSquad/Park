@@ -1,4 +1,4 @@
-table 31009815 "Study Plan Sub-Subjects Lines"
+table 52815 "Study Plan Sub-Subjects Lines"
 {
     Caption = 'Study Plan Sub-Subjects Lines';
 

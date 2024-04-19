@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009949 "Students Ass. Recuperation"
+page 52949 "Students Ass. Recuperation"
 {
     Caption = 'Students Ass. Recuperation';
     DeleteAllowed = false;

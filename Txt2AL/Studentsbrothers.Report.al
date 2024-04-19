@@ -1,4 +1,4 @@
-report 31009771 "Students brothers"
+report 52771 "Students brothers"
 {
     // //IT001 - ET - 2016.10.26 - Correcção de erro: não estava a mostrar a turma correcta do aluno
     DefaultLayout = RDLC;

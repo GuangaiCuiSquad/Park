@@ -1,4 +1,4 @@
-report 31009784 "Absence List"
+report 52784 "Absence List"
 {
     ApplicationArea = All;
     UsageCategory = Lists;

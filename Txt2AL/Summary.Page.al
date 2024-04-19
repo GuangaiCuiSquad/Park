@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009826 Summary
+page 52826 Summary
 {
     Caption = 'Summary';
     MultipleNewLines = true;
@@ -61,7 +61,7 @@ page 31009826 Summary
 
     var
         rCalendar: Record Calendar;
-        //cRemarks: Codeunit Codeunit31009751;
+        //cRemarks: Codeunit Codeunit52751;
         varEditable: Boolean;
 
     //[Scope('OnPrem')]

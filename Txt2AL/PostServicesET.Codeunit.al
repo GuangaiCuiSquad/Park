@@ -1,4 +1,4 @@
-codeunit 31009757 "Post Services ET"
+codeunit 52757 "Post Services ET"
 {
     // Criado o parametro de entrada pPostPrint para permitir o registo + impressão. - LFM 23.10.2009
 

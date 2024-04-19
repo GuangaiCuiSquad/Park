@@ -1,20 +1,20 @@
-table 31009825 "Students Non Lective Hours"
+table 52825 "Students Non Lective Hours"
 {
     Caption = 'Students Non Scholar hours';
 
     fields
     {
-        field(1;"School Year";Code[9])
+        field(1; "School Year"; Code[9])
         {
             Caption = 'School Year';
             TableRelation = "School Year"."School Year";
         }
-        field(2;"Student Code No.";Code[20])
+        field(2; "Student Code No."; Code[20])
         {
             Caption = 'Student Code No.';
             TableRelation = Students."No.";
         }
-        field(3;"Responsibility Center";Code[10])
+        field(3; "Responsibility Center"; Code[10])
         {
             Caption = 'Responsibility Center';
             TableRelation = "Responsibility Center";
@@ -24,39 +24,39 @@ table 31009825 "Students Non Lective Hours"
                 RespCenter: Record "Responsibility Center";
             begin
                 if not cUserEducation.CheckRespCenterEducation("Responsibility Center") then
-                  Error(
-                    Text0004,
-                    RespCenter.TableCaption,cUserEducation.GetEducationFilter(UserId));
+                    Error(
+                      Text0004,
+                      RespCenter.TableCaption, cUserEducation.GetEducationFilter(UserId));
             end;
         }
-        field(4;"Week Day";Option)
+        field(4; "Week Day"; Option)
         {
             Caption = 'Week Day';
             OptionCaption = 'Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday';
             OptionMembers = Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday;
         }
-        field(5;Lunch;Boolean)
+        field(5; Lunch; Boolean)
         {
             Caption = 'Lunch';
         }
-        field(6;"Collect Transport";Code[20])
+        field(6; "Collect Transport"; Code[20])
         {
             Caption = 'Collect Transport';
-            TableRelation = Transport."Transport No." WHERE ("Responsibility Center"=FIELD("Responsibility Center"));
+            TableRelation = Transport."Transport No." WHERE("Responsibility Center" = FIELD("Responsibility Center"));
 
             trigger OnValidate()
             begin
                 if not ("Collect Transport" <> '') then begin
-                  "Estimated Colect Hour" := 0T;
-                  "Collect Stop Address" := '';
-                  "Collect Stop Address 2" := '';
-                  "Collect Post Code" := '';
-                  "Collect Location" := '';
-                  "Collect County" := '';
+                    "Estimated Colect Hour" := 0T;
+                    "Collect Stop Address" := '';
+                    "Collect Stop Address 2" := '';
+                    "Collect Post Code" := '';
+                    "Collect Location" := '';
+                    "Collect County" := '';
                 end;
             end;
         }
-        field(8;"Estimated Colect Hour";Time)
+        field(8; "Estimated Colect Hour"; Time)
         {
             Caption = 'Collect Hour';
 
@@ -65,18 +65,18 @@ table 31009825 "Students Non Lective Hours"
                 rVehicle: Record Transport;
             begin
                 rVehicle.Reset;
-                rVehicle.SetRange(Type,rVehicle.Type::Lines);
-                rVehicle.SetRange("Transport No.","Collect Transport");
-                rVehicle.SetRange("Responsibility Center","Responsibility Center");
+                rVehicle.SetRange(Type, rVehicle.Type::Lines);
+                rVehicle.SetRange("Transport No.", "Collect Transport");
+                rVehicle.SetRange("Responsibility Center", "Responsibility Center");
                 if rVehicle.Find('-') then
-                  if PAGE.RunModal(PAGE::"Transport Lines List",rVehicle) = ACTION::LookupOK then begin
-                    "Estimated Colect Hour" := rVehicle."Estimated Hour";
-                    "Collect Stop Address" := rVehicle."Stop Address";
-                    "Collect Stop Address 2" := rVehicle."Stop Address 2";
-                    "Collect Post Code" := rVehicle."Post Code";
-                    "Collect Location" := rVehicle.Location;
-                    "Collect County" := rVehicle.County;
-                  end;
+                    if PAGE.RunModal(PAGE::"Transport Lines List", rVehicle) = ACTION::LookupOK then begin
+                        "Estimated Colect Hour" := rVehicle."Estimated Hour";
+                        "Collect Stop Address" := rVehicle."Stop Address";
+                        "Collect Stop Address 2" := rVehicle."Stop Address 2";
+                        "Collect Post Code" := rVehicle."Post Code";
+                        "Collect Location" := rVehicle.Location;
+                        "Collect County" := rVehicle.County;
+                    end;
             end;
 
             trigger OnValidate()
@@ -84,47 +84,47 @@ table 31009825 "Students Non Lective Hours"
                 rVehicle: Record Transport;
             begin
                 if "Estimated Colect Hour" <> 0T then begin
-                  rVehicle.Reset;
-                  rVehicle.SetRange(Type,rVehicle.Type::Lines);
-                  rVehicle.SetRange("Transport No.","Collect Transport");
-                  rVehicle.SetRange("Responsibility Center","Responsibility Center");
-                  rVehicle.SetRange("Estimated Hour","Estimated Colect Hour");
-                  if rVehicle.Find('-') then begin
-                    "Collect Stop Address" := rVehicle."Stop Address";
-                    "Collect Stop Address 2" := rVehicle."Stop Address 2";
-                    "Collect Post Code" := rVehicle."Post Code";
-                    "Collect Location" := rVehicle.Location;
-                    "Collect County" := rVehicle.County;
-                  end else
-                    Error(Text0005)
+                    rVehicle.Reset;
+                    rVehicle.SetRange(Type, rVehicle.Type::Lines);
+                    rVehicle.SetRange("Transport No.", "Collect Transport");
+                    rVehicle.SetRange("Responsibility Center", "Responsibility Center");
+                    rVehicle.SetRange("Estimated Hour", "Estimated Colect Hour");
+                    if rVehicle.Find('-') then begin
+                        "Collect Stop Address" := rVehicle."Stop Address";
+                        "Collect Stop Address 2" := rVehicle."Stop Address 2";
+                        "Collect Post Code" := rVehicle."Post Code";
+                        "Collect Location" := rVehicle.Location;
+                        "Collect County" := rVehicle.County;
+                    end else
+                        Error(Text0005)
 
                 end else begin
-                  "Collect Stop Address" := '';
-                  "Collect Stop Address 2" := '';
-                  "Collect Post Code" := '';
-                  "Collect Location" := '';
-                  "Collect County" := '';
+                    "Collect Stop Address" := '';
+                    "Collect Stop Address 2" := '';
+                    "Collect Post Code" := '';
+                    "Collect Location" := '';
+                    "Collect County" := '';
                 end;
             end;
         }
-        field(9;"Deliver Transport";Code[20])
+        field(9; "Deliver Transport"; Code[20])
         {
             Caption = 'Deliver Transport';
-            TableRelation = Transport."Transport No." WHERE ("Responsibility Center"=FIELD("Responsibility Center"));
+            TableRelation = Transport."Transport No." WHERE("Responsibility Center" = FIELD("Responsibility Center"));
 
             trigger OnValidate()
             begin
                 if not ("Deliver Transport" <> '') then begin
-                  "Estimated Deliver Hour" := 0T;
-                  "Deliver Stop Address" := '';
-                  "Deliver Stop Address 2" := '';
-                  "Deliver Post Code" := '';
-                  "Deliver Location" := '';
-                  "Deliver County" := '';
+                    "Estimated Deliver Hour" := 0T;
+                    "Deliver Stop Address" := '';
+                    "Deliver Stop Address 2" := '';
+                    "Deliver Post Code" := '';
+                    "Deliver Location" := '';
+                    "Deliver County" := '';
                 end;
             end;
         }
-        field(11;"Estimated Deliver Hour";Time)
+        field(11; "Estimated Deliver Hour"; Time)
         {
             Caption = 'Deliver Hour';
 
@@ -133,18 +133,18 @@ table 31009825 "Students Non Lective Hours"
                 rVehicle: Record Transport;
             begin
                 rVehicle.Reset;
-                rVehicle.SetRange(Type,rVehicle.Type::Lines);
-                rVehicle.SetRange("Transport No.","Deliver Transport");
-                rVehicle.SetRange("Responsibility Center","Responsibility Center");
+                rVehicle.SetRange(Type, rVehicle.Type::Lines);
+                rVehicle.SetRange("Transport No.", "Deliver Transport");
+                rVehicle.SetRange("Responsibility Center", "Responsibility Center");
                 if rVehicle.Find('-') then
-                  if PAGE.RunModal(PAGE::"Transport Lines List",rVehicle) = ACTION::LookupOK then begin
-                    "Estimated Deliver Hour" := rVehicle."Estimated Hour";
-                    "Deliver Stop Address" := rVehicle."Stop Address";
-                    "Deliver Stop Address 2" := rVehicle."Stop Address 2";
-                    "Deliver Post Code" := rVehicle."Post Code";
-                    "Deliver Location" := rVehicle.Location;
-                    "Deliver County" := rVehicle.County;
-                  end;
+                    if PAGE.RunModal(PAGE::"Transport Lines List", rVehicle) = ACTION::LookupOK then begin
+                        "Estimated Deliver Hour" := rVehicle."Estimated Hour";
+                        "Deliver Stop Address" := rVehicle."Stop Address";
+                        "Deliver Stop Address 2" := rVehicle."Stop Address 2";
+                        "Deliver Post Code" := rVehicle."Post Code";
+                        "Deliver Location" := rVehicle.Location;
+                        "Deliver County" := rVehicle.County;
+                    end;
             end;
 
             trigger OnValidate()
@@ -152,40 +152,40 @@ table 31009825 "Students Non Lective Hours"
                 rVehicle: Record Transport;
             begin
                 if "Estimated Deliver Hour" <> 0T then begin
-                  rVehicle.Reset;
-                  rVehicle.SetRange(Type,rVehicle.Type::Lines);
-                  rVehicle.SetRange("Transport No.","Collect Transport");
-                  rVehicle.SetRange("Responsibility Center","Responsibility Center");
-                  rVehicle.SetRange("Estimated Hour","Estimated Deliver Hour");
-                  if rVehicle.Find('-') then begin
-                    "Deliver Stop Address" := rVehicle."Stop Address";
-                    "Deliver Stop Address 2" := rVehicle."Stop Address 2";
-                    "Deliver Post Code" := rVehicle."Post Code";
-                    "Deliver Location" := rVehicle.Location;
-                    "Deliver County" := rVehicle.County;
-                  end else
-                    Error(Text0005);
+                    rVehicle.Reset;
+                    rVehicle.SetRange(Type, rVehicle.Type::Lines);
+                    rVehicle.SetRange("Transport No.", "Collect Transport");
+                    rVehicle.SetRange("Responsibility Center", "Responsibility Center");
+                    rVehicle.SetRange("Estimated Hour", "Estimated Deliver Hour");
+                    if rVehicle.Find('-') then begin
+                        "Deliver Stop Address" := rVehicle."Stop Address";
+                        "Deliver Stop Address 2" := rVehicle."Stop Address 2";
+                        "Deliver Post Code" := rVehicle."Post Code";
+                        "Deliver Location" := rVehicle.Location;
+                        "Deliver County" := rVehicle.County;
+                    end else
+                        Error(Text0005);
 
                 end else begin
-                  "Deliver Stop Address" := '';
-                  "Deliver Stop Address 2" := '';
-                  "Deliver Post Code" := '';
-                  "Deliver Location" := '';
-                  "Deliver County" := '';
+                    "Deliver Stop Address" := '';
+                    "Deliver Stop Address 2" := '';
+                    "Deliver Post Code" := '';
+                    "Deliver Location" := '';
+                    "Deliver County" := '';
                 end;
             end;
         }
-        field(12;"Collect Stop Address";Text[50])
+        field(12; "Collect Stop Address"; Text[50])
         {
             Caption = 'Collect Stop Address';
             Editable = false;
         }
-        field(13;"Collect Stop Address 2";Text[50])
+        field(13; "Collect Stop Address 2"; Text[50])
         {
             Caption = 'Collect Stop Address 2';
             Editable = false;
         }
-        field(14;"Collect Post Code";Code[20])
+        field(14; "Collect Post Code"; Code[20])
         {
             Caption = 'Collect Post Code';
             Editable = false;
@@ -206,7 +206,7 @@ table 31009825 "Students Non Lective Hours"
                 //PostCode.ValidatePostCode("Collect Location","Collect Post Code");
             end;
         }
-        field(15;"Collect Location";Text[30])
+        field(15; "Collect Location"; Text[30])
         {
             Caption = 'Collect Location';
             Editable = false;
@@ -221,22 +221,22 @@ table 31009825 "Students Non Lective Hours"
                 //PostCode.ValidateCity("Collect Location","Collect Post Code");
             end;
         }
-        field(16;"Collect County";Text[100])
+        field(16; "Collect County"; Text[100])
         {
             Caption = 'Collect County';
             Editable = false;
         }
-        field(17;"Deliver Stop Address";Text[50])
+        field(17; "Deliver Stop Address"; Text[50])
         {
             Caption = 'Deliver Stop Address';
             Editable = false;
         }
-        field(18;"Deliver Stop Address 2";Text[50])
+        field(18; "Deliver Stop Address 2"; Text[50])
         {
             Caption = 'Deliver Stop Address 2';
             Editable = false;
         }
-        field(19;"Deliver Post Code";Code[20])
+        field(19; "Deliver Post Code"; Code[20])
         {
             Caption = 'Deliver Post Code';
             Editable = false;
@@ -257,7 +257,7 @@ table 31009825 "Students Non Lective Hours"
                 //PostCode.ValidatePostCode("Deliver Location","Deliver Post Code");
             end;
         }
-        field(20;"Deliver Location";Text[30])
+        field(20; "Deliver Location"; Text[30])
         {
             Caption = 'Deliver Location';
             Editable = false;
@@ -272,7 +272,7 @@ table 31009825 "Students Non Lective Hours"
                 //PostCode.ValidateCity("Deliver Location","Deliver Post Code");
             end;
         }
-        field(21;"Deliver County";Text[100])
+        field(21; "Deliver County"; Text[100])
         {
             Caption = 'Deliver County';
             Editable = false;
@@ -281,7 +281,7 @@ table 31009825 "Students Non Lective Hours"
 
     keys
     {
-        key(Key1;"Student Code No.","School Year","Week Day","Responsibility Center")
+        key(Key1; "Student Code No.", "School Year", "Week Day", "Responsibility Center")
         {
             Clustered = true;
         }
@@ -294,12 +294,12 @@ table 31009825 "Students Non Lective Hours"
     trigger OnInsert()
     begin
         if rUserSetup.Get(UserId) then
-           if rUserSetup."Education Resp. Ctr. Filter" <> '' then
-              "Responsibility Center" := rUserSetup."Education Resp. Ctr. Filter"
-           else begin
-              if rStudents.Get("Student Code No.") then
-               "Responsibility Center" := rStudents."Responsibility Center";
-           end;
+            if rUserSetup."Education Resp. Ctr. Filter" <> '' then
+                "Responsibility Center" := rUserSetup."Education Resp. Ctr. Filter"
+            else begin
+                if rStudents.Get("Student Code No.") then
+                    "Responsibility Center" := rStudents."Responsibility Center";
+            end;
     end;
 
     var

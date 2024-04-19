@@ -1,5 +1,5 @@
 #pragma implicitwith disable
-page 31009798 "Setting Ratings Subjects List"
+page 52798 "Setting Ratings Subjects List"
 {
     Caption = 'Setting Ratings Subjects List';
     Editable = false;
@@ -58,7 +58,7 @@ page 31009798 "Setting Ratings Subjects List"
 
                     trigger OnAction()
                     begin
-                        PAGE.Run(31009796, Rec);
+                        PAGE.Run(52796, Rec);
                     end;
                 }
             }

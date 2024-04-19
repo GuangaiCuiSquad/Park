@@ -1,5 +1,5 @@
 
-page 31009911 "Health & Safety Students"
+page 52911 "Health & Safety Students"
 {
     AutoSplitKey = true;
     Caption = 'Health & Safety Students';
