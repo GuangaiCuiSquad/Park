@@ -81,6 +81,7 @@ page 52765 "Service ET"
                     Caption = 'Associated with the subject';
                     field("Subject Code"; Rec."Subject Code")
                     {
+                        ApplicationArea = All;
                     }
                 }
                 group("Invoicing in")
@@ -202,6 +203,7 @@ page 52765 "Service ET"
                     Visible = false;
                     action("L&edger Entries")
                     {
+                        ApplicationArea = All;
                         Caption = 'L&edger Entries';
                         Image = LedgerEntries;
                         RunObject = Page "Item Ledger Entries";
@@ -211,6 +213,7 @@ page 52765 "Service ET"
                     }
                     action("&Reservation Entries")
                     {
+                        ApplicationArea = All;
                         Caption = '&Reservation Entries';
                         Image = ReservationLedger;
                         RunObject = Page "Reservation Entries";
@@ -220,6 +223,7 @@ page 52765 "Service ET"
                     }
                     action("&Phys. Inventory Ledger Entries")
                     {
+                        ApplicationArea = All;
                         Caption = '&Phys. Inventory Ledger Entries';
                         Image = PhysicalInventoryLedger;
                         RunObject = Page "Phys. Inventory Ledger Entries";
@@ -228,6 +232,7 @@ page 52765 "Service ET"
                     }
                     action("&Value Entries")
                     {
+                        ApplicationArea = All;
                         Caption = '&Value Entries';
                         Image = ValueLedger;
                         RunObject = Page "Value Entries";
@@ -237,6 +242,7 @@ page 52765 "Service ET"
                 }
                 action("Co&mments")
                 {
+                    ApplicationArea = All;
                     Caption = 'Co&mments';
                     Image = ViewComments;
                     RunObject = Page "Comment Sheet";
@@ -245,6 +251,7 @@ page 52765 "Service ET"
                 }
                 action(Dimensions)
                 {
+                    ApplicationArea = All;
                     Caption = 'Dimensions';
                     Image = Dimensions;
                     RunObject = Page "Default Dimensions";
@@ -259,6 +266,7 @@ page 52765 "Service ET"
                 Image = Sales;
                 action("Line &Discounts")
                 {
+                    ApplicationArea = All;
                     Caption = 'Line &Discounts';
                     Image = LineDiscount;
                     RunObject = Page "Sales Line Discounts ET";

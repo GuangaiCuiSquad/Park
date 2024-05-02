@@ -15,16 +15,16 @@ page 53011 "Atribuir Multiplos Serviços"
                 ShowCaption = false;
                 field("User ID"; Rec."User ID")
                 {
-
+                    ApplicationArea = All;
                 }
                 field(Tipo; Rec.Tipo)
                 {
-
+                    ApplicationArea = All;
                 }
                 field(NoAux; NoAux)
                 {
                     Caption = 'Nº.';
-
+                    ApplicationArea = All;
                     trigger OnValidate()
 
                     begin
@@ -114,55 +114,59 @@ page 53011 "Atribuir Multiplos Serviços"
                 }
                 field(Description; Rec.Description)
                 {
-
-
+                    ApplicationArea = All;
                 }
                 field(Quantidade; Rec.Quantidade)
                 {
-
+                    ApplicationArea = All;
                 }
                 field(January; Rec.January)
                 {
-
+                    ApplicationArea = All;
                 }
                 field(February; Rec.February)
                 {
-
+                    ApplicationArea = All;
                 }
                 field(March; Rec.March)
                 {
-
+                    ApplicationArea = All;
                 }
                 field(April; Rec.April)
                 {
-
+                    ApplicationArea = All;
                 }
                 field(May; Rec.May)
                 {
-
+                    ApplicationArea = All;
                 }
                 field(June; Rec.June)
                 {
-
+                    ApplicationArea = All;
                 }
                 field(July; Rec.July)
                 {
-
+                    ApplicationArea = All;
                 }
                 field(August; Rec.August)
                 {
+                    ApplicationArea = All;
                 }
                 field(Setember; Rec.Setember)
                 {
+                    ApplicationArea = All;
                 }
                 field(October; Rec.October)
                 {
+                    ApplicationArea = All;
                 }
                 field(November; Rec.November)
                 {
+                    ApplicationArea = All;
                 }
                 field(Dezember; Rec.Dezember)
                 {
+                    ApplicationArea = All;
                 }
             }
         }

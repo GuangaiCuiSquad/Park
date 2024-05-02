@@ -289,15 +289,18 @@ report 52845 "Transport Route"
                     {
                         Caption = 'School Year';
                         TableRelation = "School Year";
+                        ApplicationArea = All;
                     }
                     field(vTransport; vTransport)
                     {
                         Caption = 'Transport No.';
                         TableRelation = Transport."Transport No.";
+                        ApplicationArea = All;
                     }
                     field(vSpecificDay; vSpecificDay)
                     {
                         Caption = 'Specific Day';
+                        ApplicationArea = All;
                     }
                 }
             }

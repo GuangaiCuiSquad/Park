@@ -404,6 +404,7 @@ page 52760 School
         {
             action("Sup. Curricular Activities")
             {
+                ApplicationArea = All;
                 Caption = 'Sup. Curricular Activities';
                 Promoted = true;
                 PromotedCategory = Process;

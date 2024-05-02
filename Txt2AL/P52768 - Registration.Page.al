@@ -148,6 +148,7 @@ page 52768 Registration
             }
             part(Associados; "Reg.Family/Students")
             {
+                ApplicationArea = All;
                 Caption = 'Associados';
                 SubPageLink = "School Year" = FIELD("School Year"),
                               "Student Code No." = FIELD("Student Code No.");

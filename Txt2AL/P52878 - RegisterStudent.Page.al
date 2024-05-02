@@ -16,6 +16,7 @@ page 52878 "Register Student"
                 Visible = Step1Visible;
                 label(Control1110020)
                 {
+                    ApplicationArea = All;
                     CaptionClass = Text19012232;
                     MultiLine = true;
                     ShowCaption = false;

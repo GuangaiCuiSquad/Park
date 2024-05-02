@@ -17,6 +17,7 @@ page 52780 "Grouped Information"
         {
             part("Planos Serviços Aluno"; "SubForm Student Services Plan")
             {
+                ApplicationArea = All;
                 Caption = 'Planos Serviços Aluno';
                 //Editable = false;
                 SubPageLink = "Student No." = FIELD("Student Code No."),
@@ -24,12 +25,14 @@ page 52780 "Grouped Information"
             }
             part("Serviços Dist. Ent."; "SubForm Services DistEntity")
             {
+                ApplicationArea = All;
                 Caption = 'Serviços Dist. Ent.';
                 SubPageLink = "Student No." = FIELD("Student Code No."),
                               "School Year" = FIELD("School Year");
             }
             part("Mov. Aluno"; "SubForm Student Ledger Entry")
             {
+                ApplicationArea = All;
                 Caption = 'Mov. Aluno';
                 // Editable = false;
                 SubPageLink = "Student No." = FIELD("Student Code No."),
@@ -38,6 +41,7 @@ page 52780 "Grouped Information"
             }
             part("SubForm Student Ledger Entry"; "SubForm Student Ledger Entry")
             {
+                ApplicationArea = All;
                 Caption = 'Mov. Faturados Aluno';
                 //Editable = false;
                 SubPageLink = "Student No." = FIELD("Student Code No."),

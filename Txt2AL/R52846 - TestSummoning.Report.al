@@ -170,11 +170,13 @@ report 52846 "Test Summoning"
                     Caption = 'Options';
                     field(vSchoolYear; vSchoolYear)
                     {
+                        ApplicationArea = All;
                         Caption = 'School Year';
                         TableRelation = "School Year";
                     }
                     field(vTest; vTest)
                     {
+                        ApplicationArea = All;
                         Caption = 'Test No.';
                         TableRelation = Test."Test No.";
                     }

@@ -79,6 +79,7 @@ page 52761 "Study Plan Card"
             }
             part(SubForm; "Study Plan lines")
             {
+                ApplicationArea = All;
                 Editable = SubFormEditable;
                 SubPageLink = Code = FIELD(Code),
                               "School Year" = FIELD("School Year"),
@@ -97,12 +98,14 @@ page 52761 "Study Plan Card"
                 Visible = bt2Visible;
                 action("&List")
                 {
+                    ApplicationArea = All;
                     Caption = '&List';
                     Image = List;
                     RunObject = Page "Study Plan List";
                 }
                 action("Assess&ment Configuration")
                 {
+                    ApplicationArea = All;
                     Caption = 'Assess&ment Configuration';
                     Image = Evaluate;
                     Promoted = true;
@@ -125,6 +128,7 @@ page 52761 "Study Plan Card"
                 Visible = bt2Visible;
                 action("Config all Study Plan")
                 {
+                    ApplicationArea = All;
                     Caption = 'Config all Study Plan';
                     Image = TaxSetup;
                     Promoted = true;
@@ -137,6 +141,7 @@ page 52761 "Study Plan Card"
                 }
                 action("&Copy")
                 {
+                    ApplicationArea = All;
                     Caption = '&Copy';
                     Image = Copy;
 
