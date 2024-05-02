@@ -11,6 +11,7 @@ page 52915 "Grouped Information Archive"
         {
             part("Mov. Faturados Aluno"; "SubForm Student Ledger Entry")
             {
+                ApplicationArea = All;
                 Caption = 'Mov. Faturados Aluno';
                 Editable = false;
                 SubPageLink = "Student No." = FIELD("Student Code No."),

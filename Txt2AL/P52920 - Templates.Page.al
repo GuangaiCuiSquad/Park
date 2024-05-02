@@ -593,6 +593,7 @@ page 52920 Templates
         {
             action("Print Button")
             {
+                ApplicationArea = All;
                 Caption = '&Print';
                 Enabled = "Print ButtonEnable";
                 Image = Print;
@@ -611,6 +612,7 @@ page 52920 Templates
                 Caption = 'F&unctions';
                 action("&Import")
                 {
+                    ApplicationArea = All;
                     Caption = '&Import';
                     Image = Import;
 
@@ -621,6 +623,7 @@ page 52920 Templates
                 }
                 action("&Export")
                 {
+                    ApplicationArea = All;
                     Caption = '&Export';
                     Image = Export;
 

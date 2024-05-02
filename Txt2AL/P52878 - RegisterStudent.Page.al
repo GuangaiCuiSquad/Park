@@ -62,6 +62,7 @@ page 52878 "Register Student"
                 Visible = Step2Visible;
                 label(Control1110009)
                 {
+                    ApplicationArea = All;
                     CaptionClass = Text19080001;
                     MultiLine = true;
                     ShowCaption = false;
@@ -291,6 +292,7 @@ page 52878 "Register Student"
         {
             action(Back)
             {
+                ApplicationArea = All;
                 Caption = '&Back';
                 Enabled = BackEnable;
                 Image = PreviousRecord;
@@ -307,6 +309,7 @@ page 52878 "Register Student"
             }
             action(Next)
             {
+                ApplicationArea = All;
                 Caption = '&Next';
                 Enabled = NextEnable;
                 Image = NextRecord;
@@ -325,6 +328,7 @@ page 52878 "Register Student"
             }
             action(Terminar)
             {
+                ApplicationArea = All;
                 Caption = '&Terminar';
                 Enabled = EndEnabled;
                 Image = Save;

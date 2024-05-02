@@ -99,6 +99,7 @@ page 52768 Registration
             {
                 part(Control1000000040; "Student Registration")
                 {
+                    ApplicationArea = All;
                     SubPageLink = "No." = FIELD("Student Code No.");
                 }
                 group("Situation prior to entry into the School")
@@ -202,12 +203,14 @@ page 52768 Registration
             }
             part(SubFormstudentsSubjects; "Student Study Plan")
             {
+                ApplicationArea = All;
                 Caption = 'Plano Estudos';
                 SubPageLink = "Student Code No." = FIELD("Student Code No."),
                               "School Year" = FIELD("School Year");
             }
             part("Plano Serviços"; "SubForm Student Services Plan")
             {
+                ApplicationArea = All;
                 Caption = 'Plano Serviços';
                 SubPageLink = "Student No." = FIELD("Student Code No."),
                               "School Year" = FIELD("School Year"),
@@ -215,6 +218,7 @@ page 52768 Registration
             }
             part("Transporte e Cantina"; "Students Non Lective Hours")
             {
+                ApplicationArea = All;
                 Caption = 'Transporte e Cantina';
                 SubPageLink = "School Year" = FIELD("School Year"),
                               "Student Code No." = FIELD("Student Code No."),
@@ -232,6 +236,7 @@ page 52768 Registration
                 Caption = '&Subjects';
                 action(InscreverForaPlanoEstudo)
                 {
+                    ApplicationArea = All;
                     Caption = 'Subsc&ribe away Study Plan';
                     Image = PostOrder;
 
@@ -248,6 +253,7 @@ page 52768 Registration
                 }
                 action(SelecionarAnosAnteriores)
                 {
+                    ApplicationArea = All;
                     Caption = 'Se&lect Previous Years';
                     Image = PostedReturnReceipt;
 
@@ -263,6 +269,7 @@ page 52768 Registration
             }
             action(Imprimir)
             {
+                ApplicationArea = All;
                 Caption = 'Pr&int';
                 Image = Print;
 
@@ -280,6 +287,7 @@ page 52768 Registration
             }
             action(AtualizarMatricula)
             {
+                ApplicationArea = All;
                 Caption = 'Registration Update';
                 Image = UpdateDescription;
 

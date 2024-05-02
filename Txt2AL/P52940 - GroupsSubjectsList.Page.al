@@ -46,6 +46,7 @@ page 52940 "Groups Subjects List"
                 Caption = '&Subject Group';
                 action("&Card")
                 {
+                    ApplicationArea = All;
                     Caption = '&Card';
                     Image = EditLines;
                     ShortCutKey = 'Shift+F7';

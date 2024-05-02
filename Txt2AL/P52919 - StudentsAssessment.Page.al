@@ -906,9 +906,10 @@ page 52919 "Students Assessment"
     {
         area(processing)
         {
-            action("&Global Remarks")
+            action("Global Remarks")
             {
-                Caption = '&Global Remarks';
+                ApplicationArea = All;
+                Caption = 'Global Remarks';
                 Image = Setup;
                 Promoted = true;
                 PromotedCategory = Process;
@@ -927,6 +928,7 @@ page 52919 "Students Assessment"
             }
             action("&Remarks")
             {
+                ApplicationArea = All;
                 Caption = '&Remarks';
                 Image = Setup;
                 Promoted = true;

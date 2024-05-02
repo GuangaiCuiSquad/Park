@@ -187,10 +187,12 @@ report 52796 "Summary Sheet"
                     Caption = 'Options';
                     field(vDataIni; vDataIni)
                     {
+                        ApplicationArea = All;
                         Caption = 'Inicial Date';
                     }
                     field(vDataFim; vDataFim)
                     {
+                        ApplicationArea = All;
                         Caption = 'Final Date';
                     }
                 }

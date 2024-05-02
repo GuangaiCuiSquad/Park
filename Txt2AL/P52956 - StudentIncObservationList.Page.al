@@ -39,9 +39,10 @@ page 52956 "Student Inc. Observation List"
             group(ObservationFuncion)
             {
                 Caption = '&Observation';
-                action("&Card")
+                action("Card")
                 {
-                    Caption = '&Card';
+                    ApplicationArea = All;
+                    Caption = 'Card';
                     Image = EditLines;
                     ShortCutKey = 'Shift+F7';
 

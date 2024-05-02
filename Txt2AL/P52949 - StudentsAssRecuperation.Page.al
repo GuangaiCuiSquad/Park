@@ -946,6 +946,7 @@ page 52949 "Students Ass. Recuperation"
         {
             action("&Global Remarks")
             {
+                ApplicationArea = All;
                 Caption = '&Global Remarks';
                 Image = Setup;
                 Promoted = true;
@@ -968,6 +969,7 @@ page 52949 "Students Ass. Recuperation"
             }
             action("&Remarks")
             {
+                ApplicationArea = All;
                 Caption = '&Remarks';
                 Image = SetupLines;
                 Promoted = true;

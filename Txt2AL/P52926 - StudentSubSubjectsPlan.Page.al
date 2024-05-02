@@ -52,6 +52,7 @@ page 52926 "Student Sub-Subjects Plan"
                 Caption = 'F&unctions';
                 action("&Aspects")
                 {
+                    ApplicationArea = All;
                     Caption = '&Aspects';
                     Image = Relationship;
 

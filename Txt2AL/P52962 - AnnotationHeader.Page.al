@@ -31,6 +31,7 @@ page 52962 "Annotation Header"
             }
             part(SubForm; "Annotation Line")
             {
+                ApplicationArea = All;
                 Editable = SubFormEditable;
                 SubPageLink = "School Year" = FIELD("School Year"),
                               Code = FIELD(Code);
@@ -47,6 +48,7 @@ page 52962 "Annotation Header"
                 Caption = '&Annotation';
                 action(List)
                 {
+                    ApplicationArea = All;
                     Caption = 'List';
                     Image = ListPage;
                     RunObject = Page "Annotation List";
@@ -56,6 +58,7 @@ page 52962 "Annotation Header"
                 }
                 action("&Copy")
                 {
+                    ApplicationArea = All;
                     Caption = '&Copy';
                     Image = Copy;
 

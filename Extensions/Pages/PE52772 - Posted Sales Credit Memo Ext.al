@@ -30,6 +30,7 @@ pageextension 52772 "Posted Sales Credit Memo Ext." extends "Posted Sales Credit
         {
             action("Create Warehouse Transfer")
             {
+                ApplicationArea = All;
                 Caption = 'Create Warehouse Transfer';
 
                 trigger OnAction()

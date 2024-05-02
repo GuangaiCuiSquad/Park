@@ -260,9 +260,10 @@ page 52917 "Select Previous Years"
     {
         area(processing)
         {
-            action("P&ost")
+            action("Post")
             {
-                Caption = 'P&ost';
+                ApplicationArea = All;
+                Caption = 'Post';
                 Image = Post;
                 Promoted = true;
                 PromotedCategory = Process;

@@ -62,6 +62,7 @@ page 52927 "Sub Subjects Setting Ratings"
             }
             part(SubformAspects; "Aspects Sub")
             {
+                ApplicationArea = All;
             }
         }
     }
