@@ -194,6 +194,7 @@ page 52754 "Edu. Configuration"
                 Caption = '&IRS / E-mail Statement Config';
                 action("&Section - 1 IRS")
                 {
+                    ApplicationArea = All;
                     Caption = '&Section - 1 IRS';
                     Image = CalculateSalesTax;
                     ToolTip = '%1 - Name of Student;%2 - Name of the Father;%3 - Name of the Mother;%4 - Date of Birth;%5 -Civil year';
@@ -205,6 +206,7 @@ page 52754 "Edu. Configuration"
                 }
                 action("&Section - 2 IRS")
                 {
+                    ApplicationArea = All;
                     Caption = '&Section - 2 IRS';
                     Image = CalculateSalesTax;
 
@@ -224,6 +226,7 @@ page 52754 "Edu. Configuration"
                     Image = Invoice;
                     action("&Subject E-Mail")
                     {
+                        ApplicationArea = All;
                         Caption = '&Subject E-Mail';
                         Image = Email;
 
@@ -234,6 +237,7 @@ page 52754 "Edu. Configuration"
                     }
                     action("&Body E-Mail")
                     {
+                        ApplicationArea = All;
                         Caption = '&Body E-Mail';
                         Image = OutlookSyncSubFields;
 
@@ -249,6 +253,7 @@ page 52754 "Edu. Configuration"
                     Image = CreditMemo;
                     action("&Assunto E-Mail")
                     {
+                        ApplicationArea = All;
                         Caption = '&Assunto E-Mail';
                         Image = Email;
 
@@ -262,6 +267,7 @@ page 52754 "Edu. Configuration"
                     }
                     action("&Corpo E-mail")
                     {
+                        ApplicationArea = All;
                         Caption = '&Corpo E-mail';
                         Image = OutlookSyncSubFields;
 
@@ -280,6 +286,7 @@ page 52754 "Edu. Configuration"
                     Image = CarryOutActionMessage;
                     action(Action1000000006)
                     {
+                        ApplicationArea = All;
                         Caption = '&Assunto E-Mail';
                         Image = Email;
 
@@ -290,6 +297,7 @@ page 52754 "Edu. Configuration"
                     }
                     action(Action1000000007)
                     {
+                        ApplicationArea = All;
                         Caption = '&Corpo E-mail';
                         Image = OutlookSyncSubFields;
 
@@ -305,6 +313,7 @@ page 52754 "Edu. Configuration"
                     Image = CashReceiptJournal;
                     action(Action1000000009)
                     {
+                        ApplicationArea = All;
                         Caption = '&Assunto E-Mail';
                         Image = Email;
 
@@ -315,6 +324,7 @@ page 52754 "Edu. Configuration"
                     }
                     action(Action1000000010)
                     {
+                        ApplicationArea = All;
                         Caption = '&Corpo E-mail';
                         Image = OutlookSyncSubFields;
 
@@ -330,6 +340,7 @@ page 52754 "Edu. Configuration"
         {
             action("&Update Invoice Data")
             {
+                ApplicationArea = All;
                 Caption = '&Update Invoice Data';
                 Image = UpdateDescription;
                 Promoted = true;

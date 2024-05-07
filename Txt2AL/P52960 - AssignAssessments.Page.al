@@ -945,6 +945,7 @@ page 52960 "Assign Assessments"
         {
             action("&Annotation")
             {
+                ApplicationArea = All;
                 Caption = '&Annotation';
                 Promoted = true;
                 PromotedCategory = Process;
@@ -975,6 +976,7 @@ page 52960 "Assign Assessments"
             }
             action("&Global Remarks")
             {
+                ApplicationArea = All;
                 Caption = '&Global Remarks';
                 Image = SetupList;
                 Promoted = true;
@@ -1006,6 +1008,7 @@ page 52960 "Assign Assessments"
             }
             action("&Remarks")
             {
+                ApplicationArea = All;
                 Caption = '&Remarks';
                 Image = Setup;
                 Promoted = true;
@@ -1038,6 +1041,7 @@ page 52960 "Assign Assessments"
                 Caption = 'F&unctions';
                 action("E&xpand/Collapse")
                 {
+                    ApplicationArea = All;
                     Caption = 'E&xpand/Collapse';
                     Image = ExpandDepositLine;
 
@@ -1048,6 +1052,7 @@ page 52960 "Assign Assessments"
                 }
                 action("Expand &All")
                 {
+                    ApplicationArea = All;
                     Caption = 'Expand &All';
                     Image = ExpandAll;
 
@@ -1058,6 +1063,7 @@ page 52960 "Assign Assessments"
                 }
                 action("&Collapse All")
                 {
+                    ApplicationArea = All;
                     Caption = '&Collapse All';
                     Image = Close;
 

@@ -116,6 +116,7 @@ page 52785 Class
             }
             part(SubForm; "Registration Class")
             {
+                ApplicationArea = All;
                 SubPageLink = Class = FIELD(Class),
                               "School Year" = FIELD("School Year"),
                               "Schooling Year" = FIELD("Schooling Year"),

@@ -97,6 +97,7 @@ page 52865 "Students Entry"
         {
             action(StudentCard)
             {
+                ApplicationArea = All;
                 Caption = '&Student Card';
                 Enabled = StudentCardEnable;
                 Image = Card;

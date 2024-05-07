@@ -19,21 +19,25 @@ report 52764 "Copy Services Plan"
                     Caption = 'Opções';
                     field(varCopyPlanService; varCopyPlanService)
                     {
+                        ApplicationArea = All;
                         Caption = 'Copy Plan Service';
                         TableRelation = "Services Plan Head";
                     }
                     field(varNewPlanService; varNewPlanService)
                     {
+                        ApplicationArea = All;
                         Caption = 'New Plan Service';
                         Editable = false;
                     }
                     field(varNewSchoolYear; varNewSchoolYear)
                     {
+                        ApplicationArea = All;
                         Caption = 'New School Year';
                         TableRelation = "School Year"."School Year" WHERE(Status = FILTER(Planning | Active));
                     }
                     field(varNewSchoolingYear; varNewSchoolingYear)
                     {
+                        ApplicationArea = All;
                         Caption = 'New Schooling Year';
 
                         trigger OnLookup(var Text: Text): Boolean
@@ -59,6 +63,7 @@ report 52764 "Copy Services Plan"
                     }
                     field(varNewStudyPlan; varNewStudyPlan)
                     {
+                        ApplicationArea = All;
                         Caption = 'New Study Plan';
 
                         trigger OnLookup(var Text: Text): Boolean

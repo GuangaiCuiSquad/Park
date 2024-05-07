@@ -57,6 +57,7 @@ page 52899 "Equipment Group Card"
             }
             part("Equipment Group Lines"; "Equipment Group Lines")
             {
+                ApplicationArea = All;
                 SubPageLink = "Line No." = FILTER(<> 0),
                               "Equipment Group" = FIELD("Equipment Group"),
                               Type = CONST(Single);
@@ -75,6 +76,7 @@ page 52899 "Equipment Group Card"
                 Image = TeamSales;
                 action("&List")
                 {
+                    ApplicationArea = All;
                     Caption = '&List';
                     Image = List;
                     ShortCutKey = 'Shift+Ctrl+L';

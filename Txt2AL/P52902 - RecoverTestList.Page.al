@@ -69,6 +69,7 @@ page 52902 "Recover Test List"
                 Caption = '&Recover Test';
                 action("&Card")
                 {
+                    ApplicationArea = All;
                     Caption = '&Card';
                     Image = EditLines;
                     RunObject = Page "Recover Header";

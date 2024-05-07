@@ -1,4 +1,4 @@
-page 53024 "P50036 - Services List"
+page 53024 "Services List"
 {
     Caption = '';
     PageType = ListPart;
@@ -14,21 +14,26 @@ page 53024 "P50036 - Services List"
                 ShowCaption = false;
                 field(Selection; Rec.Selection)
                 {
+                    ApplicationArea = All;
                 }
                 field("Student Code No."; Rec."Student Code No.")
                 {
+                    ApplicationArea = All;
                     Editable = false;
                 }
                 field(Name; Rec.Name)
                 {
+                    ApplicationArea = All;
                     Editable = false;
                 }
                 field(Class; Rec.Class)
                 {
+                    ApplicationArea = All;
                     Editable = false;
                 }
                 field("Class No."; Rec."Class No.")
                 {
+                    ApplicationArea = All;
                     Editable = false;
                 }
             }

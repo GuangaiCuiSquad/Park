@@ -270,6 +270,7 @@ page 52977 "Student Incid. Justify2"
                 Visible = true;
                 action("Justify &Student Absences - All Day(s)")
                 {
+                    ApplicationArea = All;
                     Caption = 'Justify &Student Absences - All Day(s)';
 
                     trigger OnAction()
@@ -284,6 +285,7 @@ page 52977 "Student Incid. Justify2"
                 }
                 action("Insert Absences &Class - All Day(s)")
                 {
+                    ApplicationArea = All;
                     Caption = 'Insert Absences &Class - All Day(s)';
 
                     trigger OnAction()

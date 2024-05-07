@@ -58,6 +58,7 @@ page 52752 "School Year"
                 Visible = bFuctionVisible;
                 action("&In Preparation")
                 {
+                    ApplicationArea = All;
                     Caption = '&In Preparation';
                     Image = PrepaymentPost;
                     Promoted = true;
@@ -70,6 +71,7 @@ page 52752 "School Year"
                 }
                 action("&Active")
                 {
+                    ApplicationArea = All;
                     Caption = '&Active';
                     Image = Open;
                     Promoted = true;
@@ -82,6 +84,7 @@ page 52752 "School Year"
                 }
                 action("&Closing")
                 {
+                    ApplicationArea = All;
                     Caption = '&Closing';
                     Image = CloseDocument;
                     Promoted = true;
@@ -103,6 +106,7 @@ page 52752 "School Year"
                 }
                 action("Cl&osed")
                 {
+                    ApplicationArea = All;
                     Caption = 'Cl&osed';
                     Image = Close;
                     Promoted = true;
@@ -115,6 +119,7 @@ page 52752 "School Year"
                 }
                 action("Criar Novos Anos")
                 {
+                    ApplicationArea = All;
                     Caption = 'Criar Novos Anos';
                     Image = New;
 

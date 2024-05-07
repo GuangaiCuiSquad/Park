@@ -165,6 +165,7 @@ report 52852 "Value Daily Lunch"
                     Caption = 'Options';
                     field(vSpecificDay; vSpecificDay)
                     {
+                        ApplicationArea = All;
                         Caption = 'Specific Day';
                     }
                 }

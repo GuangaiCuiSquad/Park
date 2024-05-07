@@ -62,6 +62,7 @@ page 52891 "Transport Card"
             }
             part("Linhas Veiculo"; "Vehicle Lines")
             {
+                ApplicationArea = All;
                 SubPageLink = "Transport No." = FIELD("Transport No."),
                               Type = FILTER(Lines);
             }

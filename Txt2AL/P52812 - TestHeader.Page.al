@@ -70,6 +70,7 @@ page 52812 "Test Header"
             }
             part(Control1110026; "Test Lines")
             {
+                ApplicationArea = All;
                 SubPageLink = "Test Type" = FIELD("Test Type"),
                               "Test No." = FIELD("Test No.");
             }

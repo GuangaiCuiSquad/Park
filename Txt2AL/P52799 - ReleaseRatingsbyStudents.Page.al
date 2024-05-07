@@ -682,6 +682,7 @@ page 52799 "Release Ratings by Students"
                 Caption = 'Criteria';
                 field(VC2; varClass)
                 {
+                    ApplicationArea = All;
                     Caption = 'Class';
 
                     trigger OnLookup(var Text: Text): Boolean
@@ -715,6 +716,7 @@ page 52799 "Release Ratings by Students"
                 }
                 field(VS2; VarSubjects)
                 {
+                    ApplicationArea = All;
                     Caption = 'Subjects';
 
                     trigger OnLookup(var Text: Text): Boolean
@@ -761,6 +763,7 @@ page 52799 "Release Ratings by Students"
                 }
                 field(varMomentCode; varMomentCode)
                 {
+                    ApplicationArea = All;
                     Caption = 'Moment Code';
 
                     trigger OnLookup(var Text: Text): Boolean
@@ -782,6 +785,7 @@ page 52799 "Release Ratings by Students"
                 }
                 field(varMixedClaCriterion; varMixedClaCriterion)
                 {
+                    ApplicationArea = All;
                     Caption = 'Filter Mixed Ratings';
 
                     trigger OnValidate()
@@ -798,14 +802,17 @@ page 52799 "Release Ratings by Students"
                     ShowCaption = false;
                     field(CN2; Rec."Class No.")
                     {
+                        ApplicationArea = All;
                     }
                     field(SN2; rStudents.Name)
                     {
+                        ApplicationArea = All;
                         Caption = 'Name';
                     }
                 }
                 part(SubfomrAssessementStudents; "Assessement Students")
                 {
+                    ApplicationArea = All;
                 }
             }
         }
@@ -817,6 +824,7 @@ page 52799 "Release Ratings by Students"
         {
             action("&Global Remarks")
             {
+                ApplicationArea = All;
                 Caption = '&Global Remarks';
                 Image = SetupList;
                 Promoted = true;
@@ -835,6 +843,7 @@ page 52799 "Release Ratings by Students"
             }
             action("&Remarks")
             {
+                ApplicationArea = All;
                 Caption = '&Remarks';
                 Image = Setup;
                 Promoted = true;

@@ -468,6 +468,7 @@ page 52874 "Student Transition"
                 Image = Post;
                 action(Action1102065040)
                 {
+                    ApplicationArea = All;
                     Caption = 'P&ost';
                     Image = Post;
                     Promoted = true;
@@ -485,6 +486,7 @@ page 52874 "Student Transition"
                 }
                 action("&Mark All")
                 {
+                    ApplicationArea = All;
                     Caption = '&Mark All';
                     Image = EnableAllBreakpoints;
 
@@ -495,6 +497,7 @@ page 52874 "Student Transition"
                 }
                 action("&Unmark All")
                 {
+                    ApplicationArea = All;
                     Caption = '&Unmark All';
                     Image = DisableAllBreakpoints;
 

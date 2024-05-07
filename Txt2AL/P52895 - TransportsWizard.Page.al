@@ -256,6 +256,7 @@ page 52895 "Transports Wizard"
         {
             action(Back)
             {
+                ApplicationArea = All;
                 Caption = '&Back';
                 Enabled = BackEnable;
                 Image = PreviousRecord;
@@ -272,6 +273,7 @@ page 52895 "Transports Wizard"
             }
             action(Next)
             {
+                ApplicationArea = All;
                 Caption = '&Next';
                 Enabled = NextEnable;
                 Image = NextRecord;
@@ -291,6 +293,7 @@ page 52895 "Transports Wizard"
             }
             action(Finish)
             {
+                ApplicationArea = All;
                 Caption = 'F&inish';
                 Image = Approve;
                 InFooterBar = true;

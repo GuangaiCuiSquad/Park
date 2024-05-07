@@ -32,6 +32,7 @@ page 52791 "Setting Ratings Text"
             }
             part(Control1110008; "Classification Level")
             {
+                ApplicationArea = All;
                 SubPageLink = "Classification Group Code" = FIELD(Code);
             }
         }
@@ -43,6 +44,7 @@ page 52791 "Setting Ratings Text"
         {
             action(Lista)
             {
+                ApplicationArea = All;
                 Caption = 'List';
                 Image = List;
                 RunObject = Page "Setting Evaluations List";

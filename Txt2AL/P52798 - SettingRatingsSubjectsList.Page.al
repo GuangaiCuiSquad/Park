@@ -52,6 +52,7 @@ page 52798 "Setting Ratings Subjects List"
                 Caption = '&Card';
                 action(Action1102059001)
                 {
+                    ApplicationArea = All;
                     Caption = '&Card';
                     Image = ViewDocumentLine;
                     ShortCutKey = 'Shift+F7';

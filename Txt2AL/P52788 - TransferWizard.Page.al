@@ -15,6 +15,7 @@ page 52788 "Transfer Wizard"
                 Visible = Step1Visible;
                 label(Control2)
                 {
+                    ApplicationArea = All;
                     CaptionClass = Text19069539;
                     MultiLine = true;
                     ShowCaption = false;
@@ -68,6 +69,7 @@ page 52788 "Transfer Wizard"
                 Visible = Step2Visible;
                 label(Control8)
                 {
+                    ApplicationArea = Basic, Suite;
                     CaptionClass = Text19020813;
                     MultiLine = true;
                     ShowCaption = false;
@@ -151,6 +153,7 @@ page 52788 "Transfer Wizard"
                 Visible = Step3Visible;
                 label(Control1102065003)
                 {
+                    ApplicationArea = Basic, Suite;
                     CaptionClass = Text19080001;
                     MultiLine = true;
                     ShowCaption = false;
@@ -164,6 +167,7 @@ page 52788 "Transfer Wizard"
                 }
                 field(ScY3; Rec."Schooling Year")
                 {
+                    ApplicationArea = Basic, Suite;
                     Caption = 'Schooling Year';
                     Editable = false;
                 }
@@ -234,6 +238,7 @@ page 52788 "Transfer Wizard"
         {
             action(Back)
             {
+                ApplicationArea = All;
                 Caption = '&Back';
                 Enabled = BackEnable;
                 Image = PreviousRecord;
@@ -254,6 +259,7 @@ page 52788 "Transfer Wizard"
             }
             action(Next)
             {
+                ApplicationArea = All;
                 Caption = '&Next';
                 Enabled = NextEnable;
                 Image = NextRecord;
@@ -273,6 +279,7 @@ page 52788 "Transfer Wizard"
             }
             action(Terminar)
             {
+                ApplicationArea = All;
                 Caption = '&Terminar';
                 Image = Approve;
                 InFooterBar = true;

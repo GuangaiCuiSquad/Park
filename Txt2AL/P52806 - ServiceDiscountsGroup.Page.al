@@ -34,6 +34,7 @@ page 52806 "Service Discounts Group"
                 Image = CalculateDiscount;
                 action("Invoice &Line Discounts")
                 {
+                    ApplicationArea = All;
                     Caption = 'Invoice &Line Discounts';
                     Image = LineDiscount;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'

@@ -330,6 +330,7 @@ page 52852 "Teacher Incid. Justify"
                 Visible = true;
                 action("Justify Absences All &Day(s)")
                 {
+                    ApplicationArea = All;
                     Caption = 'Justify Absences All &Day(s)';
                     Image = AbsenceCalendar;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'

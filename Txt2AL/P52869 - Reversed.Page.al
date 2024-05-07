@@ -267,6 +267,7 @@ page 52869 Reversed
         {
             action("&Navigate")
             {
+                ApplicationArea = All;
                 Caption = '&Navigate';
                 Image = Navigate;
                 Promoted = true;
@@ -287,6 +288,7 @@ page 52869 Reversed
                 Caption = 'Funct&ions';
                 action("&Reverse Register")
                 {
+                    ApplicationArea = All;
                     Caption = '&Reverse Register';
                     Image = ReverseRegister;
                     ShortCutKey = 'F9';

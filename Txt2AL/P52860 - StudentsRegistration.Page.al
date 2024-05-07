@@ -224,6 +224,7 @@ page 52860 "Students Registration"
         {
             action("&Apply All Entries")
             {
+                ApplicationArea = All;
                 Caption = '&Apply All Entries';
                 Image = Apply;
                 Promoted = true;

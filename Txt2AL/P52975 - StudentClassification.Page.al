@@ -322,6 +322,7 @@ page 52975 "Student Classification"
         {
             action("&Annotation")
             {
+                ApplicationArea = All;
                 Caption = '&Annotation';
                 Promoted = true;
                 PromotedCategory = Process;
@@ -353,6 +354,7 @@ page 52975 "Student Classification"
             }
             action("&Global Remarks")
             {
+                ApplicationArea = All;
                 Caption = '&Global Remarks';
                 Promoted = true;
                 PromotedCategory = Process;
@@ -375,6 +377,7 @@ page 52975 "Student Classification"
             }
             action("&Remarks")
             {
+                ApplicationArea = All;
                 Caption = '&Remarks';
                 Promoted = true;
                 PromotedCategory = Process;
@@ -397,6 +400,7 @@ page 52975 "Student Classification"
             }
             action("&Observações")
             {
+                ApplicationArea = All;
                 Caption = '&Observações';
                 Image = Setup;
 
@@ -414,6 +418,7 @@ page 52975 "Student Classification"
             }
             action("&Observações Globais")
             {
+                ApplicationArea = All;
                 Caption = '&Observações Globais';
                 Image = SetupList;
 
@@ -434,6 +439,7 @@ page 52975 "Student Classification"
                 Caption = 'F&unctions';
                 action("E&xpand/Collapse")
                 {
+                    ApplicationArea = All;
                     Caption = 'E&xpand/Collapse';
                     Image = ExpandDepositLine;
 
@@ -444,6 +450,7 @@ page 52975 "Student Classification"
                 }
                 action("Expand &All")
                 {
+                    ApplicationArea = All;
                     Caption = 'Expand &All';
                     Image = ExpandAll;
 
@@ -454,6 +461,7 @@ page 52975 "Student Classification"
                 }
                 action("&Collapse All")
                 {
+                    ApplicationArea = All;
                     Caption = '&Collapse All';
                     Image = CloseDocument;
 
@@ -465,6 +473,7 @@ page 52975 "Student Classification"
             }
             action("&Print")
             {
+                ApplicationArea = All;
                 Caption = '&Print';
                 Image = Print;
                 Promoted = true;

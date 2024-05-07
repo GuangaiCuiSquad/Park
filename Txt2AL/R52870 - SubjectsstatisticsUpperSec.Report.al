@@ -660,16 +660,19 @@ report 52870 "Subjects statistics Upper Sec"
                         Caption = 'Filtros:';
                         field(vSchoolYear; vSchoolYear)
                         {
+                            ApplicationArea = All;
                             Caption = 'School Year';
                             TableRelation = "School Year"."School Year";
                         }
                         field(vCourse; vCourse)
                         {
+                            ApplicationArea = All;
                             Caption = 'Course';
                             TableRelation = "Course Header".Code;
                         }
                         field(vClass; vClass)
                         {
+                            ApplicationArea = All;
                             Caption = 'Class';
                             TableRelation = Class.Class;
 
@@ -680,6 +683,7 @@ report 52870 "Subjects statistics Upper Sec"
                         }
                         field(vMoment; vMoment)
                         {
+                            ApplicationArea = All;
                             Caption = 'Moment';
                             TableRelation = "Moments Assessment"."Moment Code";
                         }

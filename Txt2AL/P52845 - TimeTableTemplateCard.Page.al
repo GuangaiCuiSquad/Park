@@ -41,6 +41,7 @@ page 52845 "TimeTable Template Card"
             }
             part(SubFormLines; "Timetable Lines")
             {
+                ApplicationArea = All;
                 Editable = SubFormLinesEditable;
                 SubPageLink = "School Year" = FIELD("School Year"),
                               "Template Code" = FIELD("Template Code"),
@@ -55,6 +56,7 @@ page 52845 "TimeTable Template Card"
         {
             action("&List")
             {
+                ApplicationArea = All;
                 Caption = '&List';
                 Image = List;
                 RunObject = Page "Timetable Template";
@@ -68,6 +70,7 @@ page 52845 "TimeTable Template Card"
                 Caption = 'F&unction';
                 action("&Copy")
                 {
+                    ApplicationArea = All;
                     Caption = '&Copy';
                     Image = Copy;
 

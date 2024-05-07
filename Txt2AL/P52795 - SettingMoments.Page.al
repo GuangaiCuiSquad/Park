@@ -94,6 +94,7 @@ page 52795 "Setting Moments"
                 Image = ServiceSetup;
                 action("&Copy")
                 {
+                    ApplicationArea = All;
                     Caption = '&Copy';
                     Image = Copy;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'

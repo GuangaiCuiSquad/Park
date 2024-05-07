@@ -112,6 +112,7 @@ page 52822 Timetable
             }
             part(subformCalendar; "Timetable Subform")
             {
+                ApplicationArea = All;
                 Caption = 'Schedule Lines';
                 Editable = subformCalendarEditable;
                 SubPageLink = "Timetable Code" = FIELD("Timetable Code"),
@@ -131,6 +132,7 @@ page 52822 Timetable
                 Image = Calendar;
                 action("&Copy Timetable")
                 {
+                    ApplicationArea = All;
                     Caption = '&Copy Timetable';
                     Image = CopyWorksheet;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
@@ -184,6 +186,7 @@ page 52822 Timetable
                 }
                 action("C&reate Calendar")
                 {
+                    ApplicationArea = All;
                     Caption = 'C&reate Calendar';
                     Image = WorkCenterCalendar;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
@@ -215,6 +218,7 @@ page 52822 Timetable
                 }
                 action("&Delete Calendar")
                 {
+                    ApplicationArea = All;
                     Caption = '&Delete Calendar';
                     Image = CalendarMachine;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'

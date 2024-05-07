@@ -39,6 +39,7 @@ pageextension 52758 "Sales Order Ext." extends "Sales Order"
         {
             action("Transfer from Warehouse")
             {
+                ApplicationArea = All;
                 Caption = 'Transferir de Armazém';
 
                 trigger OnAction()
@@ -55,6 +56,7 @@ pageextension 52758 "Sales Order Ext." extends "Sales Order"
             }
             action("Transf. from Warehouse By Lot")
             {
+                ApplicationArea = All;
                 Caption = 'Transf. from Warehouse By Lot';
 
                 trigger OnAction()

@@ -480,6 +480,7 @@ page 52851 "Student Incid. Justify"
                 Visible = true;
                 action("Justify &Student Absences - All Day(s)")
                 {
+                    ApplicationArea = All;
                     Caption = 'Justify &Student Absences - All Day(s)';
                     Image = ImplementRegAbsence;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
@@ -498,6 +499,7 @@ page 52851 "Student Incid. Justify"
                 }
                 action("Insert Absences &Class - All Day(s)")
                 {
+                    ApplicationArea = All;
                     Caption = 'Insert Absences &Class - All Day(s)';
                     Image = WorkCenterAbsence;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'

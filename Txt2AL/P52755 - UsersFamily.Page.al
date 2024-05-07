@@ -191,6 +191,7 @@ page 52755 "Users Family"
             }
             part(Children; "Child List")
             {
+                ApplicationArea = All;
                 Caption = 'Children';
                 Editable = false;
                 Enabled = false;
@@ -290,6 +291,7 @@ page 52755 "Users Family"
                 Caption = '&Users Family';
                 action("&Bank Account")
                 {
+                    ApplicationArea = All;
                     Caption = '&Bank Account';
                     Image = BankAccount;
                     Promoted = true;
@@ -308,6 +310,7 @@ page 52755 "Users Family"
                 }
                 action(Dimensions)
                 {
+                    ApplicationArea = All;
                     Caption = 'Dimensions';
                     Image = Dimensions;
                     RunObject = Page "Default Dimensions";

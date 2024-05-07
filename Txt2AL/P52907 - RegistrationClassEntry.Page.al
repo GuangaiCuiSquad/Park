@@ -79,6 +79,7 @@ page 52907 "Registration Class Entry"
                 Caption = 'F&unctions';
                 action("&Subjects Entry")
                 {
+                    ApplicationArea = All;
                     Caption = '&Subjects Entry';
                     Image = ContactPerson;
                     RunObject = Page "Student Subjects Entry";
@@ -88,6 +89,7 @@ page 52907 "Registration Class Entry"
                 }
                 action("Show Registration")
                 {
+                    ApplicationArea = All;
                     Caption = 'Show Registration';
                     Image = ViewSourceDocumentLine;
                     Promoted = true;

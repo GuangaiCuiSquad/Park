@@ -367,6 +367,7 @@ page 52854 "Teacher Calendar"
                 Caption = 'Absence';
                 part(SubAbsenceLectur1; "Absence Calendar Teacher")
                 {
+                    ApplicationArea = All;
                     Editable = SubAbsenceLectureEditable;
                     SubPageLink = "Timetable Code" = FIELD("Timetable Code"),
                                   "School Year" = FIELD("School Year"),
@@ -383,6 +384,7 @@ page 52854 "Teacher Calendar"
                 Caption = 'Default';
                 part(SubGeneralAbsence; "General Calendar Teacher")
                 {
+                    ApplicationArea = All;
                     Editable = SubGeneralAbsenceEditable;
                     SubPageLink = "Timetable Code" = FIELD("Timetable Code"),
                                   "Line No. Timetable" = FIELD("Timetable Line No."),
@@ -399,6 +401,7 @@ page 52854 "Teacher Calendar"
                 Caption = ' All day / Not-Scheduled';
                 part(SubAbsenceLectur2; "Absence Calendar Teacher2")
                 {
+                    ApplicationArea = All;
                     SubPageLink = "School Year" = FIELD("School Year"),
                                   Day = FIELD("Filter Period"),
                                   "Student/Teacher Code No." = FIELD("Teacher No.");
@@ -417,6 +420,7 @@ page 52854 "Teacher Calendar"
                 Image = Absence;
                 action("Insert Absences All &Day(s)")
                 {
+                    ApplicationArea = All;
                     Caption = 'Insert Absences All &Day(s)';
                     Image = AbsenceCategories;
 
@@ -430,6 +434,7 @@ page 52854 "Teacher Calendar"
                 }
                 action("Insert Non-&Scheduled Absences")
                 {
+                    ApplicationArea = All;
                     Caption = 'Insert Non-&Scheduled Absences';
                     Image = AbsenceCalendar;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
@@ -448,6 +453,7 @@ page 52854 "Teacher Calendar"
                 Image = CustomerGroup;
                 action("&Insert Lesson")
                 {
+                    ApplicationArea = All;
                     Caption = '&Insert Lesson';
                     Image = Insert;
 

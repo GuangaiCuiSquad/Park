@@ -179,6 +179,7 @@ page 52857 "Student Payment Form"
                 Caption = '&Line';
                 action(Dimensions)
                 {
+                    ApplicationArea = All;
                     Caption = 'Dimensions';
                     Image = Dimensions;
                     RunObject = Page "Default Dimensions";
@@ -191,6 +192,7 @@ page 52857 "Student Payment Form"
                 Caption = 'A&ccount';
                 action(Card)
                 {
+                    ApplicationArea = All;
                     Caption = 'Card';
                     Image = EditLines;
                     RunObject = Codeunit "Gen. Jnl.-Show Card";
@@ -198,6 +200,7 @@ page 52857 "Student Payment Form"
                 }
                 action("Ledger E&ntries")
                 {
+                    ApplicationArea = All;
                     Caption = 'Ledger E&ntries';
                     RunObject = Codeunit "Gen. Jnl.-Show Entries";
                     ShortCutKey = 'Ctrl+F7';
@@ -211,6 +214,7 @@ page 52857 "Student Payment Form"
                 Caption = 'F&unctions';
                 action("Apply Entries")
                 {
+                    ApplicationArea = All;
                     Caption = 'Apply Entries';
                     Ellipsis = true;
                     Image = ApplyEntries;
@@ -219,6 +223,7 @@ page 52857 "Student Payment Form"
                 }
                 action("Insert Conv. LCY Rndg. Lines")
                 {
+                    ApplicationArea = All;
                     Caption = 'Insert Conv. LCY Rndg. Lines';
                     RunObject = Codeunit "Adjust Gen. Journal Balance";
                 }
@@ -228,6 +233,7 @@ page 52857 "Student Payment Form"
                 Caption = 'P&osting';
                 action(Reconcile)
                 {
+                    ApplicationArea = All;
                     Caption = 'Reconcile';
                     Image = Reconcile;
                     ShortCutKey = 'Ctrl+F11';
@@ -240,6 +246,7 @@ page 52857 "Student Payment Form"
                 }
                 action("Test Report")
                 {
+                    ApplicationArea = All;
                     Caption = 'Test Report';
                     Ellipsis = true;
                     Image = TestReport;
@@ -251,6 +258,7 @@ page 52857 "Student Payment Form"
                 }
                 action("P&ost")
                 {
+                    ApplicationArea = All;
                     Caption = 'P&ost';
                     Image = Post;
                     Promoted = true;
@@ -299,6 +307,7 @@ page 52857 "Student Payment Form"
                 }
                 action("Post and &Print")
                 {
+                    ApplicationArea = All;
                     Caption = 'Post and &Print';
                     Image = PostPrint;
                     Promoted = true;

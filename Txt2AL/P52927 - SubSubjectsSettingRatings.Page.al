@@ -79,6 +79,7 @@ page 52927 "Sub Subjects Setting Ratings"
                 }
                 action("Copy of another Moment")
                 {
+                    ApplicationArea = All;
                     Caption = 'Copy of another Moment';
                     Image = Copy;
                     Visible = false;
@@ -93,6 +94,7 @@ page 52927 "Sub Subjects Setting Ratings"
                 }
                 action("&Delete Aspects")
                 {
+                    ApplicationArea = All;
                     Caption = '&Delete Aspects';
                     Image = DeleteQtyToHandle;
 

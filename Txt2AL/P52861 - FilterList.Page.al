@@ -48,6 +48,7 @@ page 52861 "Filter List"
                 Image = "Filter";
                 action(Card)
                 {
+                    ApplicationArea = All;
                     Caption = 'Card';
                     Image = EditLines;
                     RunObject = Page "Filters Card";

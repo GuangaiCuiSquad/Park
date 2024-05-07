@@ -70,6 +70,7 @@ page 52786 "Registration Class"
                 Caption = 'F&unctions';
                 action(Inscrever)
                 {
+                    ApplicationArea = All;
                     Caption = '&Subscribe';
                     Image = Register;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
@@ -100,6 +101,7 @@ page 52786 "Registration Class"
                 }
                 action(Anular)
                 {
+                    ApplicationArea = All;
                     Caption = 'A&nnul Registration';
                     Image = CancelledEntries;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
@@ -134,6 +136,7 @@ page 52786 "Registration Class"
                 }
                 action(Corrigir)
                 {
+                    ApplicationArea = All;
                     Caption = '&Correct Registration';
                     Image = EditLines;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
@@ -168,6 +171,7 @@ page 52786 "Registration Class"
                 }
                 action(Transferir)
                 {
+                    ApplicationArea = All;
                     Caption = '&Transfer';
                     Image = TransferOrder;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
@@ -214,6 +218,7 @@ page 52786 "Registration Class"
                 Caption = 'Aluno';
                 action(FichaAluno)
                 {
+                    ApplicationArea = All;
                     Caption = 'Stu&dent Card';
                     Image = User;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
@@ -235,6 +240,7 @@ page 52786 "Registration Class"
                 }
                 action(MatriculaAluno)
                 {
+                    ApplicationArea = All;
                     Caption = 'St&udent Registration';
                     Image = Document;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'

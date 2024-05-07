@@ -394,16 +394,19 @@ report 52869 "Subjects statistics Lower Sec"
                         Caption = 'Filtros:';
                         field(vSchoolYear; vSchoolYear)
                         {
+                            ApplicationArea = All;
                             Caption = 'Ano Letivo';
                             TableRelation = "School Year"."School Year";
                         }
                         field(vSchoolingYear; vSchoolingYear)
                         {
+                            ApplicationArea = All;
                             Caption = 'Ano Escolaridade';
                             TableRelation = "Structure Education Country"."Schooling Year" WHERE(Level = FILTER("2º Cycle" | "3º Cycle"));
                         }
                         field(vClass; vClass)
                         {
+                            ApplicationArea = All;
                             Caption = 'Turma';
                             TableRelation = Class.Class;
 
@@ -414,6 +417,7 @@ report 52869 "Subjects statistics Lower Sec"
                         }
                         field(vMoment; vMoment)
                         {
+                            ApplicationArea = All;
                             Caption = 'Momento';
                             TableRelation = "Moments Assessment"."Moment Code";
                         }

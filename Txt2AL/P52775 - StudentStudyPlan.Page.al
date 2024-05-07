@@ -138,6 +138,7 @@ page 52775 "Student Study Plan"
                 Caption = '&Subjects';
                 action(Inscrever)
                 {
+                    ApplicationArea = All;
                     Caption = 'Su&bscribe';
                     Image = CreateDocument;
 
@@ -184,6 +185,7 @@ page 52775 "Student Study Plan"
                 }
                 action(Anular)
                 {
+                    ApplicationArea = All;
                     Caption = '&Annul';
                     Image = Cancel;
 
@@ -229,6 +231,7 @@ page 52775 "Student Study Plan"
                 }
                 action(Corrigir)
                 {
+                    ApplicationArea = All;
                     Caption = '&Correct';
                     Image = DocumentEdit;
 
@@ -269,6 +272,7 @@ page 52775 "Student Study Plan"
                 }
                 action(Transferir)
                 {
+                    ApplicationArea = All;
                     Caption = '&Transfer';
                     Image = TransferOrder;
 
@@ -315,6 +319,7 @@ page 52775 "Student Study Plan"
                 }
                 action(SubDisciplinas)
                 {
+                    ApplicationArea = All;
                     Caption = 'S&ub-Subjects';
                     Image = Documents;
 

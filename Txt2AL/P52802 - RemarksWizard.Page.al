@@ -100,40 +100,48 @@ page 52802 "Remarks Wizard"
                 Visible = Step2Visible;
                 label(Control8)
                 {
+                    ApplicationArea = All;
                     CaptionClass = Text19069730;
                     MultiLine = true;
                     ShowCaption = false;
                 }
                 field(varMomentCode; varMomentCode)
                 {
+                    ApplicationArea = All;
                     Caption = 'Moment Code';
                     Editable = false;
                 }
                 field(varS2; varSubjects)
                 {
+                    ApplicationArea = All;
                     Caption = 'Subjects';
                     Editable = false;
                 }
                 field(varSS2; varSubSubjects)
                 {
+                    ApplicationArea = All;
                     Caption = 'SubSubjects';
                     Editable = false;
                 }
                 field(varCN2; varClassNumber)
                 {
+                    ApplicationArea = All;
                     Caption = 'Class No./Student No.';
                     Editable = false;
                 }
                 field(varSCN2; varStudentCodeNo)
                 {
+                    ApplicationArea = All;
                     Editable = false;
                 }
                 field(Control1110025; rStudents.Name)
                 {
+                    ApplicationArea = All;
                     Editable = false;
                 }
                 part(SubFormObservation; "Observation Subform")
                 {
+                    ApplicationArea = All;
                     Visible = SubFormObservationVisible;
                 }
                 repeater(TextLineObservation)
@@ -141,6 +149,7 @@ page 52802 "Remarks Wizard"
                     Visible = TextLineObservationVisible;
                     field(Textline; Rec.Textline)
                     {
+                        ApplicationArea = All;
                         Editable = false;
                     }
                 }
@@ -154,6 +163,7 @@ page 52802 "Remarks Wizard"
         {
             action(Back)
             {
+                ApplicationArea = All;
                 Caption = '&Back';
                 Enabled = BackEnable;
                 Image = PreviousRecord;
@@ -170,6 +180,7 @@ page 52802 "Remarks Wizard"
             }
             action(Next)
             {
+                ApplicationArea = All;
                 Caption = '&Next';
                 Enabled = NextEnable;
                 Image = NextRecord;
@@ -189,6 +200,7 @@ page 52802 "Remarks Wizard"
             }
             action(ADD)
             {
+                ApplicationArea = All;
                 Caption = '''''';
                 Enabled = ADDEnable;
                 Image = NextSet;
@@ -204,6 +216,7 @@ page 52802 "Remarks Wizard"
             }
             action(DEL)
             {
+                ApplicationArea = All;
                 Caption = '''''';
                 Enabled = DELEnable;
                 Image = PreviousSet;

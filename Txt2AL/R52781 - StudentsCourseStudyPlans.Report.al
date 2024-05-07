@@ -251,12 +251,14 @@ report 52781 "Students Course/Study Plans"
                     Caption = 'Options';
                     field(ReportType; ReportType)
                     {
+                        ApplicationArea = All;
                         CaptionClass = Text19071249;
                         OptionCaption = 'Course,Study Plans';
                         ShowCaption = false;
                     }
                     field(varCode; varCode)
                     {
+                        ApplicationArea = All;
                         Caption = 'Code';
 
                         trigger OnLookup(var Text: Text): Boolean
@@ -279,6 +281,7 @@ report 52781 "Students Course/Study Plans"
                     }
                     field(varSchoolYear; varSchoolYear)
                     {
+                        ApplicationArea = All;
                         Caption = 'School Year';
 
                         trigger OnLookup(var Text: Text): Boolean

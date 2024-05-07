@@ -39,6 +39,7 @@ page 52973 "Calendar Base List"
                 Caption = '&Base Calendar';
                 action("&Card")
                 {
+                    ApplicationArea = All;
                     Caption = '&Card';
                     Image = EditLines;
                     ShortCutKey = 'Shift+F7';
@@ -54,6 +55,7 @@ page 52973 "Calendar Base List"
                 }
                 action("&Base Calendar Changes")
                 {
+                    ApplicationArea = All;
                     Caption = '&Base Calendar Changes';
                     Image = ChangeDate;
                     RunObject = Page "Calendar Changes";

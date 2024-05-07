@@ -100,6 +100,7 @@ page 52964 "Annotation Wizard"
                 Visible = Step2Visible;
                 label(Control8)
                 {
+                    ApplicationArea = All;
                     CaptionClass = Text19057132;
                     MultiLine = true;
                     ShowCaption = false;
@@ -140,6 +141,7 @@ page 52964 "Annotation Wizard"
                 }
                 part(SubFormAnnotation; "Annotation Subform")
                 {
+                    ApplicationArea = All;
                     Visible = SubFormAnnotationVisible;
                 }
                 repeater(TextLineAnnotation)
@@ -161,6 +163,7 @@ page 52964 "Annotation Wizard"
         {
             action(Back)
             {
+                ApplicationArea = All;
                 Caption = '&Back';
                 Enabled = BackEnable;
                 Image = PreviousRecord;
@@ -177,6 +180,7 @@ page 52964 "Annotation Wizard"
             }
             action(Next)
             {
+                ApplicationArea = All;
                 Caption = '&Next';
                 Enabled = NextEnable;
                 Image = NextRecord;
@@ -196,6 +200,7 @@ page 52964 "Annotation Wizard"
             }
             action(ADD)
             {
+                ApplicationArea = All;
                 Caption = '''''';
                 Enabled = ADDEnable;
                 Image = NextSet;
@@ -211,6 +216,7 @@ page 52964 "Annotation Wizard"
             }
             action(DEL)
             {
+                ApplicationArea = All;
                 Caption = '''''';
                 Enabled = DELEnable;
                 Image = PreviousSet;

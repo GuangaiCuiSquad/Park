@@ -277,6 +277,7 @@ report 52768 "Teacher Class List"
                     Caption = 'Options';
                     field(varSchoolYear; varSchoolYear)
                     {
+                        ApplicationArea = All;
                         Caption = 'School Year';
 
                         trigger OnLookup(var Text: Text): Boolean
@@ -288,6 +289,7 @@ report 52768 "Teacher Class List"
                     }
                     field(vMapa; vMapa)
                     {
+                        ApplicationArea = All;
                         Caption = 'Report';
                         OptionCaption = 'Teacher-Class List,Teacher -Subject List';
                     }

@@ -162,6 +162,7 @@ report 52771 "Students brothers"
                     Caption = 'Options';
                     field(varSchoolYear; varSchoolYear)
                     {
+                        ApplicationArea = All;
                         Caption = 'School Year';
 
                         trigger OnLookup(var Text: Text): Boolean

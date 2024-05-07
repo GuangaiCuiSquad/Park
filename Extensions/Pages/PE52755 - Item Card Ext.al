@@ -21,6 +21,7 @@ pageextension 52755 "Item Card Ext." extends "Item Card"
         {
             action("Dimensions By Location")
             {
+                ApplicationArea = All;
                 Caption = 'Dimension By Location';
                 RunObject = page "Dimensoes por Localizacao";
                 RunPageLink = "No." = FIELD("No.");

@@ -122,6 +122,7 @@ page 52843 Incidences
             }
             part(SubFormIncidence; "Absence Config.")
             {
+                ApplicationArea = All;
                 Caption = 'Justificações';
                 Editable = SubFormIncidenceEditable;
                 SubPageLink = "School Year" = FIELD("School Year"),
@@ -144,6 +145,7 @@ page 52843 Incidences
                 Image = ServiceSetup;
                 action("&Copy")
                 {
+                    ApplicationArea = All;
                     Caption = '&Copy';
                     Image = Copy;
 

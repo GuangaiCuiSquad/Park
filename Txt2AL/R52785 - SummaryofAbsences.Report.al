@@ -282,14 +282,17 @@ report 52785 "Summary of Absences"
                         ShowCaption = false;
                         field(BeginingDate; BeginingDate)
                         {
+                            ApplicationArea = All;
                             Caption = 'Begining Date';
                         }
                         field(EndingDate; EndingDate)
                         {
+                            ApplicationArea = All;
                             Caption = 'End Date';
                         }
                         field(varCategorycode; varCategorycode)
                         {
+                            ApplicationArea = All;
                             Caption = 'Category Code';
                             TableRelation = "Sub Type"."Subcategory Code";
 
@@ -305,6 +308,7 @@ report 52785 "Summary of Absences"
                         }
                         field(vMostraInci; vMostraInci)
                         {
+                            ApplicationArea = All;
                             Caption = 'Show Incidence of type';
                             OptionCaption = 'Default,Absence,Both';
                         }

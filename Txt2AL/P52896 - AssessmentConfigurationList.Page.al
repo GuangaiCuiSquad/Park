@@ -37,6 +37,7 @@ page 52896 "Assessment Configuration List"
                 Image = Evaluate;
                 action("&Card")
                 {
+                    ApplicationArea = All;
                     Caption = '&Card';
                     Image = EditLines;
                     ShortCutKey = 'Shift+F7';

@@ -1034,6 +1034,7 @@ page 52968 "Final Assessments"
         {
             action("&Annotation")
             {
+                ApplicationArea = All;
                 Caption = '&Annotation';
                 Image = Text;
                 Promoted = true;
@@ -1066,6 +1067,7 @@ page 52968 "Final Assessments"
             }
             action("&Global Remarks")
             {
+                ApplicationArea = All;
                 Caption = '&Global Remarks';
                 Image = SetupList;
                 Promoted = true;
@@ -1092,6 +1094,7 @@ page 52968 "Final Assessments"
             }
             action("&Remarks")
             {
+                ApplicationArea = All;
                 Caption = '&Remarks';
                 Image = Setup;
                 Promoted = true;
@@ -1121,6 +1124,7 @@ page 52968 "Final Assessments"
                 Caption = 'F&unctions';
                 action("E&xpand/Collapse")
                 {
+                    ApplicationArea = All;
                     Caption = 'E&xpand/Collapse';
                     Image = ExpandDepositLine;
 
@@ -1131,6 +1135,7 @@ page 52968 "Final Assessments"
                 }
                 action("Expand &All")
                 {
+                    ApplicationArea = All;
                     Caption = 'Expand &All';
                     Image = ExpandAll;
 
@@ -1141,6 +1146,7 @@ page 52968 "Final Assessments"
                 }
                 action("&Collapse All")
                 {
+                    ApplicationArea = All;
                     Caption = '&Collapse All';
                     Image = Close;
 
@@ -1154,6 +1160,7 @@ page 52968 "Final Assessments"
                 }
                 action("&Update Assessment from WEB")
                 {
+                    ApplicationArea = All;
                     Caption = '&Update Assessment from WEB';
                     Image = UpdateDescription;
                     Visible = false;
@@ -1165,6 +1172,7 @@ page 52968 "Final Assessments"
                 }
                 action("Calc. &Moment Assessment")
                 {
+                    ApplicationArea = All;
                     Caption = 'Calc. &Moment Assessment';
                     Image = CalculateSalesTax;
                     Visible = false;
@@ -1176,6 +1184,7 @@ page 52968 "Final Assessments"
                 }
                 action("C&alc. Final Year Moment Assessment")
                 {
+                    ApplicationArea = All;
                     Caption = 'C&alc. Final Year Moment Assessment';
                     Image = CalculateSimulation;
                     Visible = false;

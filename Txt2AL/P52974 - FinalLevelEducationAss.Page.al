@@ -855,6 +855,7 @@ page 52974 "Final Level Education Ass."
         {
             action("&Annotation")
             {
+                ApplicationArea = All;
                 Caption = '&Annotation';
                 Promoted = true;
                 PromotedCategory = Process;
@@ -883,6 +884,7 @@ page 52974 "Final Level Education Ass."
             }
             action("&Global Remarks")
             {
+                ApplicationArea = All;
                 Caption = '&Global Remarks';
                 Image = SetupList;
                 Promoted = true;
@@ -915,6 +917,7 @@ page 52974 "Final Level Education Ass."
             }
             action("&Remarks")
             {
+                ApplicationArea = All;
                 Caption = '&Remarks';
                 Image = Setup;
                 Promoted = true;
@@ -942,6 +945,7 @@ page 52974 "Final Level Education Ass."
                 Caption = 'F&unctions';
                 action("E&xpand/Collapse")
                 {
+                    ApplicationArea = All;
                     Caption = 'E&xpand/Collapse';
                     Image = ExpandDepositLine;
 
@@ -952,6 +956,7 @@ page 52974 "Final Level Education Ass."
                 }
                 action("Expand &All")
                 {
+                    ApplicationArea = All;
                     Caption = 'Expand &All';
                     Image = ExpandAll;
 
@@ -962,6 +967,7 @@ page 52974 "Final Level Education Ass."
                 }
                 action("&Collapse All")
                 {
+                    ApplicationArea = All;
                     Caption = '&Collapse All';
                     Image = Close;
 

@@ -50,6 +50,7 @@ page 52978 "Attached Documents"
         {
             action(Show)
             {
+                ApplicationArea = All;
                 Caption = 'Show';
                 Image = View;
                 Promoted = true;

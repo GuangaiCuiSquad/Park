@@ -154,6 +154,7 @@ report 52851 "Students Transport and Lunch"
                     Caption = 'Options';
                     field(ShowWhat; ShowWhat)
                     {
+                        ApplicationArea = All;
                         OptionCaption = 'Lunch,Morning Transport,Afternoon Transport';
                         ShowCaption = false;
                     }

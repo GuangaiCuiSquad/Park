@@ -57,6 +57,7 @@ page 52780 "Grouped Information"
         {
             action("&Processing Services")
             {
+                ApplicationArea = All;
                 Caption = '&Processing Services';
                 Image = Process;
                 Promoted = true;
@@ -75,6 +76,7 @@ page 52780 "Grouped Information"
             }
             action("&Services Bill")
             {
+                ApplicationArea = All;
                 Caption = '&Services Bill';
                 Image = Invoice;
                 Promoted = true;
@@ -97,6 +99,7 @@ page 52780 "Grouped Information"
             }
             action("&Print")
             {
+                ApplicationArea = All;
                 Caption = '&Print';
                 Image = Print;
                 Promoted = true;
@@ -119,6 +122,7 @@ page 52780 "Grouped Information"
             }
             action(Action1102065001)
             {
+                ApplicationArea = All;
                 Caption = '&Print';
                 Image = Print;
                 Promoted = true;

@@ -46,6 +46,7 @@ page 52811 "Room List"
                 Image = Home;
                 action("&Card")
                 {
+                    ApplicationArea = All;
                     Caption = '&Card';
                     Image = EditLines;
                     RunObject = Page "Room Card";

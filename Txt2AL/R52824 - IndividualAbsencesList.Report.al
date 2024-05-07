@@ -315,11 +315,13 @@ report 52824 "Individual Absences List"
                     Caption = 'Options';
                     field(varSchoolYear; varSchoolYear)
                     {
+                        ApplicationArea = All;
                         Caption = 'School Year';
                         Editable = false;
                     }
                     field(Class; varClass)
                     {
+                        ApplicationArea = All;
                         Caption = 'Class';
 
                         trigger OnLookup(var Text: Text): Boolean
@@ -382,6 +384,7 @@ report 52824 "Individual Absences List"
                     }
                     field(varStudentNo; varStudentNo)
                     {
+                        ApplicationArea = All;
                         Caption = 'No.';
                         TableRelation = Students."No.";
 
@@ -418,6 +421,7 @@ report 52824 "Individual Absences List"
                     }
                     field(VarSubjectCode; VarSubjectCode)
                     {
+                        ApplicationArea = All;
                         Caption = 'Subjects';
 
                         trigger OnLookup(var Text: Text): Boolean
@@ -459,6 +463,7 @@ report 52824 "Individual Absences List"
                     }
                     field(varCategoryCode; varCategoryCode)
                     {
+                        ApplicationArea = All;
                         Caption = 'Category Code';
                         TableRelation = "Sub Type"."Subcategory Code";
 
@@ -474,14 +479,17 @@ report 52824 "Individual Absences List"
                     }
                     field(BeginingDate; BeginingDate)
                     {
+                        ApplicationArea = All;
                         Caption = 'Begining Date';
                     }
                     field(EndingDate; EndingDate)
                     {
+                        ApplicationArea = All;
                         Caption = 'End Date';
                     }
                     field(vShowAll; vShowAll)
                     {
+                        ApplicationArea = All;
                         Caption = 'Show Incidences of Cantine, Bus and Schoolyard';
                     }
                 }

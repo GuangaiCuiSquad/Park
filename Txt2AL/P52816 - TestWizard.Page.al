@@ -15,6 +15,7 @@ page 52816 "Test Wizard"
                 Visible = Step1Visible;
                 label(Control2)
                 {
+                    ApplicationArea = All;
                     CaptionClass = Text19058462;
                     MultiLine = true;
                     ShowCaption = false;
@@ -77,6 +78,7 @@ page 52816 "Test Wizard"
                 Visible = Step2Visible;
                 label(Control8)
                 {
+                    ApplicationArea = All;
                     CaptionClass = Text19051622;
                     MultiLine = true;
                     ShowCaption = false;
@@ -185,6 +187,7 @@ page 52816 "Test Wizard"
                 Visible = Step3Visible;
                 label(Control1110061)
                 {
+                    ApplicationArea = All;
                     CaptionClass = Text19041819;
                     MultiLine = true;
                     ShowCaption = false;
@@ -213,6 +216,7 @@ page 52816 "Test Wizard"
                 Visible = Step4Visible;
                 label(Control1110026)
                 {
+                    ApplicationArea = All;
                     CaptionClass = Text19049092;
                     MultiLine = true;
                     ShowCaption = false;
@@ -300,6 +304,7 @@ page 52816 "Test Wizard"
         {
             action(Back)
             {
+                ApplicationArea = All;
                 Caption = '&Back';
                 Enabled = BackEnable;
                 Image = PreviousRecord;
@@ -319,6 +324,7 @@ page 52816 "Test Wizard"
             }
             action(Next)
             {
+                ApplicationArea = All;
                 Caption = '&Next';
                 Enabled = NextEnable;
                 Image = NextRecord;
@@ -339,6 +345,7 @@ page 52816 "Test Wizard"
             }
             action(Finish)
             {
+                ApplicationArea = All;
                 Caption = 'F&inish';
                 Image = Save;
                 InFooterBar = true;

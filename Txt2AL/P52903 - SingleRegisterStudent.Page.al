@@ -16,6 +16,7 @@ page 52903 "Single Register Student"
                 Visible = Step1Visible;
                 label(Control1110020)
                 {
+                    ApplicationArea = Basic, Suite;
                     CaptionClass = Text19012232;
                     MultiLine = true;
                     ShowCaption = false;
@@ -64,6 +65,7 @@ page 52903 "Single Register Student"
                 Visible = Step2Visible;
                 label(Control1110009)
                 {
+                    ApplicationArea = Basic, Suite;
                     CaptionClass = Text19080001;
                     MultiLine = true;
                     ShowCaption = false;
@@ -184,6 +186,7 @@ page 52903 "Single Register Student"
         {
             action(Back)
             {
+                ApplicationArea = All;
                 Caption = '&Back';
                 Enabled = BackEnable;
                 Image = PreviousRecord;
@@ -200,6 +203,7 @@ page 52903 "Single Register Student"
             }
             action(Next)
             {
+                ApplicationArea = All;
                 Caption = '&Next';
                 Enabled = NextEnable;
                 Image = NextRecord;
@@ -216,6 +220,7 @@ page 52903 "Single Register Student"
             }
             action(Ending)
             {
+                ApplicationArea = All;
                 Caption = 'Ending';
                 Image = Save;
                 InFooterBar = true;

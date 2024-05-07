@@ -57,6 +57,7 @@ page 53013 "Encomendas Ficha Cab"
 
             part("Encomendas Ficha Linhas"; "Encomendas Ficha Linhas")
             {
+                ApplicationArea = All;
                 Editable = false;
                 SubPageLink = "No." = FIELD("No.");
             }

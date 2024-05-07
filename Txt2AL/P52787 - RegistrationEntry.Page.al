@@ -79,6 +79,7 @@ page 52787 "Registration Entry"
                 Image = ServiceSetup;
                 action("&Student Card")
                 {
+                    ApplicationArea = All;
                     Caption = '&Student Card';
                     Image = User;
                     Promoted = true;
@@ -91,6 +92,7 @@ page 52787 "Registration Entry"
                 }
                 action("Student &Registration")
                 {
+                    ApplicationArea = All;
                     Caption = 'Student &Registration';
                     Image = Document;
                     Promoted = true;

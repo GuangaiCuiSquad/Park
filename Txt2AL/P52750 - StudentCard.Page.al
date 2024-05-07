@@ -449,7 +449,8 @@ page 52750 "Student Card"
                     end;
                 }
                 action("&Preparation Year/Renewal Registration")
-                {ApplicationArea=All;
+                {
+                    ApplicationArea = All;
                     Caption = '&Preparation Year/Renewal Registration';
                     Image = UpdateDescription;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
@@ -461,7 +462,8 @@ page 52750 "Student Card"
                     end;
                 }
                 action("&Assessments")
-                {ApplicationArea=All;
+                {
+                    ApplicationArea = All;
                     Caption = '&Assessments';
                     Image = Evaluate;
                     Promoted = true;
@@ -483,7 +485,8 @@ page 52750 "Student Card"
                 {
                 }
                 action("School &Entry")
-                {ApplicationArea=All;
+                {
+                    ApplicationArea = All;
                     Caption = 'School &Entry';
                     Image = PeriodEntries;
                     Promoted = true;
@@ -494,7 +497,8 @@ page 52750 "Student Card"
                                   ORDER(Descending);
                 }
                 action("School &Transfers")
-                {ApplicationArea=All;
+                {
+                    ApplicationArea = All;
                     Caption = 'School &Transfers';
                     Image = TransferOrder;
                     Promoted = true;
@@ -506,7 +510,8 @@ page 52750 "Student Card"
                 {
                 }
                 action("&Dimensions")
-                {ApplicationArea=All;
+                {
+                    ApplicationArea = All;
                     Caption = '&Dimensions';
                     Image = Dimensions;
                     RunObject = Page "Default Dimensions";
@@ -515,14 +520,16 @@ page 52750 "Student Card"
                     ShortCutKey = 'Shift+Ctrl+D';
                 }
                 action("&Services")
-                {ApplicationArea=All;
+                {
+                    ApplicationArea = All;
                     Caption = '&Services';
                     Image = ServiceTasks;
                     RunObject = Page "Grouped Information";
                     RunPageLink = "Student Code No." = FIELD("No.");
                 }
                 action("&Bank Accounts")
-                {ApplicationArea=All;
+                {
+                    ApplicationArea = All;
                     Caption = '&Bank Accounts';
                     Image = BankAccount;
 
@@ -541,7 +548,8 @@ page 52750 "Student Card"
                 {
                 }
                 action("&Health and Safety Students")
-                {ApplicationArea=All;
+                {
+                    ApplicationArea = All;
                     Caption = '&Health and Safety Students';
                     Image = SocialSecurityTax;
                     RunObject = Page "Health & Safety Students";
@@ -555,7 +563,8 @@ page 52750 "Student Card"
             {
                 Caption = 'Biographic &Records';
                 action("Biographic Records &Primary")
-                {ApplicationArea=All;
+                {
+                    ApplicationArea = All;
                     Caption = 'Biographic Records &Primary';
                     Image = Post;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
@@ -590,7 +599,8 @@ page 52750 "Student Card"
                     end;
                 }
                 action("Biographic Records &Lower Secondary")
-                {ApplicationArea=All;
+                {
+                    ApplicationArea = All;
                     Caption = 'Biographic Records &Lower Secondary';
                     Image = Post;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
@@ -625,7 +635,8 @@ page 52750 "Student Card"
                     end;
                 }
                 action("Biographic Records &Upper Secondary")
-                {ApplicationArea=All;
+                {
+                    ApplicationArea = All;
                     Caption = 'Biographic Records &Upper Secondary';
                     Image = Post;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
@@ -667,7 +678,8 @@ page 52750 "Student Card"
             {
                 Caption = 'Funções';
                 action("Irmãos")
-                {ApplicationArea=All;
+                {
+                    ApplicationArea = All;
                     Caption = 'Irmãos';
                     Image = ChangeCustomer;
                     Promoted = true;

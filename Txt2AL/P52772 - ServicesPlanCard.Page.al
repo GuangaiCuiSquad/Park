@@ -165,6 +165,7 @@ page 52771 "Services Plan Card"
             }
             part(SubForm; "Services Plan Line")
             {
+                ApplicationArea = All;
                 SubPageLink = Code = FIELD(Code),
                               "School Year" = FIELD("School Year"),
                               "Schooling Year" = FIELD("Schooling Year");
@@ -185,6 +186,7 @@ page 52771 "Services Plan Card"
                 }
                 action("&Insert New Service")
                 {
+                    ApplicationArea = All;
                     Caption = '&Insert New Service';
                     Image = ServicePriceAdjustment;
 
@@ -203,6 +205,7 @@ page 52771 "Services Plan Card"
                 }
                 action("Copiar Planos Serviço")
                 {
+                    ApplicationArea = All;
                     Caption = 'Copiar Planos Serviço';
                     Image = Copy;
 

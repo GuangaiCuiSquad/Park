@@ -57,6 +57,7 @@ page 52796 "Setting Ratings"
             }
             part(SubformAspects; "Aspects Sub")
             {
+                ApplicationArea = All;
             }
         }
     }
@@ -74,6 +75,7 @@ page 52796 "Setting Ratings"
                 }
                 action("Copy of another Moment")
                 {
+                    ApplicationArea = All;
                     Caption = 'Copy of another Moment';
                     Image = Copy;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
@@ -90,6 +92,7 @@ page 52796 "Setting Ratings"
                 }
                 action("&Delete Aspects")
                 {
+                    ApplicationArea = All;
                     Caption = '&Delete Aspects';
                     Image = Delete;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'

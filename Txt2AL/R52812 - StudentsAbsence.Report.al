@@ -355,14 +355,17 @@ report 52812 "Students Absence"
                     Caption = 'Options';
                     field(vIniDate; vIniDate)
                     {
+                        ApplicationArea = All;
                         Caption = 'Inicial Date';
                     }
                     field(vFinalDate; vFinalDate)
                     {
+                        ApplicationArea = All;
                         Caption = 'Final Date';
                     }
                     field(vShowDetail; vShowDetail)
                     {
+                        ApplicationArea = All;
                         Caption = 'Show Detail';
                     }
                 }

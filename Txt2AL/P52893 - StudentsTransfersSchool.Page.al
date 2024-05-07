@@ -95,6 +95,7 @@ page 52893 "Students Transfers School"
                 Caption = 'F&unctions';
                 action("&Create Registration")
                 {
+                    ApplicationArea = Basic, Suite;
                     Caption = '&Create Registration';
                     Image = NewDocument;
 
@@ -105,6 +106,7 @@ page 52893 "Students Transfers School"
                 }
                 action("Insert &History Assessment")
                 {
+                    ApplicationArea = Basic, Suite;
                     Caption = 'Insert &History Assessment';
                     Image = InsertFromCheckJournal;
 

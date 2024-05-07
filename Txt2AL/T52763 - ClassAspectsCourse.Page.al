@@ -44,6 +44,7 @@ page 52939 "Class Aspects Course"
                 Caption = 'F&unctions';
                 action("&Aspects")
                 {
+                    ApplicationArea = All;
                     Caption = '&Aspects';
 
                     trigger OnAction()
@@ -55,6 +56,7 @@ page 52939 "Class Aspects Course"
                 }
                 action("&Sub-Subjects Aspects")
                 {
+                    ApplicationArea = All;
                     Caption = '&Sub-Subjects Aspects';
 
                     trigger OnAction()

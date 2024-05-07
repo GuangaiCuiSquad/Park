@@ -165,6 +165,7 @@ page 52757 Teacher
             }
             part(SubAbsence; "Teacher Incidences")
             {
+                ApplicationArea = All;
                 Caption = 'Faltas';
                 SubPageLink = "Student/Teacher Code No." = FIELD("No.");
                 SubPageView = SORTING("Timetable Code", "School Year", "Study Plan", Class, Day, Type, "Line No. Timetable", "Incidence Type", "Incidence Code", Category, "Subcategory Code", "Student/Teacher", "Student/Teacher Code No.", "Responsibility Center", "Line No.")
@@ -201,6 +202,7 @@ page 52757 Teacher
                 Caption = 'Te&acher';
                 action("Teacher Department")
                 {
+                    ApplicationArea = All;
                     Caption = 'Teacher Department';
                     Image = Departments;
                     Promoted = true;

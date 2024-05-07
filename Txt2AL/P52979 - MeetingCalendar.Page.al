@@ -113,6 +113,7 @@ page 52979 "Meeting Calendar"
         {
             action("&Minute")
             {
+                ApplicationArea = All;
                 Caption = '&Minute';
                 Image = DocumentEdit;
                 Promoted = true;

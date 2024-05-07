@@ -251,6 +251,7 @@ report 52772 "Students Subject"
                     Visible = false;
                     field(ShowWhat; ShowWhat)
                     {
+                        ApplicationArea = All;
                         OptionCaption = 'Show all (Potential and Subscribed),Show Subscribed only';
                         ShowCaption = false;
                         Visible = false;

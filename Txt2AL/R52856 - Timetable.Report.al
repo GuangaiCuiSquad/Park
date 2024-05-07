@@ -457,16 +457,19 @@ report 52856 Timetable
             {
                 field(vType; vType)
                 {
+                    ApplicationArea = All;
                     Caption = 'Report Type';
                     OptionCaption = 'Class,Teacher';
                 }
                 field(vSchoolYear; vSchoolYear)
                 {
+                    ApplicationArea = All;
                     Caption = 'School Year';
                     TableRelation = "School Year";
                 }
                 field(vClass; vClass)
                 {
+                    ApplicationArea = All;
                     Caption = 'Class';
                     TableRelation = Class;
 
@@ -482,6 +485,7 @@ report 52856 Timetable
                 }
                 field(vTeacher; vTeacher)
                 {
+                    ApplicationArea = All;
                     Caption = 'Teacher';
                     TableRelation = Teacher;
 
@@ -496,10 +500,12 @@ report 52856 Timetable
                 }
                 field(vDataIni; vDataIni)
                 {
+                    ApplicationArea = All;
                     Caption = 'Inicial Date';
                 }
                 field(vDataFim; vDataFim)
                 {
+                    ApplicationArea = All;
                     Caption = 'Final Date';
                 }
             }

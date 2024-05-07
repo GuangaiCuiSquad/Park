@@ -44,6 +44,7 @@ page 52793 "Setting Evaluations List"
                 Caption = '&Setting Evaluations';
                 action("&Setting Evaluations Card")
                 {
+                    ApplicationArea = All;
                     Caption = '&Setting Evaluations Card';
                     Image = OrderPromisingSetup;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'

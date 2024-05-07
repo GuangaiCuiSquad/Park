@@ -43,6 +43,7 @@ page 52924 "Assessement Observation List"
                 Caption = '&Observation';
                 action("&Card")
                 {
+                    ApplicationArea = All;
                     Caption = '&Card';
                     Image = EditLines;
                     ShortCutKey = 'Shift+F7';

@@ -41,6 +41,7 @@ page 52859 "Timetable Template List"
                 Image = WorkCenterCalendar;
                 action("&Card")
                 {
+                    ApplicationArea = All;
                     Caption = '&Card';
                     Image = EditLines;
                     ShortCutKey = 'Shift+F7';

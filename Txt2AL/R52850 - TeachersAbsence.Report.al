@@ -175,10 +175,12 @@ report 52850 "Teachers Absence"
                     Caption = 'Options';
                     field(vIniDate; vIniDate)
                     {
+                        ApplicationArea = All;
                         Caption = 'Inicial Date';
                     }
                     field(vFinalDate; vFinalDate)
                     {
+                        ApplicationArea = All;
                         Caption = 'Final Date';
                     }
                 }

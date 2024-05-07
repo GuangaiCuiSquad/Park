@@ -56,6 +56,7 @@ page 52934 "Sub-Subjects Ratings"
                 Caption = '&Sub-Subjects Setting Ratings';
                 action("&Sub-Subjects Card")
                 {
+                    ApplicationArea = All;
                     Caption = '&Sub-Subjects Card';
                     Image = SubcontractingWorksheet;
                     ShortCutKey = 'Shift+F7';

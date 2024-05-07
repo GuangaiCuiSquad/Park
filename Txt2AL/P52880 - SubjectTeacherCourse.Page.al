@@ -28,6 +28,7 @@ page 52880 "Subject Teacher Course"
             }
             part(subformTeacherClass; "Teacher Class")
             {
+                ApplicationArea = All;
                 Caption = 'Professores';
                 Enabled = subformTeacherClassEnable;
             }
@@ -40,6 +41,7 @@ page 52880 "Subject Teacher Course"
         {
             action(SubSubjectTeacher)
             {
+                ApplicationArea = All;
                 Caption = '&Sub-Subjects Teacher';
                 Enabled = SubSubjectTeacherEnable;
                 Image = UserCertificate;
@@ -72,6 +74,7 @@ page 52880 "Subject Teacher Course"
                 Image = Print;
                 action("&Subjects Class List")
                 {
+                    ApplicationArea = All;
                     Caption = '&Subjects Class List';
                     Enabled = false;
                     Image = AlternativeAddress;
@@ -96,6 +99,7 @@ page 52880 "Subject Teacher Course"
                 }
                 action("Teacher Class List")
                 {
+                    ApplicationArea = All;
                     Caption = 'Teacher Class List';
                     Image = HumanResources;
                     RunObject = Report "Teacher Class List";

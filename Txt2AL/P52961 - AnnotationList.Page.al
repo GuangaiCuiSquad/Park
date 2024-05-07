@@ -42,6 +42,7 @@ page 52961 "Annotation List"
                 Caption = '&Annotation';
                 action("&Card")
                 {
+                    ApplicationArea = All;
                     Caption = '&Card';
                     Image = EditLines;
                     ShortCutKey = 'Shift+F7';

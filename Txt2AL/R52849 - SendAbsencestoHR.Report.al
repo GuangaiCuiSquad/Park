@@ -306,10 +306,12 @@ report 52849 "Send Absences to HR"
                     Caption = 'Options';
                     field(SendAbsencesDate; SendAbsencesDate)
                     {
+                        ApplicationArea = All;
                         Caption = 'Send absences until date';
                     }
                     field(SendAbsWithoutLossPay; SendAbsWithoutLossPay)
                     {
+                        ApplicationArea = All;
                         Caption = 'Send absence without loss of pay';
                     }
                 }

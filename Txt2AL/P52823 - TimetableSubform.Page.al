@@ -112,6 +112,7 @@ page 52823 "Timetable Subform"
         {
             action(Professores)
             {
+                ApplicationArea = All;
                 Caption = 'Professores';
                 Image = UserCertificate;
                 //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'

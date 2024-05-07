@@ -179,11 +179,13 @@ page 52778 "Giving Services"
             }
             part(fAtribuirServ; "Atribuir Multiplos Serviços")
             {
+                ApplicationArea = All;
 
             }
 
-            part(PagePartServiceList; "P50036 - Services List")
+            part(PagePartServiceList; "Services List")
             {
+                ApplicationArea = All;
                 Caption = ' ';
             }
         }

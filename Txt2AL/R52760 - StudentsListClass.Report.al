@@ -223,29 +223,35 @@ report 52760 "Students - List Class"
                     Caption = 'Options';
                     field(ShowPicture; ShowPicture)
                     {
+                        ApplicationArea = All;
                         Caption = 'Picture';
                     }
                     field(ShowAll; ShowAll)
                     {
+                        ApplicationArea = All;
                         Caption = 'Show all students';
                     }
                     field(varClass; varClass)
                     {
+                        ApplicationArea = All;
                         Caption = 'Class';
                         TableRelation = Class;
                     }
                     field(varSchoolYear; varSchoolYear)
                     {
+                        ApplicationArea = All;
                         Caption = 'School Year';
                         TableRelation = "School Year";
                     }
                     field(varSchoolingYear; varSchoolingYear)
                     {
+                        ApplicationArea = All;
                         Caption = 'Schooling Year';
                         TableRelation = "Structure Education Country"."Schooling Year";
                     }
                     field(varStudyPlan; varStudyPlan)
                     {
+                        ApplicationArea = All;
                         Caption = 'Study Plan';
                         TableRelation = "Study Plan Header";
                     }

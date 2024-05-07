@@ -242,6 +242,7 @@ report 52843 "School Movements"
                     Caption = 'School Movements';
                     field(varSchoolYear; varSchoolYear)
                     {
+                        ApplicationArea = All;
                         Caption = 'School Year';
 
                         trigger OnLookup(var Text: Text): Boolean

@@ -46,6 +46,7 @@ page 52862 "Filters Card"
             }
             part(Control1110008; "Filters SubForm")
             {
+                ApplicationArea = All;
                 SubPageLink = "Filter Code" = FIELD("Filter Code");
             }
         }

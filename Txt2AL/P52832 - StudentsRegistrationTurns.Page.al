@@ -213,6 +213,7 @@ page 52832 "Students Registration Turns"
                 Image = ServiceSetup;
                 action("E&xpand/Collapse")
                 {
+                    ApplicationArea = All;
                     Caption = 'E&xpand/Collapse';
                     Image = ExpandDepositLine;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
@@ -225,6 +226,7 @@ page 52832 "Students Registration Turns"
                 }
                 action("Expand &All")
                 {
+                    ApplicationArea = All;
                     Caption = 'Expand &All';
                     Image = ExpandAll;
 
@@ -235,6 +237,7 @@ page 52832 "Students Registration Turns"
                 }
                 action("&Collapse All")
                 {
+                    ApplicationArea = All;
                     Caption = '&Collapse All';
                     Image = Close;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'

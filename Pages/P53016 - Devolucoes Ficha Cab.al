@@ -54,6 +54,7 @@ page 53016 "Devolucoes Ficha Cab"
             }
             part("Devolucoes Ficha Linhas"; "Devolucoes Ficha Linhas")
             {
+                ApplicationArea = All;
                 Editable = false;
                 SubPageLink = "No." = FIELD("No.");
             }

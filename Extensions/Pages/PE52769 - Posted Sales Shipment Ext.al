@@ -14,7 +14,7 @@ pageextension 52769 "Posted Sales Shipment Ext." extends "Posted Sales Shipment"
         {
             action(CancelOrder)
             {
-
+                ApplicationArea = All;
                 Caption = 'Cancel Order';
 
                 trigger OnAction()
