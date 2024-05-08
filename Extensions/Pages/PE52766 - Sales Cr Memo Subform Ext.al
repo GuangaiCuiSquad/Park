@@ -15,10 +15,6 @@ pageextension 52766 "Sales Cr. Memo Subform Ext." extends "Sales Cr. Memo Subfor
             {
                 ApplicationArea = All;
             }
-            field("Gen. Bus. Posting Group"; Rec."Gen. Bus. Posting Group")
-            {
-                ApplicationArea = All;
-            }
         }
     }
 }

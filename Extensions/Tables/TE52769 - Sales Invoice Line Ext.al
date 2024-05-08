@@ -32,7 +32,7 @@ tableextension 52769 "Sales Invoice Line Ext." extends "Sales Invoice Line"
     }
     keys
     {
-        key(Key10; "No.")
+        key(Key12; "No.")
         { }
     }
 }
