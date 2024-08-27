@@ -1,5 +1,6 @@
 report 50000 "CPA EnviaEmail"
 
+
 {
     Caption = 'Enviar Fatura Email Test';
     //ProcessingOnly = true;
